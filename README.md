@@ -3,7 +3,9 @@
 Selbst wenn alles Scheiße ist, kannst Du immernoch mit Crypto zahlen.
 
 
-The [Klopapier Exchange](https://klopapier.exchange) is an education project for my students at DHBW Mannheim.
+The [Klopapier Exchange](https://klopapier.exchange) is an education project for my students at DHBW Mannheim. We might sell https://www.printedtp.com/ with USD, EUR...  
+
+The only accepted payment method is Ether Transactions.
 
 In case of any feedback, please raise an issue on this repository.
 
