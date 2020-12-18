@@ -1,6 +1,8 @@
 # Klopapier Exchange
 
-Selbst wenn alles Scheiße ist, kannst Du immernoch mit Crypto zahlen.
+Selbst wenn alles Scheiße ist, kannst Du immernoch mit Crypto zahlen.  
+
+Get ready for the launch of the USD Wipepaper and the Euro Wipepaper.  
 
 
 The [Klopapier Exchange](https://klopapier.exchange) is an education project for my students at DHBW Mannheim. We might sell https://www.printedtp.com/ with USD, EUR...  
