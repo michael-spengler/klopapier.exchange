@@ -50,6 +50,18 @@ Tipp: I use VS Code Insiders as my IDE. Installing the following extension might
 
 https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site
 
+**vue.config.js**
+```
+module.exports = {
+  publicPath: "/serve-vue-app",
+  outputDir: "docs"
+};
+```
+
+--> run npm run serve after this file update and visit: http://localhost:8080/serve-vue-app/   
+
+details see https://blog.usmanity.com/serving-vue-js-apps-on-github-pages/
+
 
 
 ## Backend
