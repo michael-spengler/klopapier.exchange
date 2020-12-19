@@ -1,42 +1,110 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
+
+    <p><br /></p>
+    This is an education project
+    <a
+      href="https://github.com/michael-spengler/klopapier.exchange"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      under construction</a>.
+
+    <p><br /></p>
+    First please explore the difference between the
+    <a
+      href="https://whitepaper.io/document/0/bitcoin-whitepaper"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Bitcoin Whitepaper
+    </a>
+    and the
+    <a href="https://www.printedtp.com" target="_blank" rel="noopener noreferrer">
+      USD Wipepaper</a
+    >.
+
+    <p><br /></p>
+    You will be able to purchase Central Bank Wipepaper (<a href="https://www.printedtp.com/" target="_blank" rel="noopener">CBWP</a> =? <a href="https://www.youtube.com/watch?v=jWM-MdT2rDg&t=547s" target="_blank" rel="noopener">CBDC</a>)
+    while paying with money which is from the people for the people - aka crypto money.
+
+    <p><br /></p>
+    Also get ready for the launch of the Euro Wipepaper.
+    <p><br /></p>
+
+    <video width="320" height="240" controls>
+      <source src=”../assets/geiler-vogel.mp4” type=video/ogg> <source
+      src="../assets/geiler-vogel.mp4" type=video/mp4>
+    </video>
+    <p><br /></p>
+
+    <h2>History</h2>
+
+    For several decades wirepullers behind most central banks could create their money out
+    of thin air. <br />
+    The incentives for giving this money to people who create the most value for other
+    people - like farmers, nurses, doctors and many more - have not been strong enough to
+    foster a fair system. <br />
+
+    In order to foster fair systems we invest time into professional incentive
+    engineering.
+
+    <p><br></p>
+    <h2>Question</h2>
+
+    How can we design incentive systems in a way that people are rewarded for creating
+    value? <p><br></p>
+
+
+    <h2>Outlook</h2>
+    We are very happy that some people care. Thanks to all Open Source Developers for supporting decentralization and peer 2 peer collaboration.
+
+    <p><br /></p>
+
+    If you want to contribute please consider raising a pull request or donating a small amount of Ether to
+    klopapier.eth
+    <p></p>
+    No pressure. Some things just need some time.
+
+    <!-- <h3>Ecosystem</h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
+      <li>
+        <a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a>
+      </li>
       <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+      <li>
+        <a
+          href="https://github.com/vuejs/vue-devtools#vue-devtools"
+          target="_blank"
+          rel="noopener"
+          >vue-devtools</a
+        >
+      </li>
+      <li>
+        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
+          >vue-loader</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener"
+          >awesome-vue</a
+        >
+      </li>
+    </ul> -->
   </div>
+
+  <p><br></p>
+  <p><br></p>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

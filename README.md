@@ -38,7 +38,7 @@ If you are completely new to nodejs and vue you might try the following steps on
 5. npm run serve
 6. visit http://localhost:8080/
 
-
+Tipp: I use VS Code Insiders as my IDE. Installing the following extension might also be valuable to you: wscats.vue
 
 ### Using GitHub Pages
 
