@@ -27,7 +27,18 @@ https://unstoppabledomains.com/r/2754c1dccd8a4de
 
 
 ## Frontend
-Under construction --> probably we'll use vue.
+Under construction --> we use [vue](https://cli.vuejs.org/) to develop our client code.  
+
+If you are completely new to nodejs and vue you might try the following steps on your machine.  
+
+1. install [NodeJS](https://nodejs.org/en/)
+2. install vue via the following command ```npm install -g @vue/cli```
+3. vue create client 
+4. cd client
+5. npm run serve
+6. visit http://localhost:8080/
+
+
 
 ### Using GitHub Pages
 
