@@ -53,9 +53,9 @@ https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages
 **vue.config.js**
 ```
 module.exports = {
-  publicPath: "/serve-vue-app",
-  outputDir: "docs"
-};
+    publicPath: "/serve-vue-app",
+    outputDir: "../docs"
+  };
 ```
 
 --> run npm run serve after this file update and visit: http://localhost:8080/serve-vue-app/   
