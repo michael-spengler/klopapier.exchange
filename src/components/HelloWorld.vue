@@ -77,8 +77,18 @@
 
     <p></p>
 
-    If you want to contribute please consider raising a [pull request](https://github.com/michael-spengler/klopapier.exchange/pulls) or donating a small
-    amount of Ether to [klopapier.eth](https://etherscan.io/address/klopapier.eth)
+    If you want to contribute please consider raising a <a
+      href="https://github.com/michael-spengler/klopapier.exchange/pulls"
+      target="_blank"
+      rel="noopener"
+      >pull request</a
+    > or donating a small
+    amount of Ether to <a
+      href="https://etherscan.io/address/klopapier.eth"
+      target="_blank"
+      rel="noopener"
+      >klopapier.eth</a
+    >
     <p><br /></p>
 
     <h2>Quotes / Feedback</h2>
