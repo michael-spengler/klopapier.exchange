@@ -1,3 +1,5 @@
+// https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html they must be kidding :) 
+
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -65,7 +67,7 @@
     <p><br /></p>
     <h2>Question</h2>
 
-    How can we design incentive systems in a way that people are rewarded for creating
+    How can we co-design incentive systems in a way that people are rewarded for creating
     value?
     <p><br /></p>
 
@@ -75,8 +77,8 @@
 
     <p></p>
 
-    If you want to contribute please consider raising a pull request or donating a small
-    amount of Ether to klopapier.eth
+    If you want to contribute please consider raising a [pull request](https://github.com/michael-spengler/klopapier.exchange/pulls) or donating a small
+    amount of Ether to [klopapier.eth](https://etherscan.io/address/klopapier.eth)
     <p><br /></p>
 
     <h2>Quotes / Feedback</h2>
