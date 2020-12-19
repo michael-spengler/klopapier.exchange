@@ -1,5 +1,3 @@
-// https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html they must be kidding :) 
-
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -29,7 +27,7 @@
     >.
 
     <p><br /></p>
-    You will be able to purchase Central Bank Wipepaper (<a
+    On this exchange you will be able to purchase Central Bank Wipepaper (<a
       href="https://www.printedtp.com/"
       target="_blank"
       rel="noopener"
@@ -41,10 +39,22 @@
       target="_blank"
       rel="noopener"
       >CBDC</a
-    >) while paying with money which is from the people for the people - aka crypto money.
+    >) while paying with money which is from the people for the people - aka crypto money. <p></p>
+    With this we want to design your exploration regarding crypto currencies fun and valuable at the same time. <p></p>
+    You might check some videos  <a
+      href="https://www.youtube.com/watch?v=J8V0GkqUKDE&list=PLEz_1ekJPuAii8of1qHLxB0lxpC6QXXdY"
+      target="_blank"
+      rel="noopener"
+      >here</a
+    >.
 
     <p><br /></p>
-    Also get ready for the launch of the Euro Wipepaper.
+    You might also check the launch of the <a
+      href="https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html"
+      target="_blank"
+      rel="noopener"
+      >Euro (EZB) Wipepaper</a
+    >.
     <p><br /></p>
 
     <video width="320" height="240" controls>
@@ -59,10 +69,15 @@
     of thin air. <br />
     The incentives for giving this money to people who create the most value for other
     people - like farmers, nurses, doctors and many more - have not been strong enough to
-    foster a fair system. <br />
+    foster a fair system. <p></p>
 
-    In order to foster fair systems we invest time into professional incentive
-    engineering.
+    In order to foster fair systems we invested some time into professional incentive
+    engineering. We came to the conclusion that Ether, Bitcoin & Co. can play a very valuable role in this game. <br>
+
+    <p></p>
+    This is one of the reasons why we want to share our perspectives in a fun and valuable way. <br>
+
+    It seems strange that about 95 % (rough guess) of adult people on earth don't even have an Ethereum- or Bitcoin wallet yet.
 
     <p><br /></p>
     <h2>Question</h2>
