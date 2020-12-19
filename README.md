@@ -1,11 +1,7 @@
 # Toiletpaper Trading Platform
 
 ## Goal of this project
-Education around:
-
-Browserwallets (e.g. metamask / brave.com)
-Currencies
-Decentralization
+Education around browserwallets (e.g. metamask / brave.com), currencies & decentralization.
 
 
 ## Assets
@@ -16,24 +12,25 @@ Smart Contract EURWipePaper
 https://etherscan.io/tx/0x1a19c41918d5301f83d3c45ea2636fd059a727ab002c9958e5676ff38ce806fd
 
 ## Networks
-Ethereum and Arweave
+### Ethereum
 https://klopapier.exchange/ --> Leveraging Ethereum
 
+
+### Arweave
 https://toiletpaper.exchange/ --> Leveraging Arweave PST
-weekly we mint 1 new token --> release 1 Klopapier Rolle per week
+
+Idea: weekly we mint 1 new token --> release 1 Klopapier Rolle per week.
 
 ## DNS
 reserved klopapier.crypto additionally to klopapier.eth
 https://unstoppabledomains.com/r/2754c1dccd8a4de
 
 
-## Quotes
-Selbst wenn alles Scheiße ist, kannst Du immernoch mit Crypto zahlen.  
-
-Get ready for the launch of the USD Wipepaper and the Euro Wipepaper.  
-
 ## Frontend
+Under construction --> probably we'll use vue.
+
 ### Using GitHub Pages
+
 **IP Addresses:**  
 185.199.108.153  
 185.199.109.153  
@@ -43,14 +40,15 @@ Get ready for the launch of the USD Wipepaper and the Euro Wipepaper.
 https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site
 
 
+
 ## Backend
-Smart Contracts + Deno & Web3  
+Under construction --> probably we'll use Smart Contracts + Deno & Web3  
 
-
-## Links which might be helpful
-1. https://docs.chain.link/docs/ethereum-addresses  
-2. Video on a chainlink based Dapp: https://www.youtube.com/watch?v=YLmMNocc1ys  
-3. Off-Chain data provisioning and inter-blockchain interoperability: https://www.youtube.com/watch?v=-pUR9WPIrX0
+**Links which might be helpful**
+1. https://github.com/useverto/trading-post/blob/master/src/workflows/swap.ts  
+2. https://docs.chain.link/docs/ethereum-addresses    
+3. Video on a chainlink based Dapp: https://www.youtube.com/watch?v=YLmMNocc1ys  
+4. Off-Chain data provisioning and inter-blockchain interoperability: https://www.youtube.com/watch?v=-pUR9WPIrX0
 
 
 
