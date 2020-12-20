@@ -45,7 +45,7 @@
       rel="noopener"
       >USDWipePaper (UWP)</a
     > and also a fixed amount of 100 <a
-      href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
+      href="https://etherscan.io/token/0xcfe63389382412c31d4dfcf60a70fa5a9b90b63f"
       target="_blank"
       rel="noopener"
       >EURWipePaper (EWP)</a
