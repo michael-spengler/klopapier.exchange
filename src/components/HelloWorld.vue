@@ -77,7 +77,12 @@
     <p></p>
     This is one of the reasons why we want to share our perspectives in a fun and valuable way. <br>
 
-    It seems strange that about 95 % (rough guess) of adult people on earth don't even have an Ethereum- or Bitcoin wallet yet.
+    It seems strange that about 95 % (rough guess) of adult people on earth don't even have a <a
+      href="https://brave.com"
+      target="_blank"
+      rel="noopener"
+      >Brave Ethereum</a
+    > or Bitcoin wallet yet.
 
     <p><br /></p>
     <h2>Question</h2>
