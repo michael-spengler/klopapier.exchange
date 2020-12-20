@@ -39,9 +39,13 @@
       target="_blank"
       rel="noopener"
       >CBDC</a
-    >) while paying with money which is from the people for the people - aka crypto money. <p></p>
-    With this we want to make your exploration regarding crypto currencies fun and valuable at the same time. <p></p>
-    You might check some videos  <a
+    >) while paying with money which is from the people for the people - aka crypto money.
+    <p></p>
+    With this we want to make your exploration regarding crypto currencies fun and
+    valuable at the same time.
+    <p></p>
+    You might check some videos
+    <a
       href="https://www.youtube.com/watch?v=J8V0GkqUKDE&list=PLEz_1ekJPuAii8of1qHLxB0lxpC6QXXdY"
       target="_blank"
       rel="noopener"
@@ -49,7 +53,8 @@
     >.
 
     <p><br /></p>
-    You might also check the launch of the <a
+    You might also check the launch of the
+    <a
       href="https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html"
       target="_blank"
       rel="noopener"
@@ -69,44 +74,45 @@
     of thin air. <br />
     The incentives for giving this money to people who create the most value for other
     people - like farmers, nurses, doctors and many more - have not been strong enough to
-    foster a fair system. <p></p>
+    foster a fair system.
+    <p></p>
 
     In order to foster fair systems we invested some time into professional incentive
-    engineering. We came to the conclusion that Ether, Bitcoin & Co. can play a very valuable role in this game. <br>
+    engineering. We came to the conclusion that Ether, Bitcoin & Co. can play valuable
+    roles in this game. <br />
 
     <p></p>
-    This is one of the reasons why we want to share our perspectives in a fun and valuable way. <br>
+    This is one of the reasons why we want to share our perspectives in a fun and valuable
+    way. <br />
 
-    It seems strange that about 95 % (rough guess) of adult people on earth don't even have a <a
-      href="https://brave.com"
-      target="_blank"
-      rel="noopener"
-      >Brave Ethereum</a
-    > or Bitcoin wallet yet.
+    It seems strange that about 95 % (rough guess) of adult people on earth don't even
+    have a
+    <a href="https://brave.com" target="_blank" rel="noopener">Brave Ethereum</a> or
+    Bitcoin wallet yet.
 
     <p><br /></p>
-    <h2>Question</h2>
 
-    How can we co-design incentive systems in a way that people are rewarded for creating
-    value?
-    <p><br /></p>
+    <h2>Contribute</h2>
+    This project is mainly an education playground for some of my students at <a href="https://www.mannheim.dhbw.de" target="_blank" rel="noopener">DHBW Mannheim</a>. 
+    <p></p>
+    At the same time we are happy about high quality contributions from anyone.
+    <p></p>
 
-    <h2>Outlook</h2>
-    We are very happy that some people care about reasonable incentive engineering. Thanks to all Open Source Developers for
-    supporting decentralization and peer 2 peer collaboration.
+    We want to provide valuable and fun education around decentralized incentive
+    engineering and peer to peer collaboration. <p></p> Along this way we will also promote cool platforms in the DeFi ecosystem like
+    <a href="https://gitcoin.co/" target="_blank" rel="noopener">gitcoin.co</a>, <a href="https://community.xyz" target="_blank" rel="noopener">community.xyz</a>, <a href="https://aave.com" target="_blank" rel="noopener">aave.com</a> etc..
 
     <p></p>
 
-    If you want to contribute please consider raising a <a
+    If you want to contribute please consider raising a
+    <a
       href="https://github.com/michael-spengler/klopapier.exchange/pulls"
       target="_blank"
       rel="noopener"
       >pull request</a
-    > or donating a small
-    amount of Ether to <a
-      href="https://etherscan.io/address/klopapier.eth"
-      target="_blank"
-      rel="noopener"
+    >
+    or donating a small amount of Ether to
+    <a href="https://etherscan.io/address/klopapier.eth" target="_blank" rel="noopener"
       >klopapier.eth</a
     >
     <p><br /></p>
