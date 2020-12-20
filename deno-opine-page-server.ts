@@ -1,10 +1,16 @@
-import { opine } from "https://deno.land/x/opine@0.27.0/mod.ts";
+import { opine, serveStatic } from "https://deno.land/x/opine/mod.ts";
+import { opineCors } from 'https://deno.land/x/cors/mod.ts'
 
 const app = opine();
 
-const pathToIndexHTML = `${Deno.cwd()}/docs/index.html`
+app.use(opineCors())
+
+const pathToIndexHTML = `${Deno.cwd()}/docs`
+app.use(serveStatic(pathToIndexHTML))
+
 app.get("/", function(req, res) {
-  res.send(`Hello ${pathToIndexHTML}`);
+  res.sendFile(`${pathToIndexHTML}/index.html`);
 });
 
-app.listen(3000);
+// the default http port would be 80 - the default https port would be 443
+app.listen(3000); 
