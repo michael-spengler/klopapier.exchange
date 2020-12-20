@@ -22,14 +22,19 @@
       Bitcoin Whitepaper
     </a>
     and the
-    <a href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images" target="_blank" rel="noopener noreferrer">
+    <a
+      href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       USD Wipepaper</a
     >.
 
-    <p><br></p>
-    On this exchange you can: <br>
+    <p><br /></p>
+    On this exchange you can: <br />
     <button @click="wantsToPlay()" type="">Play</button> &
     <button @click="wantsToLearn()" type="">Learn</button>
+
     <p><br /></p>
 
     You will be able to purchase Central Bank Wipepaper (CBWP =?
@@ -42,19 +47,23 @@
     <p></p>
     With this we want to make your exploration regarding crypto currencies fun and
     valuable at the same time.
-    <p><br></p>
-    We have created two currencies on the Ethereum Blockchain for this. There is and will be a fixed amout of 100 
+    <p><br /></p>
+    We have created two currencies on the Ethereum Blockchain for this. There is and will
+    be a fixed amout of 100
     <a
       href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
       target="_blank"
       rel="noopener"
       >USDWipePaper (UWP)</a
-    > and also a fixed amount of 100 <a
+    >
+    and also a fixed amount of 100
+    <a
       href="https://etherscan.io/token/0xcfe63389382412c31d4dfcf60a70fa5a9b90b63f"
       target="_blank"
       rel="noopener"
       >EURWipePaper (EWP)</a
-    > available.
+    >
+    available.
 
     <p><br /></p>
     You might also check the launch of the digital
@@ -95,18 +104,26 @@
     Bitcoin wallet yet.
 
     <p></p>
-    In times where many central banks plan to sell us even a digital wipepaper - aka. Central Bank Digital Currency (CBDC), we think it is really the right time to come up with this little exploration project.
+    In times where many central banks plan to sell us even a digital wipepaper - aka.
+    Central Bank Digital Currency (CBDC), we think it is really the right time to come up
+    with this little exploration project.
     <p><br /></p>
 
     <h2>Contribute</h2>
-    This project is mainly an education playground for some of my students at <a href="https://www.mannheim.dhbw.de" target="_blank" rel="noopener">DHBW Mannheim</a>. 
+    This project is mainly an education playground for some of my students at
+    <a href="https://www.mannheim.dhbw.de" target="_blank" rel="noopener">DHBW Mannheim</a
+    >.
     <p></p>
     At the same time we are happy about high quality contributions from anyone.
     <p></p>
 
     We want to provide valuable and fun education around decentralized incentive
-    engineering and peer to peer collaboration. <p></p> Along this way we also promote cool platforms in the DeFi ecosystem like
-    <a href="https://gitcoin.co/" target="_blank" rel="noopener">gitcoin.co</a>, <a href="https://community.xyz" target="_blank" rel="noopener">community.xyz</a>, <a href="https://aave.com" target="_blank" rel="noopener">aave.com</a> etc..
+    engineering and peer to peer collaboration.
+    <p></p>
+    Along this way we also promote cool platforms in the DeFi ecosystem like
+    <a href="https://gitcoin.co/" target="_blank" rel="noopener">gitcoin.co</a>,
+    <a href="https://community.xyz" target="_blank" rel="noopener">community.xyz</a>,
+    <a href="https://aave.com" target="_blank" rel="noopener">aave.com</a> etc..
 
     <p></p>
 
@@ -123,7 +140,8 @@
     >
     <p><br /></p>
 
-    If you are completely new to the crypto- and DeFi space, you might also check some videos
+    If you are completely new to the crypto- and DeFi space, you might also check some
+    videos
     <a
       href="https://www.youtube.com/watch?v=J8V0GkqUKDE&list=PLEz_1ekJPuAii8of1qHLxB0lxpC6QXXdY"
       target="_blank"
@@ -131,7 +149,7 @@
       >here</a
     >.
 
-    <p><br></p>
+    <p><br /></p>
     <h2>Quotes / Feedback</h2>
 
     "No pressure. Some things just need some time."<br />
@@ -169,6 +187,7 @@
 </template>
 
 <script>
+
 export default {
   name: "HelloWorld",
   props: {
@@ -176,12 +195,12 @@ export default {
   },
   methods: {
     wantsToPlay() {
-      alert('I guess you have not yet read all info on this page.')
+      alert("I guess you have not yet read all info on this page.");
     },
     wantsToLearn() {
-      alert('I guess you have not yet read all info on this page.')
-    }
-  }
+      alert("I guess you have not yet read all info on this page.");
+    },
+  },
 };
 </script>
 
