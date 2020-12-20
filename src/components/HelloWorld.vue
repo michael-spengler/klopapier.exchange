@@ -40,7 +40,7 @@
       rel="noopener"
       >CBDC</a
     >) while paying with money which is from the people for the people - aka crypto money. <p></p>
-    With this we want to design your exploration regarding crypto currencies fun and valuable at the same time. <p></p>
+    With this we want to make your exploration regarding crypto currencies fun and valuable at the same time. <p></p>
     You might check some videos  <a
       href="https://www.youtube.com/watch?v=J8V0GkqUKDE&list=PLEz_1ekJPuAii8of1qHLxB0lxpC6QXXdY"
       target="_blank"
