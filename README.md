@@ -113,3 +113,9 @@ We will connect our page with the Ethereum blockchain. Details follow.
 
 ## Feedback & Contact
 In case of any feedback, please raise an issue [here](https://github.com/michael-spengler/klopapier.exchange/issues/new).
+
+
+## Appendix
+![Screenshot 2020-12-19 at 14 33 37](https://user-images.githubusercontent.com/43786652/102690660-3b2de580-4207-11eb-8340-0bcbd0327a5f.png)
+
+![Screenshot 2020-12-19 at 14 46 20](https://user-images.githubusercontent.com/43786652/102690930-fb67fd80-4208-11eb-8d76-a64638990dcf.png)
