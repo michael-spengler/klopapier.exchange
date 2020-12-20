@@ -89,6 +89,8 @@
     <a href="https://brave.com" target="_blank" rel="noopener">Brave Ethereum</a> or
     Bitcoin wallet yet.
 
+    <p></p>
+    In times where many central banks plan to sell us even a digital wipepaper - aka. Central Bank Digital Currency (CBDC), we think it is really the right time to come up with this little exploration project.
     <p><br /></p>
 
     <h2>Contribute</h2>
