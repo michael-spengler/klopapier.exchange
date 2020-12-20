@@ -1,4 +1,4 @@
-# Toiletpaper Trading Platform
+# Klopapier.Exchange
 
 ## Goal of this project
 The [klopapier.exchange](https://klopapier.exchange) can be seen as a playful education and exploration game around browserwallets (e.g. metamask / brave.com), currencies & decentralization.
