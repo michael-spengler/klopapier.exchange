@@ -61,7 +61,10 @@ If you are completely new to nodejs and vue you might try the following steps on
 Tipps: 
 I use [VS Code Insiders](https://code.visualstudio.com/insiders/) as my IDE.  
 Installing [these extensions](https://github.com/michael-spengler/klopapier.exchange/blob/main/.vscode/extensions.json) might also be valuable for you.  
-
+You might want to simplify your life by using vuetify: https://www.youtube.com/watch?v=CjXgoYo86yY
+```
+vue add vuetify
+```
 ## Backend
 We'll use Smart Contracts deployed on the Ethereum Blockchain + Deno & Web3 (we need to check [this open issue](https://github.com/ethereum/web3.js/issues/3700)).  
 

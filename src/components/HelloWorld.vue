@@ -26,8 +26,13 @@
       USD Wipepaper</a
     >.
 
+    <p><br></p>
+    On this exchange you can: <br>
+    <button @click="wantsToPlay()" type="">Play</button> &
+    <button @click="wantsToLearn()" type="">Learn</button>
     <p><br /></p>
-    On this exchange you will be able to purchase Central Bank Wipepaper (CBWP =?
+
+    You will be able to purchase Central Bank Wipepaper (CBWP =?
     <a
       href="https://www.youtube.com/watch?v=jWM-MdT2rDg&t=547s"
       target="_blank"
@@ -169,6 +174,14 @@ export default {
   props: {
     msg: String,
   },
+  methods: {
+    wantsToPlay() {
+      alert('I guess you have not yet read all info on this page.')
+    },
+    wantsToLearn() {
+      alert('I guess you have not yet read all info on this page.')
+    }
+  }
 };
 </script>
 
