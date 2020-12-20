@@ -58,10 +58,12 @@ If you are completely new to nodejs and vue you might try the following steps on
 5. npm run serve
 6. visit http://localhost:8080/
 
-Tipp: I use VS Code Insiders as my IDE. Installing the following extension might also be valuable to you: wscats.vue
+Tipps: 
+I use [VS Code Insiders](https://code.visualstudio.com/insiders/) as my IDE.  
+Installing [these extensions](https://github.com/michael-spengler/klopapier.exchange/blob/main/.vscode/extensions.json) might also be valuable for you.  
 
 ## Backend
-Under construction --> probably we'll use Smart Contracts + Deno & Web3  
+We'll use Smart Contracts deployed on the Ethereum Blockchain + Deno & Web3 (we need to check [this open issue](https://github.com/ethereum/web3.js/issues/3700)).  
 
 **Links which might be helpful**
 1. https://github.com/useverto/trading-post/blob/master/src/workflows/swap.ts  
