@@ -22,18 +22,12 @@
       Bitcoin Whitepaper
     </a>
     and the
-    <a href="https://www.printedtp.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images" target="_blank" rel="noopener noreferrer">
       USD Wipepaper</a
     >.
 
     <p><br /></p>
-    On this exchange you will be able to purchase Central Bank Wipepaper (<a
-      href="https://www.printedtp.com/"
-      target="_blank"
-      rel="noopener"
-      >CBWP</a
-    >
-    =?
+    On this exchange you will be able to purchase Central Bank Wipepaper (CBWP =?
     <a
       href="https://www.youtube.com/watch?v=jWM-MdT2rDg&t=547s"
       target="_blank"
@@ -43,17 +37,22 @@
     <p></p>
     With this we want to make your exploration regarding crypto currencies fun and
     valuable at the same time.
-    <p></p>
-    You might check some videos
+    <p><br></p>
+    We have created two currencies on the Ethereum Blockchain for this. There is and will be a fixed amout of 100 
     <a
-      href="https://www.youtube.com/watch?v=J8V0GkqUKDE&list=PLEz_1ekJPuAii8of1qHLxB0lxpC6QXXdY"
+      href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
       target="_blank"
       rel="noopener"
-      >here</a
-    >.
+      >USDWipePaper (UWP)</a
+    > and also a fixed amount of 100 <a
+      href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
+      target="_blank"
+      rel="noopener"
+      >EURWipePaper (EWP)</a
+    > available.
 
     <p><br /></p>
-    You might also check the launch of the
+    You might also check the launch of the digital
     <a
       href="https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html"
       target="_blank"
@@ -99,7 +98,7 @@
     <p></p>
 
     We want to provide valuable and fun education around decentralized incentive
-    engineering and peer to peer collaboration. <p></p> Along this way we will also promote cool platforms in the DeFi ecosystem like
+    engineering and peer to peer collaboration. <p></p> Along this way we also promote cool platforms in the DeFi ecosystem like
     <a href="https://gitcoin.co/" target="_blank" rel="noopener">gitcoin.co</a>, <a href="https://community.xyz" target="_blank" rel="noopener">community.xyz</a>, <a href="https://aave.com" target="_blank" rel="noopener">aave.com</a> etc..
 
     <p></p>
@@ -117,6 +116,15 @@
     >
     <p><br /></p>
 
+    If you are completely new to the crypto- and DeFi space, you might also check some videos
+    <a
+      href="https://www.youtube.com/watch?v=J8V0GkqUKDE&list=PLEz_1ekJPuAii8of1qHLxB0lxpC6QXXdY"
+      target="_blank"
+      rel="noopener"
+      >here</a
+    >.
+
+    <p><br></p>
     <h2>Quotes / Feedback</h2>
 
     "No pressure. Some things just need some time."<br />
