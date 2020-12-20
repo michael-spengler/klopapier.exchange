@@ -4,13 +4,32 @@
 Education around browserwallets (e.g. metamask / brave.com), currencies & decentralization.
 
 
-## Assets
-Smart Contract USDWipePaper
+## Smart Contracts
+USDWipePaper
 https://etherscan.io/tx/0xd9d0071efc972db68ceb7d066ca332d6754159d86e521034ce3803c7ce6467cd
 
-Smart Contract EURWipePaper
+EURWipePaper
 https://etherscan.io/tx/0x1a19c41918d5301f83d3c45ea2636fd059a727ab002c9958e5676ff38ce806fd
 
+If you want to deploy your own currency on the Ethereum Blockchain you might visit [Remix](https://remix.ethereum.org/) and update and deploy the following Solidity code:
+
+```
+pragma solidity ^0.5.0;
+
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol";
+
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol"; 
+
+contract EURWipePaper is ERC20, ERC20Detailed { 
+    constructor () public ERC20Detailed("EURWipePaper", "EWP", 18) { 
+        _mint(msg.sender, 100 * (10 ** uint256(decimals()))); 
+        
+    }
+}
+
+```
+
+This for example would deploy a fungible token (compare it to non-fungible tokens which would be represented by ERC-721) with a limited supply of 100, 18 decimal places, named "EURWipePaper" (EWP).
 ## Networks
 ### Ethereum
 https://klopapier.exchange/ --> Leveraging Ethereum
