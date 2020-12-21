@@ -1,15 +1,20 @@
 # Klopapier.Exchange
 
+Welcome to the Klopapier Game.
+
 ## Goal of this project
 The [klopapier.exchange](https://klopapier.exchange) can be seen as a playful education and exploration game around browserwallets (e.g. metamask / brave.com), currencies & decentralization.
 
 
-## Smart Contracts
+## WipePaper Currencies
 USDWipePaper
-https://etherscan.io/tx/0xd9d0071efc972db68ceb7d066ca332d6754159d86e521034ce3803c7ce6467cd
+https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a
 
 EURWipePaper
-https://etherscan.io/tx/0x1a19c41918d5301f83d3c45ea2636fd059a727ab002c9958e5676ff38ce806fd
+https://etherscan.io/token/0xcfe63389382412c31d4dfcf60a70fa5a9b90b63f 
+
+FacebookWipePaper
+https://etherscan.io/token/0xc6b89bbf9753ac45f841a349d408028faaab35d6
 
 If you want to deploy your own currency on the Ethereum Blockchain you might visit [Remix](https://remix.ethereum.org/) and update and deploy the following Solidity code:
 
