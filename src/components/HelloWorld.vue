@@ -48,20 +48,27 @@
     With this we want to make your exploration regarding crypto currencies fun and
     valuable at the same time.
     <p><br /></p>
-    We have created two currencies on the Ethereum Blockchain for this. There is and will
-    be a fixed amout of 100
+    We have created three currencies on the Ethereum Blockchain for this. <p></p> 
+    There is and will be a fixed amout of 100
     <a
       href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
       target="_blank"
       rel="noopener"
       >USDWipePaper (UWP)</a
     >
-    and also a fixed amount of 100
+    , also a fixed amount of 100
     <a
       href="https://etherscan.io/token/0xcfe63389382412c31d4dfcf60a70fa5a9b90b63f"
       target="_blank"
       rel="noopener"
       >EURWipePaper (EWP)</a
+    >
+    and also a fixed amount of 100
+    <a
+      href="https://etherscan.io/token/0xc6b89bbf9753ac45f841a349d408028faaab35d6"
+      target="_blank"
+      rel="noopener"
+      >FacebookWipePaper (EWP)</a
     >
     available.
 
@@ -83,7 +90,7 @@
 
     <h2>History</h2>
 
-    For several decades wirepullers behind most central banks could create their money out
+    For several decades people behind most central banks could create their money out
     of thin air. <br />
     The incentives for giving this money to people who create the most value for other
     people - like farmers, nurses, doctors and many more - have not been strong enough to
@@ -195,9 +202,11 @@ export default {
   },
   methods: {
     wantsToPlay() {
-      alert("I guess you have not yet read all info on this page.");
+      confirm("I hereby confirm I do not treat other people in unfair ways. I also confirm I'm not a politician, lawyer or regulator.")
+      alert("The validation feature is under construction.");
     },
     wantsToLearn() {
+      confirm("I hereby confirm I do not treat other people in unfair ways. I also confirm I'm not a politician, lawyer or regulator.")
       alert("I guess you have not yet read all info on this page.");
     },
   },
