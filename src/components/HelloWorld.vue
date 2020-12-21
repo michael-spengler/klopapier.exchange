@@ -55,8 +55,7 @@
       target="_blank"
       rel="noopener"
       >USDWipePaper (UWP)</a
-    >
-    , also a fixed amount of 100
+    >, also a fixed amount of 100
     <a
       href="https://etherscan.io/token/0xcfe63389382412c31d4dfcf60a70fa5a9b90b63f"
       target="_blank"
@@ -68,7 +67,7 @@
       href="https://etherscan.io/token/0xc6b89bbf9753ac45f841a349d408028faaab35d6"
       target="_blank"
       rel="noopener"
-      >FacebookWipePaper (EWP)</a
+      >FacebookWipePaper (FWP)</a
     >
     available.
 
