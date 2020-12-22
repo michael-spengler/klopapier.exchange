@@ -1,3 +1,5 @@
+// contracts/GLDToken.sol
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
@@ -31,7 +33,7 @@ contract USDWipePaper is ERC20 {
         _burn(fromAddress, amount);
     }
     
-    function flush(uint256 amount) public payable {
+    function flush(uint256 amount) public {
         _flushFrom(msg.sender, amount);
     }
     
@@ -48,8 +50,7 @@ contract USDWipePaper is ERC20 {
     
       //vault balance must be at least equal to msg.value
       //require(address(this).balance >= amount, 'Error, insufficent vault balance');
-      approve(address(this), amount);
-      transferFrom(msg.sender ,address(this), amount);
+      flush(amount);
         
       //each bet has unique id
       games[gameId] = Game(gameId, bet, amount, msg.sender);
