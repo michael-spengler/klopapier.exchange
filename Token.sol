@@ -5,7 +5,7 @@ pragma solidity ^0.6.0;
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol";
 
-contract USDWipePaper is ERC20 {
+contract CentralBankWipePaper is ERC20 {
     using SafeMath for uint256;
     
     uint256 public gameId;
@@ -25,7 +25,7 @@ contract USDWipePaper is ERC20 {
     event Result(uint256 id, uint256 bet, uint256 amount, address player, uint256 winAmount, uint256 randomResult, uint256 time);
 
     
-    constructor(uint256 initialSupply) public payable ERC20("USDWipePaper", "UWP") {
+    constructor(uint256 initialSupply) public payable ERC20("CentralBankWipePaper", "CBWP") {
         _mint(msg.sender, initialSupply);
     }
     
