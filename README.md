@@ -5,52 +5,6 @@ Welcome to the Klopapier Game.
 ## Goal of this project
 The [klopapier.exchange](https://klopapier.exchange) can be seen as a playful education and exploration game around browserwallets (e.g. metamask / brave.com), currencies & decentralization.
 
-
-## WipePaper Currencies
-USDWipePaper
-https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a
-
-EURWipePaper
-https://etherscan.io/token/0xcfe63389382412c31d4dfcf60a70fa5a9b90b63f 
-
-FacebookWipePaper
-https://etherscan.io/token/0xc6b89bbf9753ac45f841a349d408028faaab35d6
-
-If you want to deploy your own currency on the Ethereum Blockchain you might visit [Remix](https://remix.ethereum.org/) and update and deploy the following Solidity code:
-
-```
-pragma solidity ^0.5.0;
-
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol";
-
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol"; 
-
-contract EURWipePaper is ERC20, ERC20Detailed { 
-    constructor () public ERC20Detailed("EURWipePaper", "EWP", 18) { 
-        _mint(msg.sender, 100 * (10 ** uint256(decimals()))); 
-        
-    }
-}
-
-```
-
-This for example would deploy a fungible token (compare it to non-fungible tokens which would be represented by ERC-721) with a limited supply of 100, 18 decimal places, named "EURWipePaper" (EWP).
-## Networks
-### Ethereum
-https://klopapier.exchange/ --> Leveraging Ethereum
-
-
-### Arweave (will be elaborated in a different repo soon)
-https://toiletpaper.exchange/ --> Leveraging Arweave PST
-
-Idea: weekly we mint 1 new token --> release 1 Klopapier Rolle per week.
-
-## DNS & ENS
-klopapier.crypto (https://unstoppabledomains.com)   
-klopapier.eth (https://ens.domains)  
-
-
-
 ## Frontend
 Under construction --> we use [vue](https://cli.vuejs.org/) to develop our client code.  
 
@@ -65,11 +19,7 @@ If you are completely new to nodejs and vue you might try the following steps on
 
 Tipps: 
 I use [VS Code Insiders](https://code.visualstudio.com/insiders/) as my IDE.  
-Installing [these extensions](https://github.com/michael-spengler/klopapier.exchange/blob/main/.vscode/extensions.json) might also be valuable for you.  
-You might want to simplify your life by using vuetify: https://www.youtube.com/watch?v=CjXgoYo86yY
-```
-vue add vuetify
-```
+
 ## Backend
 We'll use Smart Contracts deployed on the Ethereum Blockchain + Deno & Web3 (we need to check [this open issue](https://github.com/ethereum/web3.js/issues/3700)).  
 
@@ -112,15 +62,13 @@ This option would require for a central server on which you could execute the co
 deno run --allow-read --allow-net deno-opine-page-server.ts
 ```
 
-### Providing Data 
-We will connect our page with the Ethereum blockchain. Details follow.
+**Option 3: Using Vercel**
+To be explored - compare how nest.land did it
+
+**Option 4: Using argoapp.live**
+To be explored https://argoapp.live (alpha release)
 
 
 ## Feedback & Contact
 In case of any feedback, please raise an issue [here](https://github.com/michael-spengler/klopapier.exchange/issues/new).
 
-
-## Appendix
-![Screenshot 2020-12-19 at 14 33 37](https://user-images.githubusercontent.com/43786652/102690660-3b2de580-4207-11eb-8340-0bcbd0327a5f.png)
-
-![Screenshot 2020-12-19 at 14 46 20](https://user-images.githubusercontent.com/43786652/102690930-fb67fd80-4208-11eb-8d76-a64638990dcf.png)
