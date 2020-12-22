@@ -3,7 +3,7 @@
 Welcome to the Klopapier Game.
 
 ## Goal of this project
-The [klopapier.exchange](https://klopapier.exchange) can be seen as a playful education and exploration game around browserwallets (e.g. metamask / brave.com), currencies & decentralization.
+The [klopapier.exchange](https://klopapier.exchange) can be seen as a playful education and exploration game around browserwallets (e.g. metamask / brave.com), currencies & decentralization and web development in general.
 
 ## Frontend
 Under construction --> we use [vue](https://cli.vuejs.org/) to develop our client code.  
