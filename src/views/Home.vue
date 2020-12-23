@@ -30,11 +30,6 @@
           <span class="material-icons mr-2"> psychology </span>
           Learn
         </button>
-
-        <video width="320" height="240" controls>
-          <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
-          src="./../assets/geiler-vogel.mp4" type=video/mp4>
-        </video>
       </div>
     </div>
 
@@ -212,6 +207,12 @@
           />
         </div>
       </div>
+    </div>
+    <div class="mt-32">
+      <video class="block mx-auto" width="320" height="240" controls>
+        <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
+        src="./../assets/geiler-vogel.mp4" type=video/mp4>
+      </video>
     </div>
     <div class="my-32">
       <div class="font-bold text-xl">Quotes/Feedback</div>
