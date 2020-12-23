@@ -1,29 +1,27 @@
 <template>
   <div>
-    <div>
-      <label for="price" class="block text-sm font-medium text-gray-700">Price</label>
-      <div class="mt-1 relative rounded-md shadow-sm">
-        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-          <span class="text-gray-500 sm:text-sm">
-            $
-          </span>
-        </div>
-        <input type="text" name="price" id="price" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="0.00">
-        <div class="absolute inset-y-0 right-0 flex items-center">
-          <label for="currency" class="sr-only">Currency</label>
-          <select id="Currency" name="currency" class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
-            <option>ETH</option>
-            <option>BIT</option>
-            <option>USD</option>
-          </select>
-        </div>
-      </div>
-    </div>
+    <vue-slider v-model="amount" />
+    <button type="button" class="ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+      Buy now
+    </button>
   </div>
 </template>
 
 <script>
-import { defineComponent } from "vue";
+import { defineComponent, ref } from "vue";
+import VueSlider from 'vue-slider-component'
+import 'vue-slider-component/theme/default.css'
 
-export default defineComponent({})
+export default defineComponent({
+  components: {
+    VueSlider
+  },
+  setup() {
+    const amount = ref(amount);
+
+    return {
+      amount
+    }
+  }
+})
 </script>
