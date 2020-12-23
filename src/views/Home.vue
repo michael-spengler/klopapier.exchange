@@ -36,6 +36,7 @@
         </router-link>
 
         <button
+          @click="onHistoryClicked()"
           type="button"
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
@@ -64,7 +65,7 @@
         <div class="font-bold">The Idea</div>
 
         The idea is to provide a money exploration game. By playing this game you can
-        learn more about money than they teach you at most universities.
+        learn more about money than they teach at most universities.
       </div>
 
       <div class="shadow p-4 rounded">
@@ -126,10 +127,10 @@
         <div>
           <div class="font-bold text-xl">History</div>
           <div>
-            For several decades wirepullers behind most central banks could create their
-            money out of thin air. The incentives for giving this money to people who
-            create the most value for other people - like farmers, nurses, doctors and
-            many more - have not been strong enough to foster a fair system.
+            For several decades people behind most central banks could create their money
+            out of thin air. The incentives for giving this money to people who create the
+            most value for other people - like farmers, nurses, doctors and many more -
+            have not been strong enough to foster a fair system.
           </div>
           <div>
             In order to foster fair systems we invested some time into professional
@@ -137,7 +138,7 @@
             play valuable roles in this game.
           </div>
           <div>
-            It seems strange that about 95 % (rough guess) of adult people on earth don't
+            It seems strange that in Europe about 95 % (rough guess) of adult people don't
             even have a
             <a
               class="text-blue-500"
@@ -146,7 +147,15 @@
               rel="noopener"
               >Brave Ethereum</a
             >
-            or Bitcoin wallet yet.
+            or Bitcoin wallet yet whereas e.g. the
+            <a
+              class="text-blue-500"
+              href="https://www.euribor-rates.eu/en/current-euribor-rates/2/euribor-rate-3-months/"
+              target="_blank"
+              rel="noopener"
+              >Three Months Euribor</a
+            >
+            shows negative interest rates since about 2016.
           </div>
         </div>
       </div>
@@ -260,6 +269,7 @@ import "particles.js";
 const color = "#295dab";
 
 export default defineComponent({
+
   setup() {
     onMounted(() => {
       window.particlesJS("particles-js", {
@@ -368,6 +378,11 @@ export default defineComponent({
         retina_detect: true,
       });
     });
+  },
+  methods: {
+    onHistoryClicked() {
+      alert('This feature is under construction.')
+    }
   },
 });
 </script>
