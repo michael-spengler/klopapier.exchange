@@ -3,27 +3,28 @@
     <div class="hero">
       <div class="text-6xl">Klopapier Exchange</div>
 
-      <p><br></p>
-                Please explore the difference between the
-          <a
-            class="text-blue-600"
-            href="https://whitepaper.io/document/0/bitcoin-whitepaper"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Bitcoin Whitepaper
-          </a>
-          and the
-          <a
-            class="text-blue-600"
-            href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            USD Wipepaper</a
-          >.
+      <p><br /></p>
+      Please explore the difference between the
+      <a
+        class="text-blue-600"
+        href="https://whitepaper.io/document/0/bitcoin-whitepaper"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Bitcoin Whitepaper
+      </a>
+      and the
+      <a
+        class="text-blue-600"
+        href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        USD Wipepaper</a
+      >.
+      <br />
 
-      <p><br></p>
+      <p><br /></p>
       <div class="row items-center mt-4">
         <router-link
           type="button"
@@ -38,9 +39,22 @@
           type="button"
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
-          <span class="material-icons mr-2"> psychology </span>
-          Learn
+          <span class="material-icons mr-2"> history_edu </span>
+          History
         </button>
+      </div>
+
+      <p><br /></p>
+      <p><br /></p>
+      <div>
+        You might also check the launch of the digital
+        <a
+          class="text-blue-600"
+          href="https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html"
+          target="_blank"
+          rel="noopener"
+          >Euro (EZB) Wipepaper</a
+        >.
       </div>
     </div>
 
@@ -56,34 +70,24 @@
       <div class="shadow p-4 rounded">
         <div class="font-bold">Prerequisites</div>
         <div>
-                    First please explore the difference between the
+          In order to play this education game, you need a browser wallet. We recommend to
+          use the
           <a
             class="text-blue-600"
-            href="https://whitepaper.io/document/0/bitcoin-whitepaper"
+            href="https://brave.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Bitcoin Whitepaper
+            brave.com
           </a>
-          and the
+          Browser. Alternatively you can use
           <a
             class="text-blue-600"
-            href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images"
+            href="https://metamask.io"
             target="_blank"
             rel="noopener noreferrer"
           >
-            USD Wipepaper</a
-          >.
-
-        </div>
-        <div>
-          You might also check the launch of the digital
-          <a
-            class="text-blue-600"
-            href="https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html"
-            target="_blank"
-            rel="noopener"
-            >Euro (EZB) Wipepaper</a
+            metamask.io</a
           >.
         </div>
       </div>
