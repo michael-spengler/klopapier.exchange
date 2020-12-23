@@ -1,4 +1,17 @@
 <template>
+
+
+  <div>
+    Perhaps the best thing you can do with Central Bank Wipe Paper (CBWP) is to invest it in betting on rising Ether and Bitcoin prices.
+
+    <p></p>
+
+    To start betting you need to pay the central bank employees to print some CBWP for you to get the party started.
+    
+  </div>
+  
+  <!-- slider -->
+
   <div>
     <div>
       <label for="price" class="block text-sm font-medium text-gray-700">Price</label>
