@@ -14,13 +14,14 @@
         >.
       </div>
       <div class="row items-center mt-4">
-        <button
+        <router-link
           type="button"
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          to="/whipepaper"
         >
           <span class="material-icons mr-2"> show_chart </span>
-          Play
-        </button>
+          Buy Whipepaper
+        </router-link>
 
         <button
           type="button"

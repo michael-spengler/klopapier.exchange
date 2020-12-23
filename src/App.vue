@@ -71,15 +71,6 @@
                 <div>
                   <div v-if="walletAdress" class="font-bold text-white flex items-center">
                     {{ walletAdress }}
-                    <button
-                      class="mx-4 bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium flex items-center"
-                      @click="swap"
-                    >
-                      <span class="material-icons mr-2">
-                        screen_rotation
-                      </span>
-                      Change Account
-                    </button>
                   </div>
                   <button
                     v-else
@@ -266,15 +257,9 @@ export default defineComponent({
       }
     }
 
-    const swap = () => {}
-
-    const disconnect = () => {}
-
     return {
       connect,
-      walletAdress,
-      swap,
-      disconnect
+      walletAdress
     };
   },
 });
