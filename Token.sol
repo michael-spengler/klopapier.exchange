@@ -1,5 +1,3 @@
-// contracts/GLDToken.sol
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
@@ -7,26 +5,12 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 contract CentralBankWipePaper is ERC20 {
     using SafeMath for uint256;
-    
-    uint256 public gameId;
-    uint256 public lastGameId;
-    mapping(uint256 => Game) public games;
-    
-    //declaring 50% chance, (0.5*(uint256+1))
-    uint256 constant half = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
+    uint256 public backup;
 
-    struct Game{
-      uint256 id;
-      uint256 bet;
-      uint256 amount;
-      address payable player;
-     }
-    
-    event Result(uint256 id, uint256 bet, uint256 amount, address player, uint256 winAmount, uint256 randomResult, uint256 time);
-
-    
-    constructor(uint256 initialSupply) public payable ERC20("CentralBankWipePaper", "CBWP") {
-        _mint(msg.sender, initialSupply);
+    constructor(uint256 initialSupply) public payable ERC20("CentralBankWipePaper", "UWP") {
+        require(msg.value > 0, "Backing value needs to be greater than 0");
+        backup = msg.value;
+        _mint(address(this), initialSupply);
     }
     
     function _flushFrom(address fromAddress, uint256 amount) private{
@@ -42,39 +26,26 @@ contract CentralBankWipePaper is ERC20 {
         _mint(msg.sender, totalSupply().div(100).mul(10));
     }
     
-    function placeBet(uint256 bet, uint256 amount) public returns (bool) {
-
-      //bet=0 is low, refers to 1-3  dice values
-      //bet=1 is high, refers to 4-6 dice values
-      require(bet<=1, 'Error, accept only 0 and 1');
-    
-      //vault balance must be at least equal to msg.value
-      //require(address(this).balance >= amount, 'Error, insufficent vault balance');
-      flush(amount);
-        
-      //each bet has unique id
-      games[gameId] = Game(gameId, bet, amount, msg.sender);
-        
-      //increase gameId for the next bet
-      gameId = gameId+1;
-    
-      return true;
+    function mintAmount(uint256 amount) public {
+        _mint(msg.sender, amount);
     }
     
-    function verdict(uint256 random) public {
-      //check bets from latest betting round, one by one
-      for(uint256 i=lastGameId; i<gameId; i++){
-        //reset winAmount for current user
-        uint256 winAmount = 0;
-      
-        //if user wins, then receives 2x of their betting amount
-        if((random>=half && games[i].bet==1) || (random<half && games[i].bet==0)){
-          winAmount = games[i].amount*2;
-          transfer(games[i].player, winAmount);
-        }
-        emit Result(games[i].id, games[i].bet, games[i].amount, games[i].player, winAmount, random, block.timestamp);
-      }
-      //save current gameId to lastGameId for the next betting round
-      lastGameId = gameId;
-  }
+    function buyWipepaper() public payable{
+        require(msg.value > 0, "Value needs to be greater than 0");
+        require(msg.value < backup, "Value needs to be smaller than the backup");
+        
+        uint256 value = msg.value;
+        //need to multiply by 100 to prevent floating point problems
+        uint256 amount = value.mul(100).div(backup).mul(totalSupply()).div(100);
+        mintAmount(amount);
+    }
+    
+    function sellWipepaper(uint256 amount) public payable{
+        require(amount <= balanceOf(msg.sender), "Not enough Wipepaper in the account");
+
+        //need to multiply by 100 to prevent floating point problems
+        uint256 ethAmount = amount.mul(100).div(totalSupply()).mul(backup).div(100);
+        msg.sender.transfer(ethAmount);
+        flush(amount);
+    }
 }
