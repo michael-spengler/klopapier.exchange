@@ -69,7 +69,20 @@
               </button>
               <div class="ml-3 relative">
                 <div>
+                  <div v-if="walletAdress" class="font-bold text-white flex items-center">
+                    {{ walletAdress }}
+                    <button
+                      class="mx-4 bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium flex items-center"
+                      @click="swap"
+                    >
+                      <span class="material-icons mr-2">
+                        screen_rotation
+                      </span>
+                      Change Account
+                    </button>
+                  </div>
                   <button
+                    v-else
                     class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium flex items-center"
                     @click="connect"
                   >
@@ -222,24 +235,48 @@
 </template>
 
 <script>
-import { computed, defineComponent } from "vue";
+import { defineComponent, onMounted, ref } from "vue";
 
 export default defineComponent({
   setup() {
-    const authorized = computed(() => false);
+    const walletAdress = ref(localStorage.getItem('klopapier.exchange.account.walletAdress'));
+
+    onMounted(() => {
+      window.ethereum.on('accountsChanged', (accounts) => {
+        if (accounts.length) {
+          localStorage.setItem('klopapier.exchange.account.walletAdress', accounts[0]);
+          walletAdress.value = accounts[0];
+        } else {
+          walletAdress.value = null;
+          localStorage.removeItem('klopapier.exchange.account.walletAdress');
+        }
+      })
+    })
+
+    const connect = async () => {
+      if (window.ethereum === undefined) {
+        alert('install https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn!')
+      } else {
+        const accounts = await window.ethereum.request({
+          method: 'eth_requestAccounts',
+        });
+  
+        localStorage.setItem('klopapier.exchange.account.walletAdress', accounts[0]);
+        walletAdress.value = accounts[0];
+      }
+    }
+
+    const swap = () => {}
+
+    const disconnect = () => {}
 
     return {
-      authorized,
+      connect,
+      walletAdress,
+      swap,
+      disconnect
     };
   },
-
-  methods: {
-    async connect() {
-      await window.ethereum.request({
-        method: 'eth_requestAccounts',
-      });
-    },
-  }
 });
 </script>
 
