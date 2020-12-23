@@ -71,6 +71,7 @@
                 <div>
                   <button
                     class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium flex items-center"
+                    @click="connect"
                   >
                     <span class="material-icons mr-2">
                       cached
@@ -231,6 +232,14 @@ export default defineComponent({
       authorized,
     };
   },
+
+  methods: {
+    async connect() {
+      await window.ethereum.request({
+        method: 'eth_requestAccounts',
+      });
+    },
+  }
 });
 </script>
 
