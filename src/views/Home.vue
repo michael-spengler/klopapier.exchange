@@ -2,49 +2,9 @@
   <div class="wrapper">
     <div class="hero">
       <div class="text-6xl">Klopapier Exchange</div>
-      <div class="mt-4 text-xl">
-        This is an education project
-        <a
-          class="text-blue-600"
-          href="https://github.com/michael-spengler/klopapier.exchange"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          under construction</a
-        >.
-      </div>
-      <div class="row items-center mt-4">
-        <router-link
-          type="button"
-          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          to="/whipepaper"
-        >
-          <span class="material-icons mr-2"> show_chart </span>
-          Buy Whipepaper
-        </router-link>
 
-        <button
-          type="button"
-          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          <span class="material-icons mr-2"> psychology </span>
-          Learn
-        </button>
-      </div>
-    </div>
-
-    <div id="particles-js"></div>
-    <div class="mt-12 grid grid-cols-3 gap-12">
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">The Idea</div>
-
-        The idea is to provide a money exploration game. By playing this game you can learn more about money than they teach you at most universities.
-      </div>
-
-            <div class="shadow p-4 rounded">
-        <div class="font-bold">Prerequisites</div>
-        <div>
-          First please explore the difference between the
+      <p><br></p>
+                Please explore the difference between the
           <a
             class="text-blue-600"
             href="https://whitepaper.io/document/0/bitcoin-whitepaper"
@@ -62,6 +22,59 @@
           >
             USD Wipepaper</a
           >.
+
+      <p><br></p>
+      <div class="row items-center mt-4">
+        <router-link
+          type="button"
+          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          to="/whipepaper"
+        >
+          <span class="material-icons mr-2"> show_chart </span>
+          Buy Wipepaper
+        </router-link>
+
+        <button
+          type="button"
+          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          <span class="material-icons mr-2"> psychology </span>
+          Learn
+        </button>
+      </div>
+    </div>
+
+    <div id="particles-js"></div>
+    <div class="mt-12 grid grid-cols-3 gap-12">
+      <div class="shadow p-4 rounded">
+        <div class="font-bold">The Idea</div>
+
+        The idea is to provide a money exploration game. By playing this game you can
+        learn more about money than they teach you at most universities.
+      </div>
+
+      <div class="shadow p-4 rounded">
+        <div class="font-bold">Prerequisites</div>
+        <div>
+                    First please explore the difference between the
+          <a
+            class="text-blue-600"
+            href="https://whitepaper.io/document/0/bitcoin-whitepaper"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bitcoin Whitepaper
+          </a>
+          and the
+          <a
+            class="text-blue-600"
+            href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            USD Wipepaper</a
+          >.
+
         </div>
         <div>
           You might also check the launch of the digital
@@ -93,6 +106,14 @@
         </div>
       </div>
     </div>
+
+    <div class="mt-32">
+      <video class="block mx-auto" width="250" height="250" controls>
+        <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
+        src="./../assets/geiler-vogel.mp4" type=video/mp4>
+      </video>
+    </div>
+
     <div class="mt-32">
       <div class="grid grid-cols-2 grid-gap-64">
         <div>
@@ -208,16 +229,22 @@
         </div>
       </div>
     </div>
-    <div class="mt-32">
-      <video class="block mx-auto" width="320" height="240" controls>
-        <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
-        src="./../assets/geiler-vogel.mp4" type=video/mp4>
-      </video>
-    </div>
     <div class="my-32">
       <div class="font-bold text-xl">Quotes/Feedback</div>
       <div>"No pressure. Some things just need some time."</div>
       <div>"Habt Ihr in die Hose geschissen?"</div>
+    </div>
+
+    <div class="mt-4 text-xl">
+      This is an education project
+      <a
+        class="text-blue-600"
+        href="https://github.com/michael-spengler/klopapier.exchange"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        under construction</a
+      >.
     </div>
   </div>
 </template>
