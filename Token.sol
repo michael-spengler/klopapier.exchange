@@ -7,7 +7,7 @@ contract CentralBankWipePaper is ERC20 {
     using SafeMath for uint256;
     uint256 public backup;
 
-    constructor(uint256 initialSupply) public payable ERC20("CentralBankWipePaper", "UWP") {
+    constructor(uint256 initialSupply) public payable ERC20("CentralBankWipePaper", "CBWP") {
         require(msg.value > 0, "Backing value needs to be greater than 0");
         backup = msg.value;
         _mint(address(this), initialSupply);
@@ -17,16 +17,11 @@ contract CentralBankWipePaper is ERC20 {
         _burn(fromAddress, amount);
     }
     
-    function flush(uint256 amount) public {
+    function _flushAmount(uint256 amount) private {
         _flushFrom(msg.sender, amount);
     }
     
-    function print() public {
-        // always print 10% then before
-        _mint(msg.sender, totalSupply().div(100).mul(10));
-    }
-    
-    function mintAmount(uint256 amount) public {
+    function _mintAmount(uint256 amount) private {
         _mint(msg.sender, amount);
     }
     
@@ -37,7 +32,7 @@ contract CentralBankWipePaper is ERC20 {
         uint256 value = msg.value;
         //need to multiply by 100 to prevent floating point problems
         uint256 amount = value.mul(100).div(backup).mul(totalSupply()).div(100);
-        mintAmount(amount);
+        _mintAmount(amount);
     }
     
     function sellWipepaper(uint256 amount) public payable{
@@ -46,6 +41,6 @@ contract CentralBankWipePaper is ERC20 {
         //need to multiply by 100 to prevent floating point problems
         uint256 ethAmount = amount.mul(100).div(totalSupply()).mul(backup).div(100);
         msg.sender.transfer(ethAmount);
-        flush(amount);
+        _flushAmount(amount);
     }
 }
