@@ -1,0 +1,19 @@
+
+name: Deploy Klopaper.Exchange
+
+on: [push]
+
+jobs:
+ build:
+   name: Build
+   runs-on: ubuntu-latest
+   steps:
+   - name: executing remote ssh commands using password
+     uses: appleboy/ssh-action@master
+     with:
+       host: 95.217.13.36
+       username: root
+       password: ${{ secrets.pw }} # add pw --> secret via settings tab
+       port: 22
+       script: ./deploy-web3-server-on-ubuntu-server.bash
+ 
