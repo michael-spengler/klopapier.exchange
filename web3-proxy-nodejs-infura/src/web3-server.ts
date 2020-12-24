@@ -8,8 +8,8 @@ let useHTTPS = true
 let credentials
 
 try {
-    const cert = fs.read('/etc/letsencrypt/live/openforce.de.pem', 'utf8');
-    const key  = fs.read('/etc/letsencrypt/live/openforce.de.key', 'utf8');
+    const cert = fs.read('/etc/letsencrypt/live/openforce.de/fullchain.pem', 'utf8');
+    const key  = fs.read('/etc/letsencrypt/live/openforce.de/privkey.pem', 'utf8');
     credentials = {cert, key};
 } catch(error) {
     useHTTPS = false
