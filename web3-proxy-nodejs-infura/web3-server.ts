@@ -1,9 +1,25 @@
 import { Web3Service } from './web3-service'
+const fs = require('fs-sync')
 
+const http = require('http');
+const https = require('https');
+
+let useHTTPS = true
+let credentials
+
+try {
+    const cert = fs.read('/etc/letsencrypt/live/openforce.de.pem', 'utf8');
+    const key  = fs.read('/etc/letsencrypt/live/openforce.de.key', 'utf8');
+    credentials = {cert, key};
+} catch(error) {
+    useHTTPS = false
+}
+    
 const express = require('express');
 const app = express();
 
-const fs = require('fs-sync')
+let expressServer
+
 const infuraProjectId = fs.read(`${__dirname}/.env`).split('=')[1]
 
 const web3Service = new Web3Service(infuraProjectId)
@@ -28,5 +44,13 @@ app.post('/sellWipePaper/amount/:amount', async (req, res) => {
 })
 
 
-console.log('your web3 server is listening on http://localhost:3001')
-app.listen('3001')
+if (useHTTPS) {
+    expressServer = https.createServer(credentials, app);
+    console.log('your web3 server is listening on https://openforce.de:8443')
+    expressServer.listen(8443);
+} else {
+    expressServer = http.createServer(app);
+    console.log('your web3 server is listening on http://localhost:3001')
+    expressServer.listen(3001);
+}
+
