@@ -21,7 +21,12 @@ Tipps:
 I use [VS Code Insiders](https://code.visualstudio.com/insiders/) as my IDE.  
 
 ## Backend
-We'll use Smart Contracts deployed on the Ethereum Blockchain + Deno & Web3 (we need to check [this open issue](https://github.com/ethereum/web3.js/issues/3700)).  
+Our server which connects us to the Ethereum Blockchain can be reached via the following example request:
+http://openforce.de/getBalance/walletAddress/0x1eB9426F329d46f5Ee2263C030d6E9661f2ca694  
+
+The code for this can be found [here](https://github.com/michael-spengler/klopapier.exchange/blob/main/web3-proxy-nodejs-infura/web3-server.ts).   
+
+We'll use Smart Contracts deployed on the Ethereum Blockchain + NodeJS or Deno & Web3 (we need to check [this open issue](https://github.com/ethereum/web3.js/issues/3700)).  
 
 **Links which might be helpful**
 1. https://github.com/useverto/trading-post/blob/master/src/workflows/swap.ts  
