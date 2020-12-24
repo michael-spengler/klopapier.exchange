@@ -20,7 +20,7 @@ const app = express();
 
 let expressServer
 
-const infuraProjectId = fs.read(`${__dirname}/.env`).split('=')[1]
+const infuraProjectId = fs.read(`${__dirname}/../.env`).split('=')[1]
 
 const web3Service = new Web3Service(infuraProjectId)
 
