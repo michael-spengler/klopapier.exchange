@@ -9,9 +9,9 @@ ts-node web3-server.ts
 
 ## Example Requests
 **Locally**
-http://localhost:3001/getBalance/walletAddress/0x4396a292512aa418087645b56a3a76333bd10e28
+http://localhost:3001/getBalance/walletAddress/0x1eB9426F329d46f5Ee2263C030d6E9661f2ca694
 
 
 **Remote**
 ... API will be protected via JWT
-https://<to-be-defined>/getBalance/walletAddress/0x4396a292512aa418087645b56a3a76333bd10e28
+https://openforce.de/getBalance/walletAddress/0x1eB9426F329d46f5Ee2263C030d6E9661f2ca694
