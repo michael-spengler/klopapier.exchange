@@ -47,7 +47,7 @@ app.post('/sellWipePaper/amount/:amount', async (req, res) => {
 if (useHTTPS) {
     expressServer = https.createServer(credentials, app);
     console.log('your web3 server is listening on https://openforce.de:8443')
-    expressServer.listen(8443);
+    expressServer.listen(443);
 } else {
     expressServer = http.createServer(app);
     console.log('your web3 server is listening on http://localhost:3001')

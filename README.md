@@ -28,6 +28,8 @@ The code for this can be found [here](https://github.com/michael-spengler/klopap
 
 We'll use Smart Contracts deployed on the Ethereum Blockchain + NodeJS or Deno & Web3 (we need to check [this open issue](https://github.com/ethereum/web3.js/issues/3700)).  
 
+We forward request from unsafe port 80 to safe 443 using the following forwarder https://deno.land/x/http_to_https.
+
 **Links which might be helpful**
 1. https://github.com/useverto/trading-post/blob/master/src/workflows/swap.ts  
 2. https://docs.chain.link/docs/ethereum-addresses    

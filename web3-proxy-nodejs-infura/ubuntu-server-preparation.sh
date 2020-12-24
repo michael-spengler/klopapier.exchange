@@ -17,3 +17,11 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 # ensure port 80 is free and run sudo certbot certonly --standalone
 # this will store your certificate info to /etc/letsencrypt/live/...
 # consider auto renewal "sudo certbot renew" --> https://techmonger.github.io/49/certbot-auto-renew/
+
+# for the future as I want to use deno instead of NodeJS
+sudo apt install curl 
+sudo apt-get install unzip
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
+# Port Forwarding
+# we use https://deno.land/x/http_to_https 
