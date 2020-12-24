@@ -14,4 +14,6 @@ sudo apt install snapd
 sudo snap install core; sudo snap refresh core
 sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
+# ensure port 80 is free and run sudo certbot certonly --standalone
+# this will store your certificate info to /etc/letsencrypt/live/...
 # consider auto renewal "sudo certbot renew" --> https://techmonger.github.io/49/certbot-auto-renew/
