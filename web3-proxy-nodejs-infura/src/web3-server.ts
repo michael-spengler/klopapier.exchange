@@ -33,6 +33,11 @@ app.get('/getBalance/walletAddress/:account', async (req, res) => {
     res.send(await web3Service.getBalanceInEther(req.params.account))
 })
 
+// http://localhost:3001/getGasPriceInEther
+app.get('/getGasPriceInEther', async (req, res) => {
+    res.send(await web3Service.getGasPriceInEther())
+})
+
 app.post('/buyWipePaper/amount/:amount', async (req, res) => {
     await web3Service.buyWipepaper(req.parameters.amount)
     res.send('to be implemented')
