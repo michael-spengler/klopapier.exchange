@@ -1,6 +1,6 @@
 export class ABIProvider {
 
-    public static getAbi() {
+    public static getAbiMiaERC20Token() {
         return [
             {
                 "inputs": [],
