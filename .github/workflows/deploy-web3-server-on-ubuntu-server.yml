@@ -15,5 +15,4 @@ jobs:
        username: root
        password: ${{ secrets.pw }} # add pw --> secret via settings tab
        port: 22
-       script: ./deploy-web3-server-on-ubuntu-server.bash
- 
+       script: /root/klopapier.exchange/deploy-web3-server-on-ubuntu-server.bash
