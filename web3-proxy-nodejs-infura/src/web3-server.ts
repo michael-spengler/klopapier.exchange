@@ -28,16 +28,26 @@ app.get('/', (req, res) => {
     res.send('hello world')
 })
 
-// http://localhost:3001/getBalance/walletAddress/0x4396a292512aa418087645b56a3a76333bd10e28
+// http://localhost:3001/getBalance/walletAddress/0x1eB9426F329d46f5Ee2263C030d6E9661f2ca694
+// https://openforce.de/getBalance/walletAddress/0x1eB9426F329d46f5Ee2263C030d6E9661f2ca694
 app.get('/getBalance/walletAddress/:account', async (req, res) => {
     res.send(await web3Service.getBalanceInEther(req.params.account))
 })
 
 // http://localhost:3001/getGasPriceInEther
+// https://openforce.de/getGasPriceInEther
 app.get('/getGasPriceInEther', async (req, res) => {
     res.send(await web3Service.getGasPriceInEther())
 })
 
+// http://localhost:3001/getERC20Balance/walletAddress/0x4396A292512AA418087645B56a3a76333Bd10e28
+// https://openforce.de/getERC20Balance/walletAddress/0x4396A292512AA418087645B56a3a76333Bd10e28
+app.get('/getERC20Balance/walletAddress/:walletAddress', async (req, res) => {
+    res.send(await web3Service.getERC20Balance(req.params.walletAddress))
+})
+
+
+// the following APIs are contract-specific and shall be moved to a dedicated express app one day
 app.post('/buyWipePaper/amount/:amount', async (req, res) => {
     await web3Service.buyWipepaper(req.parameters.amount)
     res.send('to be implemented')
