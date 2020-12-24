@@ -14,5 +14,13 @@ export class Web3Service implements Web3ServiceInterface {
 
         return { "balanceInEther": this.web3.utils.fromWei(await this.web3.eth.getBalance(walletId), 'ether')}
     }
+
+    async buyWipepaper(amount: number): Promise<any> {
+        // tbd Michael
+    }
+
+    async sellWipepaper(amount: number): Promise<any> {
+        // tbd Michael
+    }
 }
 
