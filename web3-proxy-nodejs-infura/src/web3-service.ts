@@ -28,6 +28,12 @@ export class Web3Service implements Web3ServiceInterface {
         const balanceInWei =  await erc20Contract.methods.balanceOf(walletAddress).call()
         return { "myBalance": this.web3.utils.fromWei(balanceInWei, 'ether')}
     }
+    
+    async getERC20Price(erc20SmartContractAddress: string) {
+        const erc20Contract = new this.web3.eth.Contract(ABIProvider.getAbiMiaERC20Token(), erc20SmartContractAddress)
+
+        console.log(await erc20Contract.methods)
+    }
 
     async buyWipepaper(amount: number): Promise<any> {
         // tbd Michael

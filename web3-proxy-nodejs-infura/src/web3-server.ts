@@ -1,3 +1,4 @@
+import { UniSwapService } from './uniswap-service';
 import { Web3Service } from './web3-service'
 const fs = require('fs-sync')
 
@@ -23,6 +24,7 @@ let expressServer
 const infuraProjectId = fs.read(`${__dirname}/../.env`).split('=')[1]
 
 const web3Service = new Web3Service(infuraProjectId)
+const uniswapService = new UniSwapService()
 
 app.get('/', (req, res) => {
     res.send('hello world')
@@ -44,6 +46,11 @@ app.get('/getGasPriceInEther', async (req, res) => {
 // https://openforce.de/getERC20Balance/walletAddress/0x4396A292512AA418087645B56a3a76333Bd10e28/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
 app.get('/getERC20Balance/walletAddress/:walletAddress/smartContractAddress/:smartContractAddress', async (req, res) => {
     res.send(await web3Service.getERC20Balance(req.params.walletAddress, req.params.smartContractAddress))
+})
+
+// http://localhost:3001/getTokenDataViaUniswap/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
+app.get('/getTokenDataViaUniswap/smartContractAddress/:smartContractAddress', async (req, res) => {
+    res.send(await uniswapService.getTokenData(req.params.smartContractAddress))
 })
 
 
