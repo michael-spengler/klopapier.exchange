@@ -48,9 +48,16 @@ app.get('/getERC20Balance/walletAddress/:walletAddress/smartContractAddress/:sma
     res.send(await web3Service.getERC20Balance(req.params.walletAddress, req.params.smartContractAddress))
 })
 
-// http://localhost:3001/getTokenDataViaUniswap/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
-app.get('/getTokenDataViaUniswap/smartContractAddress/:smartContractAddress', async (req, res) => {
-    res.send(await uniswapService.getTokenData(req.params.smartContractAddress))
+// http://localhost:3001/getTokenViaUniswap/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
+// https://openforce.de/getTokenViaUniswap/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
+app.get('/getTokenViaUniswap/smartContractAddress/:smartContractAddress', async (req, res) => {
+    res.send(await uniswapService.getToken(req.params.smartContractAddress))
+})
+
+// http://localhost:3001/getPairViaUniswap/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
+// https://openforce.de/getPairViaUniswap/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
+app.get('/getPairViaUniswap/smartContractAddress/:smartContractAddress', async (req, res) => {
+    res.send(await uniswapService.getPairViaUniswap(req.params.smartContractAddress))
 })
 
 
