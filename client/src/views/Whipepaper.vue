@@ -1,5 +1,4 @@
 <template>
-
     <div class="mt-4 text-xl">
       This is an education project
       <a
@@ -46,6 +45,8 @@ export default defineComponent({
   },
   setup() {
     const amount = ref(amount);
+
+    
 
     return {
       amount

@@ -227,6 +227,7 @@
 
 <script>
 import { defineComponent, onMounted, ref } from "vue";
+import axios from 'axios';
 
 export default defineComponent({
   setup() {
@@ -237,6 +238,7 @@ export default defineComponent({
         if (accounts.length) {
           localStorage.setItem('klopapier.exchange.account.walletAdress', accounts[0]);
           walletAdress.value = accounts[0];
+          getBalanceInEthereum(walletAdress.value);
         } else {
           walletAdress.value = null;
           localStorage.removeItem('klopapier.exchange.account.walletAdress');
@@ -254,7 +256,13 @@ export default defineComponent({
   
         localStorage.setItem('klopapier.exchange.account.walletAdress', accounts[0]);
         walletAdress.value = accounts[0];
+        getBalanceInEthereum(walletAdress.value);
       }
+    }
+
+    const getBalanceInEthereum = async (walletAdress) => {
+      const { data } = await axios.get(`http://localhost:3001/getBalance/walletAddress/${walletAdress}`);
+      console.log(data)
     }
 
     return {
