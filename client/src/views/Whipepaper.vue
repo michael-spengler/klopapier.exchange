@@ -23,7 +23,7 @@
   
   <p><br></p>
   <div>
-    <vue-slider v-if="etherBalance" v-model="amount" :min="0" :max="etherBalance" :interval="0.001" />
+    <vue-slider v-if="etherBalance" v-model="amount" :min="0" :max="etherBalance" :interval="0.000000000000000001" />
     <div v-else>
       Kein Guthaben
     </div>
@@ -46,8 +46,9 @@ export default defineComponent({
   },
   setup() {
     const amount = ref(amount);
-    const etherBalance = ref(parseInt(localStorage.getItem('klopapier.exchange.account.etherBalance') || '0'));
+    const etherBalance = ref(parseFloat(localStorage.getItem('klopapier.exchange.account.etherBalance') || '0'));
 
+    console.log(parseFloat(localStorage.getItem('klopapier.exchange.account.etherBalance')))
     return {
       amount,
       etherBalance
