@@ -17,7 +17,7 @@
 
     <p><br></p>
 
-    To start betting you need to pay the central bank employees to print some CBWP for you to get the party started.
+    To start betting you need to pay the central bank employees to print some CBWP for you to get the party started. How much Wipepaper do you want to be printed?
     
   </div>
   
