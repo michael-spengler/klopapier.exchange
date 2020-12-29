@@ -48,7 +48,6 @@ export default defineComponent({
     const amount = ref(amount);
     const etherBalance = ref(parseFloat(localStorage.getItem('klopapier.exchange.account.etherBalance') || '0'));
 
-    console.log(parseFloat(localStorage.getItem('klopapier.exchange.account.etherBalance')))
     return {
       amount,
       etherBalance
