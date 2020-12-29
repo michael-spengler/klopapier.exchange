@@ -1,6 +1,10 @@
 import { Web3ServiceInterface } from "./web3-service-interface";
 
-export class Web3Service  implements Web3ServiceInterface {
+export class Web3Service implements Web3ServiceInterface {
+
+    constructor(infuraProjectId) {
+        // not needed in double
+    }
 
     async getBalanceInEther(walletId: string): Promise<any> {
 
@@ -8,11 +12,11 @@ export class Web3Service  implements Web3ServiceInterface {
     }
 
     async buyWipepaper(amount: number): Promise<any> {
-        // tbd Michael
+        // tbd Troy oder Michael
     }
 
     async sellWipepaper(amount: number): Promise<any> {
-        // tbd Michael
+        // tbd Troy oder Michael
     }
 }
 
