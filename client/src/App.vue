@@ -69,8 +69,8 @@
               </button>
               <div class="ml-3 relative">
                 <div>
-                  <div v-if="walletAdress" class="font-bold text-white flex items-center">
-                    {{ walletAdress }}
+                  <div v-if="walletAdress" class="ml-2 font-bold text-white flex items-center">
+                    {{ walletAdress }} | Ether Balance: {{ etherBalance }}
                   </div>
                   <button
                     v-else
@@ -232,6 +232,7 @@ import axios from 'axios';
 export default defineComponent({
   setup() {
     const walletAdress = ref(localStorage.getItem('klopapier.exchange.account.walletAdress'));
+    const etherBalance = ref('');
 
     onMounted(() => {
       window.ethereum.on('accountsChanged', (accounts) => {
@@ -242,6 +243,7 @@ export default defineComponent({
         } else {
           walletAdress.value = null;
           localStorage.removeItem('klopapier.exchange.account.walletAdress');
+          localStorage.removeItem('klopapier.exchange.account.etherBalance');
         }
       })
     })
@@ -262,7 +264,8 @@ export default defineComponent({
 
     const getBalanceInEthereum = async (walletAdress) => {
       const { data } = await axios.get(`http://localhost:3001/getBalance/walletAddress/${walletAdress}`);
-      console.log(data)
+      etherBalance.value = data.balanceInEther;
+      localStorage.setItem('klopapier.exchange.account.etherBalance', data.balanceInEther);
     }
 
     return {
