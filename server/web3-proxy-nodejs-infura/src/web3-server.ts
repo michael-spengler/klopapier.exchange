@@ -1,13 +1,14 @@
 
 import { UniSwapService } from './uniswap-service';
 import { Web3Service } from './web3-service'
+const cors = require('cors');
 
 const fs = require('fs-sync')
 const http = require('http');
 const https = require('https');
 const express = require('express');
 const app = express();
-
+app.use(cors('*'));
 let expressServer
 let useHTTPS = true
 let credentials
