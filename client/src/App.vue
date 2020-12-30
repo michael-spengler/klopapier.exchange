@@ -16,30 +16,15 @@
                 v-if="walletAdress"
                 class="ml-10 flex items-baseline space-x-4"
               >
-                <a
-                  href="#"
-                  class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >Dashboard</a
+                <router-link
+                  to="/"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >Dashboard</router-link
                 >
-                <a
-                  href="#"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >Team</a
-                >
-                <a
-                  href="#"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >Projects</a
-                >
-                <a
-                  href="#"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >Calendar</a
-                >
-                <a
-                  href="#"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >Reports</a
+                <router-link
+                  to="/whipepaper"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >Buy</router-link
                 >
               </div>
             </div>
@@ -107,34 +92,15 @@
       </div>
       <div class="hidden md:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a
-            href="#"
-            class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
-            >Dashboard</a
-          >
-
-          <a
-            href="#"
+          <router-link
+            to="/"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >Team</a
+            >Dashboard</router-link
           >
-
-          <a
-            href="#"
+          <router-link
+            to="/whipepaper"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >Projects</a
-          >
-
-          <a
-            href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >Calendar</a
-          >
-
-          <a
-            href="#"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >Reports</a
+            >Team</router-link
           >
         </div>
         <div class="pt-4 pb-3 border-t border-gray-700">
@@ -234,6 +200,10 @@ export default defineComponent({
           localStorage.removeItem('klopapier.exchange.account.etherBalance');
         }
       })
+
+      if (walletAdress.value) {
+        getBalanceInEthereum()
+      }
     })
 
     const connect = async () => {
