@@ -11,11 +11,11 @@ export class Web3Service implements Web3ServiceInterface {
         return Promise.resolve({ "balanceInEther": 4000})
     }
 
-    async buyWipepaper(amount: number): Promise<any> {
+    async buyWipePaper(amount: number): Promise<any> {
         // tbd Troy oder Michael
     }
 
-    async sellWipepaper(amount: number): Promise<any> {
+    async sellWipePaper(amount: number): Promise<any> {
         // tbd Troy oder Michael
     }
 }

@@ -4,10 +4,13 @@
       <div>
         <div class="bg-white bg-opacity-90 px-12 pb-12 pt-8 inline-block rounded border border-blue-600">
 
-          <div class="font-bold">Buy Whipepapers here!</div>
+          <div class="font-bold">Buy Whipepaper here!</div>
 
+          <p><br /></p>
+          You can use Central Bank WipePaper (CBWP)<br>to bet on rising Ether prices.
+          <p></p>
           <div class="w-64 mx-auto mt-8">
-            <label for="price" class="block text-sm font-bold text-left text-gray-700">Ethereum</label>
+            <label for="price" class="block text-sm font-bold text-left text-gray-700">Ether</label>
             <div class="mt-1 relative rounded-md shadow-sm">
               <div class="absolute inset-y-0 left-0 pl-2 flex items-center pointer-events-none">
                 <span class="text-gray-500">
@@ -65,13 +68,6 @@
       >.
     </div>
     <p><br></p>
-    <div>
-      Perhaps the best thing you can do with Central Bank Wipe Paper (CBWP) is to invest it in betting on rising Ether and Bitcoin prices.
-
-      <p><br></p>
-
-      To start betting you need to pay the central bank employees to print some CBWP for you to get the party started. How much Wipepaper do you want to be printed?
-    </div>
   </div>
 </template>
 

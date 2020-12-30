@@ -25,7 +25,7 @@ contract CentralBankWipePaper is ERC20 {
         _mint(msg.sender, amount);
     }
     
-    function buyWipepaper() public payable{
+    function buyWipePaper() public payable{
         require(msg.value > 0, "Value needs to be greater than 0");
         require(msg.value < backup, "Value needs to be smaller than the backup");
         
@@ -35,8 +35,8 @@ contract CentralBankWipePaper is ERC20 {
         _mintAmount(amount);
     }
     
-    function sellWipepaper(uint256 amount) public payable{
-        require(amount <= balanceOf(msg.sender), "Not enough Wipepaper in the account");
+    function sellWipePaper(uint256 amount) public payable{
+        require(amount <= balanceOf(msg.sender), "Not enough WipePaper in the account");
 
         //need to multiply by 100 to prevent floating point problems
         uint256 ethAmount = amount.mul(100).div(totalSupply()).mul(backup).div(100);

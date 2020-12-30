@@ -4,7 +4,7 @@
       <div class="text-6xl">Klopapier Exchange</div>
 
       <p><br /></p>
-      Please explore the difference between the
+
       <a
         class="text-blue-600"
         href="https://whitepaper.io/document/0/bitcoin-whitepaper"
@@ -13,14 +13,22 @@
       >
         Bitcoin Whitepaper
       </a>
-      and the
+      vs.
       <a
         class="text-blue-600"
         href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images"
         target="_blank"
         rel="noopener noreferrer"
       >
-        USD Wipepaper</a
+        USD WipePaper</a
+      >
+      vs.
+      <a
+        class="text-blue-600"
+        href="https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html"
+        target="_blank"
+        rel="noopener"
+        >Digital Euro WipePaper</a
       >.
       <br />
 
@@ -32,7 +40,7 @@
           to="/whipepaper"
         >
           <span class="material-icons mr-2"> show_chart </span>
-          Buy Wipepaper
+          Buy WipePaper
         </router-link>
 
         <button
@@ -46,17 +54,6 @@
       </div>
 
       <p><br /></p>
-      <p><br /></p>
-      <div>
-        You might also check the launch of the digital
-        <a
-          class="text-blue-600"
-          href="https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html"
-          target="_blank"
-          rel="noopener"
-          >Euro (EZB) Wipepaper</a
-        >.
-      </div>
     </div>
 
     <div id="particles-js"></div>
@@ -96,14 +93,15 @@
       <div class="shadow p-4 rounded">
         <div class="font-bold">The Game</div>
         <div>
-          You can bet Central Bank Wipepaper (CBWP =?
+          You can use Central Bank WipePaper (CBWP) to bet on rising Ether prices.
+          <!-- You can bet Central Bank WipePaper (CBWP =?
           <a
             class="text-blue-600"
             href="https://www.youtube.com/watch?v=jWM-MdT2rDg&t=547s"
             target="_blank"
             rel="noopener"
             >CBDC</a
-          >) on rising real money prices.
+          >) on rising real money prices. -->
         </div>
         <div>
           With this we want to make your exploration regarding crypto currencies fun and
@@ -269,7 +267,6 @@ import "particles.js";
 const color = "#295dab";
 
 export default defineComponent({
-
   setup() {
     onMounted(() => {
       window.particlesJS("particles-js", {
@@ -381,8 +378,8 @@ export default defineComponent({
   },
   methods: {
     onHistoryClicked() {
-      alert('This feature is under construction.')
-    }
+      alert("This feature is under construction.");
+    },
   },
 });
 </script>

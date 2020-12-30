@@ -142,7 +142,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "buyWipepaper",
+		"name": "buyWipePaper",
 		"outputs": [],
 		"stateMutability": "payable",
 		"type": "function"
@@ -229,7 +229,7 @@
 				"type": "uint256"
 			}
 		],
-		"name": "sellWipepaper",
+		"name": "sellWipePaper",
 		"outputs": [],
 		"stateMutability": "payable",
 		"type": "function"

@@ -35,11 +35,11 @@ export class Web3Service implements Web3ServiceInterface {
         console.log(await erc20Contract.methods)
     }
 
-    async buyWipepaper(amount: number): Promise<any> {
+    async buyWipePaper(amount: number): Promise<any> {
         // tbd Michael
     }
 
-    async sellWipepaper(amount: number): Promise<any> {
+    async sellWipePaper(amount: number): Promise<any> {
         // tbd Michael
     }
 
