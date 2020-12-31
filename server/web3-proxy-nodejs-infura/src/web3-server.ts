@@ -80,13 +80,13 @@ function defineStandardRoutesWeb3JS(app) {
 function defineKlopapierSpecificRoutesWeb3JS(app) {
 
     // the following APIs are contract-specific and shall be moved to a dedicated express app one day
-    app.post('/buyWipePaper/amount/:amount', async (req, res) => {
-        await web3Service.buyWipePaper(req.parameters.amount)
+    app.post('/buyWipePaper/walletAddress/:walletAddress/amount/:amount', async (req, res) => {
+        await web3Service.buyWipePaper(req.parameters.walletAddress, req.parameters.amount)
         res.send('to be implemented')
     })
 
-    app.post('/sellWipePaper/amount/:amount', async (req, res) => {
-        await web3Service.sellWipePaper(req.parameters.amount)
+    app.post('/sellWipePaper/walletAddress/:walletAddress/amount/:amount', async (req, res) => {
+        await web3Service.sellWipePaper(req.parameters.walletAddress, req.parameters.amount)
         res.send('to be implemented')
     })
 
