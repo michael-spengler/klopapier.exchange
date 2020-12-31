@@ -128,10 +128,10 @@
             For several decades people behind most central banks could create their money
             out of thin air. The incentives for giving this money to people who create the
             most value for other people - like farmers, nurses, doctors and many more -
-            have not been strong enough to foster a fair system.
+            had not been strong enough to foster a fair system.
           </div>
           <div>
-            In order to foster fair systems we invested some time into professional
+            In order to foster fair systems we invested time into professional
             incentive engineering. We came to the conclusion that Ether, Bitcoin & Co. can
             play valuable roles in this game.
           </div>
