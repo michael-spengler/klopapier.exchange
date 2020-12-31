@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/Home.vue";
 import Whipepaper from "@/views/Whipepaper.vue";
+import SellWipepaper from "@/views/SellWipePaper.vue";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/whipepaper",
     name: "Whipepaper",
     component: Whipepaper,
+  },
+  {
+    path: "/sellWipePaper",
+    name: "SellWhipepaper",
+    component: SellWipepaper,
   }
 ];
 
