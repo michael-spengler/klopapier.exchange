@@ -49,13 +49,17 @@
             </div>
           </div>
 
-          <button @click="buy" class="mt-12 ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-bold text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
+          <button @click="buy" class="mt-12 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-bold text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
             Buy now
           </button>
         </div>
       </div>
     </div>
     <div id="particles-js"></div>
+    <div class="mt-32 grid grid-cols-2 gap-32">
+      <ethereum-chart />
+      <apexchart type="bar" :options="options" :series="series"></apexchart>
+    </div>
     <div class="mt-12 text-xl">
       This is an education project
       <a
@@ -74,10 +78,14 @@
 <script>
 import { defineComponent, ref, onMounted } from "vue";
 import "particles.js";
+import EthereumChart from "../components/EthereumChart.vue";
 
 const color = "#295dab";
 
 export default defineComponent({
+  components: {
+    'ethereum-chart': EthereumChart
+  },
   setup() {
     const etherBalance = ref(parseFloat(localStorage.getItem('klopapier.exchange.account.etherBalance') || '0'));
     const exchangeRate = ref(1.5);
@@ -226,6 +234,20 @@ export default defineComponent({
       });
     });
 
+    const options = {
+      chart: {
+        id: 'vuechart-example'
+      },
+      xaxis: {
+        categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998]
+      }
+    }
+
+    const series = [{
+      name: 'series-1',
+      data: [30, 40, 45, 50, 49, 60, 70, 91]
+    }]
+
     return {
       etherBalance,
       amountEthereum,
@@ -233,7 +255,9 @@ export default defineComponent({
       maxValue,
       updateEthereum,
       updateWhipepaper,
-      buy
+      buy,
+      options,
+      series
     }
   }
 })
