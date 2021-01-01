@@ -37,7 +37,7 @@
         <div class="font-bold">Distributed Ledger Technology</div>
         One important aspect why Bitcoin, Ether and other systems are so reliable is that
         they use the Distributed Ledger Technology. A ledger can be seen as a list of
-        transactions. If this ledger is stored on several different servers, one calls it
+        transactions. If this ledger is stored on several different servers, one can call it
         distributed ledger.
       </div>
 
@@ -45,7 +45,7 @@
         <div class="font-bold">Blockchain</div>
         <div>
           In Bitcoin transactions are stored in blocks. Those blocks are connected. You
-          can perceive it as a chain of Blocks. This is why this technology is called
+          can perceive it as a chain of Blocks. This is why people call this technology 
           Blockchain Technology.
         </div>
       </div>
@@ -54,7 +54,7 @@
         <div class="font-bold">Smart Contracts</div>
         <div>
           Programs which can be stored and executed on a blockchain are frequently called
-          smart contracts. You can perceive those as an agreement / contract between the
+          smart contracts. You can perceive a smart contract as an agreement / contract between the
           parties who interact with this contract. Example: If you use a vending machine
           at a train station you typically implicitly have the agreement that if you throw
           in money, you get a product out of it. Such kinds of agreements / contracts
@@ -69,14 +69,14 @@
         In a distributed ledger it is important that there is consensus about the content
         of the ledger. To reach this consensus people apply algorithms like Proof of Work
         (PoW) and Proof of Stake (PoS). PoW is pretty energy consuming / costly. Therefore
-        famous Blockchains like ETH2.0 introduces PoS.
+        famous Blockchains like ETH2.0 introduce PoS.
       </div>
 
       <div class="shadow p-4 rounded">
         <div class="font-bold">ERC20 Tokens</div>
         <div>
           This is a standard which allows you to deploy your own cryptocurrency on the
-          Ethereum Blockchain in a very simple way. They can be considered as fungible
+          Ethereum Blockchain in a very simple way. ERC721 Tokens = Coins can be considered as fungible
           tokens.
         </div>
       </div>
@@ -85,7 +85,7 @@
         <div class="font-bold">ERC721 Tokens</div>
         <div>
           This is a standard which is frequently used to represent collectibles (where
-          uniqueness is valuable). They can be considered as non-fungible tokens.
+          uniqueness of each entity is the thing). ERC721 Tokens can be considered as non-fungible tokens.
         </div>
       </div>
     </div>
@@ -93,9 +93,9 @@
     <div class="mt-12 grid grid-cols-3 gap-12">
       <div class="shadow p-4 rounded">
         <div class="font-bold">Crypto Wallets</div>
-        You can use crypto wallets to store crypto assets like crypto currency entities.
+        You can use crypto wallets to store crypto assets like crypto currency entities, and to interact with smart contracts on a blockchain.
         There are several kinds of wallets. E.g. Browserwallets which are integrated
-        directly in the Browser.
+        directly in the Browser (brave.com).
       </div>
 
       <div class="shadow p-4 rounded">
@@ -121,8 +121,8 @@
         <div class="font-bold">Oracles</div>
         Oracles solve the challenge that smart contracts themselves only have access to
         data which is on the blockchain. For example they (smart contracts) do not know
-        how the weather is until anyone brings this information to their blockchain.
-        Oracles can be used to do exactly this. A famous promising system for this is
+        how the weather is until anyone brings this information to their blockchain. 
+        Oracles can be used to do exactly this. One key challenge here was to make sure correct information is brought to the blockchain. A famous promising system for this is
         Chainlink.
       </div>
 
