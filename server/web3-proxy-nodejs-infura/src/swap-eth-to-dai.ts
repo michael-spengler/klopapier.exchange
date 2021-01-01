@@ -1,6 +1,7 @@
 require("dotenv").config();
 
 import {
+  BigintIsh,
   Fetcher,
   Percent,
   Route,
@@ -16,7 +17,7 @@ console.log('los gehts')
 
 const daiTokenAddress = '0x6B175474E89094C44Da98b954EedeAC495271d0F'
 
-export const swapETHToDAI = (async () => {
+export const swapETHToDAI = (async (walletAddress?: string, ethAmountInWeiToBeSwapped?: BigintIsh): Promise<string> => {
 
   const signer = new ethers.Wallet(process.env.PRIVATE_KEY)
   const provider = ethers.getDefaultProvider('mainnet', { infura: `https://mainnet.infura.io/v3/${process.env.INFURA_PROJECT_ID}` })
@@ -32,6 +33,10 @@ export const swapETHToDAI = (async () => {
   const etherBalanceOnAccount = await provider.getBalance(process.env.ACCOUNT)
   console.log(ethers.utils.formatEther(etherBalanceOnAccount.toString()).toString())
   // const balanceOfDaiOnAccount = await daiSmartContract.balanceOf(process.env.ACCOUNT)
+
+  if (ethAmountInWeiToBeSwapped === undefined) {
+    ethAmountInWeiToBeSwapped = ethers.BigNumber.from(etherBalanceOnAccount).toString()
+  }
 
   console.log("prepare the transaction")
 
@@ -56,16 +61,20 @@ export const swapETHToDAI = (async () => {
 
   const bigNumberWithEtherToBeSwapped = ethers.BigNumber.from(trade.inputAmount.raw.toString())
 
-  const tx = await uniswapSmartContract.swapExactETHForTokens(
-    amountOutMin,
-    path,
-    process.env.ACCOUNT,
-    deadline,
-    { value: bigNumberWithEtherToBeSwapped }
-  )
+  // const tx = await uniswapSmartContract.swapExactETHForTokens(
+  //   amountOutMin,
+  //   path,
+  //   process.env.ACCOUNT,
+  //   deadline,
+  //   { value: bigNumberWithEtherToBeSwapped }
+  // )
 
 
-  console.log(tx.hash)
+  // console.log(tx.hash)
+
+  // return tx.hash
+
+  return 'xkasldfjösdfiöijw'
 })
 
 
