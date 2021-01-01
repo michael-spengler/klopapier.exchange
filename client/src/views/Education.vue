@@ -35,7 +35,7 @@
     <div id="read" class="mt-12 grid grid-cols-3 gap-12">
       <div class="shadow p-4 rounded">
         <div class="font-bold">Distributed Ledger Technology</div>
-        One important aspect why Bitcoin, Ether and other systems are so reliable is that
+        One important aspect why Bitcoin, Ethereum and other systems are so reliable is that
         they use the Distributed Ledger Technology. A ledger can be seen as a list of
         transactions. If this ledger is stored on several different servers, one can call it
         distributed ledger.
