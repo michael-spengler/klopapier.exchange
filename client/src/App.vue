@@ -19,7 +19,7 @@
                 <router-link
                   to="/"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >Dashboard</router-link
+                  >Home</router-link
                 >
                 <router-link
                   to="/whipepaper"
@@ -30,6 +30,11 @@
                   to="/sellWipePaper"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >Sell WipePaper</router-link
+                >
+                <router-link
+                  to="/education"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >Education</router-link
                 >
               </div>
             </div>
