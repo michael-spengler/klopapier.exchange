@@ -43,14 +43,16 @@
           Buy WipePaper
         </router-link>
 
-        <button
-          @click="onHistoryClicked()"
-          type="button"
-          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          <span class="material-icons mr-2"> history_edu </span>
-          History
-        </button>
+        <!-- @click="onHistoryClicked()" use this instead of the anchor as soon as a fancy vue3 supporting scroll feature is here -->
+        <a href="#history">
+          <button
+            type="button"
+            class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            <span class="material-icons mr-2"> history_edu </span>
+            History
+          </button>
+        </a>
       </div>
 
       <p><br /></p>
@@ -123,17 +125,17 @@
           <img class="w-2/3 block mx-auto" src="./../assets/history.svg" alt="History" />
         </div>
         <div>
-          <div class="font-bold text-xl">History</div>
+          <div id="history" class="font-bold text-xl">History</div>
           <div>
             For several decades people behind most central banks could create their money
             out of thin air. The incentives for giving this money to people who create the
             most value for other people - like farmers, nurses, doctors and many more -
-            have not been strong enough to foster a fair system.
+            had not been strong enough to foster a fair system.
           </div>
           <div>
-            In order to foster fair systems we invested some time into professional
-            incentive engineering. We came to the conclusion that Ether, Bitcoin & Co. can
-            play valuable roles in this game.
+            In order to foster fair systems we invested time into professional incentive
+            engineering. We came to the conclusion that Ether, Bitcoin & Co. can play
+            valuable roles in this game.
           </div>
           <div>
             It seems strange that in Europe about 95 % (rough guess) of adult people don't
