@@ -1,4 +1,7 @@
 
+
+import { swapDAIToETH } from './swap-dai-to-eth';
+import { swapETHToDAI } from './swap-eth-to-dai';
 import { UniSwapService } from './uniswap-service';
 // import { Web3Service } from './web3-service'
 import { Web3Service } from './web3-service-double'
@@ -79,16 +82,32 @@ function defineStandardRoutesWeb3JS(app) {
 
 function defineKlopapierSpecificRoutesWeb3JS(app) {
 
-    // the following APIs are contract-specific and shall be moved to a dedicated express app one day
-    app.post('/buyWipePaper/walletAddress/:walletAddress/amount/:amount', async (req, res) => {
-        await web3Service.buyWipePaper(req.parameters.walletAddress, req.parameters.amount)
-        res.send('to be implemented')
+    // http://localhost:3001/buyWipePaper/walletAddress/xy/amount/5
+    app.get('/buyWipePaper/walletAddress/:walletAddress/amount/:amount', async (req, res) => {
+        const txHash = await swapETHToDAI(req.params.walletAddress, req.params.amount)
+        res.send(`https://etherscan.io/tx/${txHash}`)
+    })
+    
+    // http://localhost:3001/sellWipePaper/walletAddress/xy/amount/5
+    app.get('/sellWipePaper/walletAddress/:walletAddress/amount/:amount', async (req, res) => {
+        // const txHash = await swapDAIToETH(req.params.walletAddress, req.params.amount)
+        const txHash = await swapDAIToETH(req.params.walletAddress, undefined)
+        res.send(`https://etherscan.io/tx/${txHash}`)
     })
 
-    app.post('/sellWipePaper/walletAddress/:walletAddress/amount/:amount', async (req, res) => {
-        await web3Service.sellWipePaper(req.parameters.walletAddress, req.parameters.amount)
-        res.send('to be implemented')
-    })
+    // // the following APIs are contract-specific and shall be moved to a dedicated express app one day
+    // app.post('/buyWipePaper/walletAddress/:walletAddress/amount/:amount', async (req, res) => {
+    //     // await web3Service.buyWipePaper(req.params.walletAddress, req.params.amount)
+
+    //     const txHash = await swapETHToDAI(req.params.walletAddress, req.params.amount)
+    //     res.send(`https://etherscan.io/tx/${txHash}`)
+    // })
+
+    // app.post('/sellWipePaper/walletAddress/:walletAddress/amount/:amount', async (req, res) => {
+    //     // await web3Service.sellWipePaper(req.params.walletAddress, req.params.amount)
+    //     const txHash = await swapDAIToETH(req.params.walletAddress, req.params.amount)
+    //     res.send(`https://etherscan.io/tx/${txHash}`)
+    // })
 
 
 }
@@ -105,6 +124,5 @@ function defineStandardRoutesUniswap(app) {
     app.get('/getPairViaUniswap/smartContractAddress/:smartContractAddress', async (req, res) => {
         res.send(await uniswapService.getPairViaUniswap(req.params.smartContractAddress))
     })
-
 
 }
