@@ -10,6 +10,55 @@
           <p><br /></p>
           You can use Central Bank WipePaper (CBWP)<br />to bet on rising Ether prices.
           <p></p>
+
+
+          <div v-if="false" class="fixed z-10 inset-0 overflow-y-auto">
+            <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+              <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+              </div>
+
+              <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+              <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                  <div class="sm:flex sm:items-start">
+                    <div class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10">
+                      <svg class="h-6 w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path fill="currentColor" d="M20 4H4C2.9 4 2 4.89 2 6V18C2 19.11 2.9 20 4 20H13.09C13.03 19.67 13 19.34 13 19C13 15.69 15.69 13 19 13C20.06 13 21.09 13.28 22 13.81V6C22 4.89 21.11 4 20 4M20 11H4V8H20M17.75 22L15 19L16.16 17.84L17.75 19.43L21.34 15.84L22.5 17.25L17.75 22" />
+                      </svg>
+                    </div>
+                    <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                      <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-headline">
+                        Buy Whipepaper Confirmation
+                      </h3>
+                      <div class="mt-2">
+                        <p class="text-sm text-gray-500">
+                          Are you sure you want to buy <b>{{ amountWhipepaper }}</b> Whipepaper with <b>{{ amountEthereum }}</b> ETH?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                  <button
+                    type="button"
+                    class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm"
+
+                  >
+                    Confirm & Buy
+                  </button>
+                  <button
+                    type="button"
+                    class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="w-64 mx-auto mt-8">
             <label for="price" class="block text-sm font-bold text-left text-gray-700"
               >Ether</label
@@ -93,6 +142,9 @@
             @click="buy"
             class="mt-12 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-bold text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
           >
+          </button>
+          
+          <button @click="openConfirmationDialog" class="mt-12 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-bold text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
             Buy now
           </button>
         </div>
@@ -101,7 +153,7 @@
     <div id="particles-js"></div>
     <div class="mt-32 grid grid-cols-2 gap-32">
       <ethereum-chart />
-      <apexchart type="bar" :options="options" :series="series"></apexchart>
+      <ethereum-chart />
     </div>
     <div class="mt-12 text-xl">
       This is an education project
@@ -121,6 +173,7 @@
 <script>
 import { defineComponent, ref, onMounted } from "vue";
 import "particles.js";
+import Swal from 'sweetalert2';
 import EthereumChart from "../components/EthereumChart.vue";
 import Web3 from "web3";
 
@@ -153,7 +206,7 @@ export default defineComponent({
 
     const updateWhipepaper = () => {
       if (amountWhipepaper.value > etherBalance.value * exchangeRate.value) {
-        amountEthereum.value = etherBalance.value * exchangeRate.value;
+        amountWhipepaper.value = etherBalance.value * exchangeRate.value;
       }
 
       if (amountWhipepaper.value) {
@@ -169,8 +222,7 @@ export default defineComponent({
     };
 
     const buy = () => {
-      alert("This feature is under construction.");
-      alert(`You wanted to buy ${amountWhipepaper.value} WipePapers`);
+      alert(`You wanted to buy ${amountWhipepaper.value} WipePapers This feature is under construction.`);
     };
 
     onMounted(async () => {
@@ -178,6 +230,10 @@ export default defineComponent({
       var web3 = new Web3("http://127.0.0.1:7545");
       console.log(web3);
       console.log(await web3.eth.getAccounts());
+    // const buyWhipepaper = () => {
+    //   confirmationDialog.value = false;
+    //   alert('This feature is under construction.')
+    // }
 
       window.particlesJS("particles-js", {
         particles: {
@@ -302,6 +358,36 @@ export default defineComponent({
       },
     ];
 
+    const confirmationDialog = Swal.mixin({
+      customClass: {
+        confirmButton: 'rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm',
+        cancelButton: 'rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm'
+      },
+      buttonsStyling: false
+    })
+
+    const openConfirmationDialog = () => {
+      if (amountEthereum.value > 0 && amountWhipepaper.value > 0) {
+        confirmationDialog.fire({
+          title: 'Confirmation needed',
+          html: `Are you sure you want to buy <b>${amountWhipepaper.value}</b> Whipepaper with <b>${amountEthereum.value}</b> ETH?`,
+          icon: 'success',
+          confirmButtonText: 'Confirm & Buy',
+          showCancelButton: true,
+          cancelButtonText: 'Cancel',
+          reverseButtons: true
+        });
+      } else {
+        confirmationDialog.fire({
+          position: 'bottom-end',
+          icon: 'warning',
+          title: 'You have enter the amount of Whipepaper you want to purchase',
+          showConfirmButton: false,
+          timer: 3000
+        })
+      }
+    }
+
     return {
       etherBalance,
       amountEthereum,
@@ -312,9 +398,11 @@ export default defineComponent({
       buy,
       options,
       series,
-    };
-  },
-});
+      // buyWhipepaper,
+      openConfirmationDialog
+    }
+  }
+})
 </script>
 
 <style scoped>

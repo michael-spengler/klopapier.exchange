@@ -18,6 +18,7 @@
     "graphql-tag": "^2.11.0",
     "material-design-icons": "^3.0.1",
     "particles.js": "^2.0.0",
+    "sweetalert2": "^10.12.7",
     "vue": "^3.0.0",
     "vue-router": "^4.0.1",
     "vue-slider-component": "^4.0.0-beta.3",
