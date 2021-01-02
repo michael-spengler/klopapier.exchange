@@ -4,7 +4,7 @@
       <div>
         <div class="bg-white bg-opacity-90 px-12 pb-12 pt-8 inline-block rounded border border-blue-600">
 
-          <div class="font-bold">Sell Whipepaper here!</div>
+          <div class="font-bold">Sell WipePaper here!</div>
 
           <p><br /></p>
           You can use Central Bank WipePaper (CBWP)<br>to bet on rising Ether prices.
@@ -33,7 +33,7 @@
           </div>
 
           <div class="w-64 mx-auto">
-            <label for="price" class="block text-sm font-bold text-left text-gray-700">Whipepaper</label>
+            <label for="price" class="block text-sm font-bold text-left text-gray-700">WipePaper</label>
             <div class="mt-1 relative rounded-md shadow-sm">
               <div class="absolute inset-y-0 left-0 pl-2 flex items-center pointer-events-none">
                 <span class="text-gray-500">
@@ -42,7 +42,7 @@
                   </svg>
                 </span>
               </div>
-              <input type="number" class="focus:ring-blue-600 focus:border-blue-600 block w-full pl-10 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Amount" v-model="amountWhipepaper" @input="updateWhipepaper">
+              <input type="number" class="focus:ring-blue-600 focus:border-blue-600 block w-full pl-10 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Amount" v-model="amountWipePaper" @input="updateWipePaper">
               <div class="absolute inset-y-0 right-0 flex items-center">
                 <button class="h-full py-0 pl-3 pr-3 border-transparent bg-transparent text-blue-600 font-semibold sm:text-sm rounded-md" @click="maxValue">MAX</button>
               </div>
@@ -91,7 +91,7 @@ export default defineComponent({
     const exchangeRate = ref(1.5);
 
     const amountEthereum = ref(null);
-    const amountWhipepaper = ref(null);
+    const amountWipePaper = ref(null);
 
     const updateEthereum = () => {
       if (amountEthereum.value > etherBalance.value) {
@@ -99,19 +99,19 @@ export default defineComponent({
       }
 
       if (amountEthereum.value) {
-        amountWhipepaper.value = amountEthereum.value * exchangeRate.value
+        amountWipePaper.value = amountEthereum.value * exchangeRate.value
       } else {
-        amountWhipepaper.value = null;
+        amountWipePaper.value = null;
       }
     }
 
-    const updateWhipepaper = () => {
-      if (amountWhipepaper.value > etherBalance.value * exchangeRate.value) {
+    const updateWipePaper = () => {
+      if (amountWipePaper.value > etherBalance.value * exchangeRate.value) {
         amountEthereum.value = etherBalance.value * exchangeRate.value;
       }
 
-      if (amountWhipepaper.value) {
-        amountEthereum.value = amountWhipepaper.value / exchangeRate.value
+      if (amountWipePaper.value) {
+        amountEthereum.value = amountWipePaper.value / exchangeRate.value
       } else {
         amountEthereum.value = null;
       }
@@ -119,7 +119,7 @@ export default defineComponent({
 
     const maxValue = () => {
       amountEthereum.value = etherBalance.value;
-      amountWhipepaper.value = etherBalance.value * exchangeRate.value;
+      amountWipePaper.value = etherBalance.value * exchangeRate.value;
     }
 
     const buy = () => {
@@ -251,10 +251,10 @@ export default defineComponent({
     return {
       etherBalance,
       amountEthereum,
-      amountWhipepaper,
+      amountWipePaper,
       maxValue,
       updateEthereum,
-      updateWhipepaper,
+      updateWipePaper,
       buy,
       options,
       series

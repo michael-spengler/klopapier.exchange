@@ -1,6 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/Home.vue";
-import Whipepaper from "@/views/Whipepaper.vue";
+import BuyWipePaper from "@/views/BuyWipePaper.vue";
 import SellWipepaper from "@/views/SellWipePaper.vue";
 import Education from "@/views/Education.vue";
 
@@ -11,13 +11,13 @@ const routes = [
     component: Home,
   },
   {
-    path: "/whipepaper",
-    name: "Whipepaper",
-    component: Whipepaper,
+    path: "/buyWipePaper",
+    name: "BuyWipePaper",
+    component: BuyWipePaper,
   },
   {
     path: "/sellWipePaper",
-    name: "SellWhipepaper",
+    name: "SellWipePaper",
     component: SellWipepaper,
   },
   {

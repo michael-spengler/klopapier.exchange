@@ -22,7 +22,7 @@
                   >Home</router-link
                 >
                 <router-link
-                  to="/whipepaper"
+                  to="/buyWipePaper"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >Buy WipePaper</router-link
                 >
@@ -62,7 +62,7 @@
                   <div v-if="walletAdress" class="ml-2 font-bold text-white flex items-center">
                     <div class="bg-gray-900 text-white px-3 py-2 rounded-md">{{ walletAdressDisplay }}</div>
                     <div class="ml-2 bg-gray-900 text-white px-3 py-2 rounded-md">{{ etherBalance }} ETH</div>
-                    <div class="ml-2 bg-gray-900 text-white px-3 py-2 rounded-md">0 Whipepaper</div>
+                    <div class="ml-2 bg-gray-900 text-white px-3 py-2 rounded-md">0 WipePaper</div>
                   </div>
                   <button
                     v-else
@@ -125,7 +125,7 @@
             >Dashboard</router-link
           >
           <router-link
-            to="/whipepaper"
+            to="/wipepaper"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >Team</router-link
           >

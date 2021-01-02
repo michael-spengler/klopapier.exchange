@@ -5,7 +5,7 @@
         <div
           class="bg-white bg-opacity-90 px-12 pb-12 pt-8 inline-block rounded border border-blue-600"
         >
-          <div class="font-bold">Buy Whipepaper here!</div>
+          <div class="font-bold">Buy WipePaper here!</div>
 
           <p><br /></p>
           You can use Central Bank WipePaper (CBWP)<br />to bet on rising Ether prices.
@@ -30,11 +30,11 @@
                     </div>
                     <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                       <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-headline">
-                        Buy Whipepaper Confirmation
+                        Buy WipePaper Confirmation
                       </h3>
                       <div class="mt-2">
                         <p class="text-sm text-gray-500">
-                          Are you sure you want to buy <b>{{ amountWhipepaper }}</b> Whipepaper with <b>{{ amountEthereum }}</b> ETH?
+                          Are you sure you want to buy <b>{{ amountWipePaper }}</b> WipePaper with <b>{{ amountEthereum }}</b> ETH?
                         </p>
                       </div>
                     </div>
@@ -105,7 +105,7 @@
 
           <div class="w-64 mx-auto">
             <label for="price" class="block text-sm font-bold text-left text-gray-700"
-              >Whipepaper</label
+              >WipePaper</label
             >
             <div class="mt-1 relative rounded-md shadow-sm">
               <div
@@ -124,8 +124,8 @@
                 type="number"
                 class="focus:ring-blue-600 focus:border-blue-600 block w-full pl-10 pr-12 sm:text-sm border-gray-300 rounded-md"
                 placeholder="Amount"
-                v-model="amountWhipepaper"
-                @input="updateWhipepaper"
+                v-model="amountWipePaper"
+                @input="updateWipePaper"
               />
               <div class="absolute inset-y-0 right-0 flex items-center">
                 <button
@@ -190,7 +190,7 @@ export default defineComponent({
     const exchangeRate = ref(1.5);
 
     const amountEthereum = ref(null);
-    const amountWhipepaper = ref(null);
+    const amountWipePaper = ref(null);
 
     const updateEthereum = async () => {
       if (amountEthereum.value > etherBalance.value) {
@@ -198,19 +198,19 @@ export default defineComponent({
       }
 
       if (amountEthereum.value) {
-        amountWhipepaper.value = amountEthereum.value * exchangeRate.value;
+        amountWipePaper.value = amountEthereum.value * exchangeRate.value;
       } else {
-        amountWhipepaper.value = null;
+        amountWipePaper.value = null;
       }
     };
 
-    const updateWhipepaper = () => {
-      if (amountWhipepaper.value > etherBalance.value * exchangeRate.value) {
-        amountWhipepaper.value = etherBalance.value * exchangeRate.value;
+    const updateWipePaper = () => {
+      if (amountWipePaper.value > etherBalance.value * exchangeRate.value) {
+        amountWipePaper.value = etherBalance.value * exchangeRate.value;
       }
 
-      if (amountWhipepaper.value) {
-        amountEthereum.value = amountWhipepaper.value / exchangeRate.value;
+      if (amountWipePaper.value) {
+        amountEthereum.value = amountWipePaper.value / exchangeRate.value;
       } else {
         amountEthereum.value = null;
       }
@@ -218,11 +218,11 @@ export default defineComponent({
 
     const maxValue = () => {
       amountEthereum.value = etherBalance.value;
-      amountWhipepaper.value = etherBalance.value * exchangeRate.value;
+      amountWipePaper.value = etherBalance.value * exchangeRate.value;
     };
 
     const buy = () => {
-      alert(`You wanted to buy ${amountWhipepaper.value} WipePapers This feature is under construction.`);
+      alert(`You wanted to buy ${amountWipePaper.value} WipePapers This feature is under construction.`);
     };
 
     onMounted(async () => {
@@ -230,7 +230,7 @@ export default defineComponent({
       var web3 = new Web3("http://127.0.0.1:7545");
       console.log(web3);
       console.log(await web3.eth.getAccounts());
-    // const buyWhipepaper = () => {
+    // const buyWipePaper = () => {
     //   confirmationDialog.value = false;
     //   alert('This feature is under construction.')
     // }
@@ -367,10 +367,10 @@ export default defineComponent({
     })
 
     const openConfirmationDialog = () => {
-      if (amountEthereum.value > 0 && amountWhipepaper.value > 0) {
+      if (amountEthereum.value > 0 && amountWipePaper.value > 0) {
         confirmationDialog.fire({
           title: 'Confirmation needed',
-          html: `Are you sure you want to buy <b>${amountWhipepaper.value}</b> Whipepaper with <b>${amountEthereum.value}</b> ETH?`,
+          html: `Are you sure you want to buy <b>${amountWipePaper.value}</b> WipePaper with <b>${amountEthereum.value}</b> ETH?`,
           icon: 'success',
           confirmButtonText: 'Confirm & Buy',
           showCancelButton: true,
@@ -381,7 +381,7 @@ export default defineComponent({
         confirmationDialog.fire({
           position: 'bottom-end',
           icon: 'warning',
-          title: 'You have enter the amount of Whipepaper you want to purchase',
+          title: 'You have enter the amount of WipePaper you want to purchase',
           showConfirmButton: false,
           timer: 3000
         })
@@ -391,14 +391,14 @@ export default defineComponent({
     return {
       etherBalance,
       amountEthereum,
-      amountWhipepaper,
+      amountWipePaper,
       maxValue,
       updateEthereum,
-      updateWhipepaper,
+      updateWipePaper,
       buy,
       options,
       series,
-      // buyWhipepaper,
+      // buyWipePaper,
       openConfirmationDialog
     }
   }
