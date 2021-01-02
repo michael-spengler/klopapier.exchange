@@ -2,54 +2,97 @@
   <div class="wrapper">
     <div class="hero">
       <div>
-        <div class="bg-white bg-opacity-90 px-12 pb-12 pt-8 inline-block rounded border border-blue-600">
-
+        <div
+          class="bg-white bg-opacity-90 px-12 pb-12 pt-8 inline-block rounded border border-blue-600"
+        >
           <div class="font-bold">Buy Whipepaper here!</div>
 
           <p><br /></p>
-          You can use Central Bank WipePaper (CBWP)<br>to bet on rising Ether prices.
+          You can use Central Bank WipePaper (CBWP)<br />to bet on rising Ether prices.
           <p></p>
           <div class="w-64 mx-auto mt-8">
-            <label for="price" class="block text-sm font-bold text-left text-gray-700">Ether</label>
+            <label for="price" class="block text-sm font-bold text-left text-gray-700"
+              >Ether</label
+            >
             <div class="mt-1 relative rounded-md shadow-sm">
-              <div class="absolute inset-y-0 left-0 pl-2 flex items-center pointer-events-none">
+              <div
+                class="absolute inset-y-0 left-0 pl-2 flex items-center pointer-events-none"
+              >
                 <span class="text-gray-500">
                   <svg class="w-6 h-6" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M12,1.75L5.75,12.25L12,16L18.25,12.25L12,1.75M5.75,13.5L12,22.25L18.25,13.5L12,17.25L5.75,13.5Z" />
+                    <path
+                      fill="currentColor"
+                      d="M12,1.75L5.75,12.25L12,16L18.25,12.25L12,1.75M5.75,13.5L12,22.25L18.25,13.5L12,17.25L5.75,13.5Z"
+                    />
                   </svg>
                 </span>
               </div>
-              <input type="number" class="focus:ring-blue-600 focus:border-blue-600 block w-full pl-10 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Amount" v-model="amountEthereum" @input="updateEthereum">
+              <input
+                type="number"
+                class="focus:ring-blue-600 focus:border-blue-600 block w-full pl-10 pr-12 sm:text-sm border-gray-300 rounded-md"
+                placeholder="Amount"
+                v-model="amountEthereum"
+                @input="updateEthereum"
+              />
               <div class="absolute inset-y-0 right-0 flex items-center">
-                <button class="h-full py-0 pl-3 pr-3 border-transparent bg-transparent text-blue-600 font-semibold sm:text-sm rounded-md" @click="maxValue">MAX</button>
+                <button
+                  class="h-full py-0 pl-3 pr-3 border-transparent bg-transparent text-blue-600 font-semibold sm:text-sm rounded-md"
+                  @click="maxValue"
+                >
+                  MAX
+                </button>
               </div>
             </div>
           </div>
 
           <div class="text-gray-500 my-8">
             <svg class="w-8 h-8 block mx-auto" viewBox="0 0 24 24">
-              <path fill="currentColor" d="M9,3L5,7H8V14H10V7H13M16,17V10H14V17H11L15,21L19,17H16Z" />
+              <path
+                fill="currentColor"
+                d="M9,3L5,7H8V14H10V7H13M16,17V10H14V17H11L15,21L19,17H16Z"
+              />
             </svg>
           </div>
 
           <div class="w-64 mx-auto">
-            <label for="price" class="block text-sm font-bold text-left text-gray-700">Whipepaper</label>
+            <label for="price" class="block text-sm font-bold text-left text-gray-700"
+              >Whipepaper</label
+            >
             <div class="mt-1 relative rounded-md shadow-sm">
-              <div class="absolute inset-y-0 left-0 pl-2 flex items-center pointer-events-none">
+              <div
+                class="absolute inset-y-0 left-0 pl-2 flex items-center pointer-events-none"
+              >
                 <span class="text-gray-500">
                   <svg class="w-6 h-6" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M9 3C5.69 3 3.14 5.69 3 9V21H12V13.46C13.1 14.45 14.5 15 16 15C19.31 15 22 12.31 22 9C22 5.69 19.31 3 16 3H9M9 5H11.54C10.55 6.1 10 7.5 10 9V12H9V13H10V19H5V13H6V12H5V9C5 6.79 6.79 5 9 5M16 5C18.21 5 20 6.79 20 9C20 11.21 18.21 13 16 13C13.79 13 12 11.21 12 9C12 6.79 13.79 5 16 5M16 7.25C15.03 7.25 14.25 8.03 14.25 9C14.25 9.97 15.03 10.75 16 10.75C16.97 10.75 17.75 9.97 17.75 9C17.75 8.03 16.97 7.25 16 7.25M7 12V13H8V12H7Z" />
+                    <path
+                      fill="currentColor"
+                      d="M9 3C5.69 3 3.14 5.69 3 9V21H12V13.46C13.1 14.45 14.5 15 16 15C19.31 15 22 12.31 22 9C22 5.69 19.31 3 16 3H9M9 5H11.54C10.55 6.1 10 7.5 10 9V12H9V13H10V19H5V13H6V12H5V9C5 6.79 6.79 5 9 5M16 5C18.21 5 20 6.79 20 9C20 11.21 18.21 13 16 13C13.79 13 12 11.21 12 9C12 6.79 13.79 5 16 5M16 7.25C15.03 7.25 14.25 8.03 14.25 9C14.25 9.97 15.03 10.75 16 10.75C16.97 10.75 17.75 9.97 17.75 9C17.75 8.03 16.97 7.25 16 7.25M7 12V13H8V12H7Z"
+                    />
                   </svg>
                 </span>
               </div>
-              <input type="number" class="focus:ring-blue-600 focus:border-blue-600 block w-full pl-10 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Amount" v-model="amountWhipepaper" @input="updateWhipepaper">
+              <input
+                type="number"
+                class="focus:ring-blue-600 focus:border-blue-600 block w-full pl-10 pr-12 sm:text-sm border-gray-300 rounded-md"
+                placeholder="Amount"
+                v-model="amountWhipepaper"
+                @input="updateWhipepaper"
+              />
               <div class="absolute inset-y-0 right-0 flex items-center">
-                <button class="h-full py-0 pl-3 pr-3 border-transparent bg-transparent text-blue-600 font-semibold sm:text-sm rounded-md" @click="maxValue">MAX</button>
+                <button
+                  class="h-full py-0 pl-3 pr-3 border-transparent bg-transparent text-blue-600 font-semibold sm:text-sm rounded-md"
+                  @click="maxValue"
+                >
+                  MAX
+                </button>
               </div>
             </div>
           </div>
 
-          <button @click="buy" class="mt-12 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-bold text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
+          <button
+            @click="buy"
+            class="mt-12 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-bold text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
+          >
             Buy now
           </button>
         </div>
@@ -71,7 +114,7 @@
         under construction</a
       >.
     </div>
-    <p><br></p>
+    <p><br /></p>
   </div>
 </template>
 
@@ -79,31 +122,34 @@
 import { defineComponent, ref, onMounted } from "vue";
 import "particles.js";
 import EthereumChart from "../components/EthereumChart.vue";
+import Web3 from "web3";
 
 const color = "#295dab";
 
 export default defineComponent({
   components: {
-    'ethereum-chart': EthereumChart
+    "ethereum-chart": EthereumChart,
   },
   setup() {
-    const etherBalance = ref(parseFloat(localStorage.getItem('klopapier.exchange.account.etherBalance') || '0'));
+    const etherBalance = ref(
+      parseFloat(localStorage.getItem("klopapier.exchange.account.etherBalance") || "0")
+    );
     const exchangeRate = ref(1.5);
 
     const amountEthereum = ref(null);
     const amountWhipepaper = ref(null);
 
-    const updateEthereum = () => {
+    const updateEthereum = async () => {
       if (amountEthereum.value > etherBalance.value) {
         amountEthereum.value = etherBalance.value;
       }
 
       if (amountEthereum.value) {
-        amountWhipepaper.value = amountEthereum.value * exchangeRate.value
+        amountWhipepaper.value = amountEthereum.value * exchangeRate.value;
       } else {
         amountWhipepaper.value = null;
       }
-    }
+    };
 
     const updateWhipepaper = () => {
       if (amountWhipepaper.value > etherBalance.value * exchangeRate.value) {
@@ -111,22 +157,28 @@ export default defineComponent({
       }
 
       if (amountWhipepaper.value) {
-        amountEthereum.value = amountWhipepaper.value / exchangeRate.value
+        amountEthereum.value = amountWhipepaper.value / exchangeRate.value;
       } else {
         amountEthereum.value = null;
       }
-    }
+    };
 
     const maxValue = () => {
       amountEthereum.value = etherBalance.value;
       amountWhipepaper.value = etherBalance.value * exchangeRate.value;
-    }
+    };
 
     const buy = () => {
-      alert('This feature is under construction.')
-    }
+      alert("This feature is under construction.");
+      alert(`You wanted to buy ${amountWhipepaper.value} WipePapers`);
+    };
 
-    onMounted(() => {
+    onMounted(async () => {
+      // var web3 = new Web3("ws://localhost:8546");
+      var web3 = new Web3("http://127.0.0.1:7545");
+      console.log(web3);
+      console.log(await web3.eth.getAccounts());
+
       window.particlesJS("particles-js", {
         particles: {
           number: {
@@ -236,17 +288,19 @@ export default defineComponent({
 
     const options = {
       chart: {
-        id: 'vuechart-example'
+        id: "vuechart-example",
       },
       xaxis: {
-        categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998]
-      }
-    }
+        categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998],
+      },
+    };
 
-    const series = [{
-      name: 'series-1',
-      data: [30, 40, 45, 50, 49, 60, 70, 91]
-    }]
+    const series = [
+      {
+        name: "series-1",
+        data: [30, 40, 45, 50, 49, 60, 70, 91],
+      },
+    ];
 
     return {
       etherBalance,
@@ -257,10 +311,10 @@ export default defineComponent({
       updateWhipepaper,
       buy,
       options,
-      series
-    }
-  }
-})
+      series,
+    };
+  },
+});
 </script>
 
 <style scoped>
@@ -270,7 +324,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 

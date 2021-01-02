@@ -235,7 +235,7 @@ export default defineComponent({
 
     const connect = async () => {
       if (window.ethereum === undefined) {
-        alert('You need to install the brave.com browser to play the Klopapier Game.')
+        alert('We recommend to install the brave.com browser to play the Klopapier Game.')
       } else {
         const accounts = await window.ethereum.request({
           method: 'eth_requestAccounts',
