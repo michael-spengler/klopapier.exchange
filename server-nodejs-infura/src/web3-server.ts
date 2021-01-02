@@ -1,5 +1,5 @@
 
-import { getEstimatedNetworkFeeDaiToEth } from './get-estimated-network-fee-dai-to-eth';
+
 import { swapDAIToETH } from './swap-dai-to-eth';
 import { swapETHToDAI } from './swap-eth-to-dai';
 import { UniSwapService } from './uniswap-service';
@@ -124,12 +124,5 @@ function defineStandardRoutesUniswap(app) {
     app.get('/getPairViaUniswap/smartContractAddress/:smartContractAddress', async (req, res) => {
         res.send(await uniswapService.getPairViaUniswap(req.params.smartContractAddress))
     })
-
-    // http://localhost:3001/getEstimatedNetworkFeeDAITOETH
-    // https://openforce.de/getEstimatedNetworkFeeDAITOETH
-    app.get('/getEstimatedNetworkFeeDAITOETH', async (req, res) => {
-        res.send({ estimatedNetworkFee: await getEstimatedNetworkFeeDaiToEth() })
-    })
-
 
 }
