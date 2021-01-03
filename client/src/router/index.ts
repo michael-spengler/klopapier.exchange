@@ -3,6 +3,7 @@ import Home from "@/views/Home.vue";
 import BuyWipePaper from "@/views/BuyWipePaper.vue";
 import SellWipepaper from "@/views/SellWipePaper.vue";
 import Education from "@/views/Education.vue";
+import Play from "@/views/Play.vue";
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: "/sellWipePaper",
     name: "SellWipePaper",
     component: SellWipepaper,
+  },
+  {
+    path: "/play",
+    name: "Play",
+    component: Play,
   },
   {
     path: "/education",

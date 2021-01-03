@@ -5,19 +5,16 @@
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <img
-                class="h-8 w-8"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                alt="Workflow"
-              />
+              <router-link to="/">
+                <img
+                  class="h-8 w-8 cursor-pointer"
+                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                  alt="Workflow"
+                />
+              </router-link>
             </div>
             <div class="hidden md:block">
               <div v-if="walletAdress" class="ml-10 flex items-baseline space-x-4">
-                <router-link
-                  to="/"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >Home</router-link
-                >
                 <router-link
                   to="/buyWipePaper"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -27,6 +24,11 @@
                   to="/sellWipePaper"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >Sell WipePaper</router-link
+                >
+                <router-link
+                  to="/play"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >Play</router-link
                 >
                 <router-link
                   to="/education"
