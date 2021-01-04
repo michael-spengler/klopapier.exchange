@@ -6,7 +6,7 @@
     <div class="mt-8 px-64">
       <ethereum-chart />
     </div>
-    <div class="mt-12 text-xl font-bold">Do you think the price of Ethereum will get</div>
+    <div class="mt-12 text-xl font-bold">Do you think the price of Ethereum will get within 60 (59...) seconds </div>
     <div class="mt-2">
       <button
         class="bg-green py-2 px-3 border border-green-300 rounded-md shadow-sm text-sm leading-4 font-bold text-green-700 hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600"

@@ -38,7 +38,7 @@ const chartOptions = {
     size: 0,
   },
   title: {
-    text: 'Ethereum Price Movement',
+    text: 'Ether Price Movement',
     align: 'left'
   },
   fill: {

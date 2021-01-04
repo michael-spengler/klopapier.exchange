@@ -4,7 +4,8 @@ import { swapDAIToETH } from './swap-dai-to-eth';
 import { swapETHToDAI } from './swap-eth-to-dai';
 import { UniSwapService } from './uniswap-service';
 // import { Web3Service } from './web3-service'
-import { Web3Service } from './web3-service-double'
+// import { Web3Service } from './web3-service-double'
+import { Web3Service } from './web3-service'
 const cors = require('cors');
 
 const fs = require('fs-sync')
@@ -71,6 +72,12 @@ function defineStandardRoutesWeb3JS(app) {
     // https://openforce.de/getGasPriceInEther
     app.get('/getGasPriceInEther', async (req, res) => {
         // res.send(await web3Service.getGasPriceInEther())
+    })
+
+    // http://localhost:3001/getPrice
+    // https://openforce.de/getPrice
+    app.get('/getPrice', async (req, res) => {
+        res.send(await web3Service.getPrice())
     })
 
     // http://localhost:3001/getERC20Balance/walletAddress/0x4396A292512AA418087645B56a3a76333Bd10e28/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
