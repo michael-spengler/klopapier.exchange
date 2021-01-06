@@ -11,4 +11,4 @@ cd /root/klopapier.exchange/server-nodejs-infura && tsc
 # ts-node src/web3-server.ts or for the long run
 # pm2 start /root/klopapier.exchange/web3-proxy-nodejs-infura/dist/web3-server.js
 # pm2 start 
-pm2 restart 1 
+pm2 restart web3-server 
