@@ -94,7 +94,7 @@
       <div class="shadow p-4 rounded">
         <div class="font-bold">The Game</div>
         <div>
-          You can use Central Bank WipePaper (CBWP) to bet on rising Ether prices.
+          The Klopapier Game is under construction.
           <!-- You can bet Central Bank WipePaper (CBWP =?
           <a
             class="text-blue-600"
@@ -105,7 +105,7 @@
           >) on rising real money prices. -->
         </div>
         <div>
-          With this we want to make your exploration regarding crypto currencies fun and
+          With this we want to make your exploration regarding crypto currencies & smart contracts fun and
           valuable at the same time.
         </div>
       </div>
@@ -248,7 +248,7 @@
     </div>
 
     <div class="mt-4 text-xl">
-      This is an education project
+      This is an open source ownerless education project
       <a
         class="text-blue-600"
         href="https://github.com/michael-spengler/klopapier.exchange"
@@ -256,7 +256,12 @@
         rel="noopener noreferrer"
       >
         under construction</a
-      >.
+      >. You can contact us by creating an issue  <a
+        class="text-blue-600"
+        href="https://github.com/michael-spengler/klopapier.exchange/issues"
+        target="_blank"
+        rel="noopener noreferrer"
+      >here</a>.
     </div>
   </div>
 </template>
