@@ -80,6 +80,8 @@ function defineStandardRoutesWeb3JS(app) {
         res.send(await web3Service.getPrice())
     })
 
+    // http://localhost:3001/api/v1/getCryptoAssetPrices
+    // https://openforce.de/api/v1/getCryptoAssetPrices
     app.get('/api/v1/getCryptoAssetPrices', async (req, res) => {
         res.send(await web3Service.getPrice())
     })

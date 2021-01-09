@@ -62,9 +62,8 @@
     <div class="mt-12 grid grid-cols-3 gap-12">
       <div class="shadow p-4 rounded">
         <div class="font-bold">The Idea</div>
-
-        The idea is to provide a money exploration game. By playing this game you can
-        learn more about money than they teach at most universities.
+        With this page we invite you to explore the Distributed Ledger Technology which is the basis for currencies like Ether and Bitcoin.
+        Everyone is invited to contribute to this page by providing content or code / new features.
       </div>
 
       <div class="shadow p-4 rounded">
