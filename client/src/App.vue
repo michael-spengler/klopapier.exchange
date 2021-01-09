@@ -16,20 +16,25 @@
             <div class="hidden md:block">
               <div v-if="walletAdress" class="ml-10 flex items-baseline space-x-4">
                 <router-link
-                  to="/buyWipePaper"
+                  to="/"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >Buy WipePaper</router-link
+                  >Home</router-link
                 >
                 <router-link
-                  to="/sellWipePaper"
+                  to="/depositEther"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >Sell WipePaper</router-link
+                  >Deposit Ether</router-link
                 >
                 <router-link
+                  to="/borrowWipePaper"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >Borrow WipePaper</router-link
+                >
+                <!-- <router-link
                   to="/play"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >Play</router-link
-                >
+                > -->
                 <router-link
                   to="/education"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"

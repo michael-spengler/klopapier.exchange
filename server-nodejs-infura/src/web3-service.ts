@@ -15,11 +15,14 @@ export class Web3Service implements Web3ServiceInterface {
     }
 
     async getBalanceInEther(walletId: string) {
-        // const result = await this.web3.eth.getBalance(walletId)
-        // console.log(result)
-        // https://web3js.readthedocs.io/en/v1.2.1/web3-eth.html#getbalance
-        // return { "balanceInEther": this.web3.utils.fromWei(await this.web3.eth.getBalance(walletId), 'ether')}
-        return { "balanceInEther": 100 }
+        try {
+
+            const result = await this.web3.eth.getBalance(walletId)
+            console.log(result)
+            return { "balanceInEther": this.web3.utils.fromWei(await this.web3.eth.getBalance(walletId), 'ether')}
+        } catch(error){
+            return { "balanceInEther": 0}
+        }
     }
 
     async getGasPriceInEther() {

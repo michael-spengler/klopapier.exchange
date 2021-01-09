@@ -37,10 +37,10 @@
         <router-link
           type="button"
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          to="/buyWipePaper"
+          to="/depositEther"
         >
           <span class="material-icons mr-2"> show_chart </span>
-          Buy WipePaper
+          Deposit Ether
         </router-link>
 
         <!-- @click="onHistoryClicked()" use this instead of the anchor as soon as a fancy vue3 supporting scroll feature is here -->
@@ -69,7 +69,7 @@
       <div class="shadow p-4 rounded">
         <div class="font-bold">Prerequisites</div>
         <div>
-          In order to play this education game, you need a browser wallet. We recommend to
+          In order to interact with smart contracts on the Ethereum Blockchain, we recommend to
           use the
           <a
             class="text-blue-600"
