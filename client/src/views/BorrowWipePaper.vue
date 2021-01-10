@@ -13,7 +13,7 @@
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           <!-- <span class="material-icons mr-2"> history_edu </span> -->
-          <a href="https://aave.com" target="_blank"> Use Aave </a>
+          <a href="https://app.aave.com" target="_blank"> Use Aave </a>
         </button>
 
         <button
@@ -21,7 +21,7 @@
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           <!-- <span class="material-icons mr-2"> history_edu </span> -->
-          <a href="https://compound.finance" target="_blank"> Use Compound </a>
+          <a href="https://app.compound.finance" target="_blank"> Use Compound </a>
         </button>
         <!-- <button
           @click="onTestYourSelfClicked()"
