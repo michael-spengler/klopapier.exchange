@@ -37,10 +37,10 @@
         <router-link
           type="button"
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          to="/buyWipePaper"
+          to="/depositEther"
         >
           <span class="material-icons mr-2"> show_chart </span>
-          Buy WipePaper
+          Deposit Ether
         </router-link>
 
         <!-- @click="onHistoryClicked()" use this instead of the anchor as soon as a fancy vue3 supporting scroll feature is here -->
@@ -62,15 +62,14 @@
     <div class="mt-12 grid grid-cols-3 gap-12">
       <div class="shadow p-4 rounded">
         <div class="font-bold">The Idea</div>
-
-        The idea is to provide a money exploration game. By playing this game you can
-        learn more about money than they teach at most universities.
+        With this page we invite you to explore the Distributed Ledger Technology which is the basis for currencies like Ether and Bitcoin.
+        Everyone is invited to contribute to this page by providing content or code / new features.
       </div>
 
       <div class="shadow p-4 rounded">
         <div class="font-bold">Prerequisites</div>
         <div>
-          In order to play this education game, you need a browser wallet. We recommend to
+          In order to interact with smart contracts on the Ethereum Blockchain, we recommend to
           use the
           <a
             class="text-blue-600"
@@ -95,7 +94,7 @@
       <div class="shadow p-4 rounded">
         <div class="font-bold">The Game</div>
         <div>
-          You can use Central Bank WipePaper (CBWP) to bet on rising Ether prices.
+          The Klopapier Game is under construction.
           <!-- You can bet Central Bank WipePaper (CBWP =?
           <a
             class="text-blue-600"
@@ -106,7 +105,7 @@
           >) on rising real money prices. -->
         </div>
         <div>
-          With this we want to make your exploration regarding crypto currencies fun and
+          With this we want to make your exploration regarding crypto currencies & smart contracts fun and
           valuable at the same time.
         </div>
       </div>
@@ -249,7 +248,7 @@
     </div>
 
     <div class="mt-4 text-xl">
-      This is an education project
+      This is an open source ownerless education project
       <a
         class="text-blue-600"
         href="https://github.com/michael-spengler/klopapier.exchange"
@@ -257,7 +256,12 @@
         rel="noopener noreferrer"
       >
         under construction</a
-      >.
+      >. You can contact us by creating an issue  <a
+        class="text-blue-600"
+        href="https://github.com/michael-spengler/klopapier.exchange/issues"
+        target="_blank"
+        rel="noopener noreferrer"
+      >here</a>.
     </div>
   </div>
 </template>

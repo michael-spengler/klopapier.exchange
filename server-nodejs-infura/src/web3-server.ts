@@ -80,6 +80,12 @@ function defineStandardRoutesWeb3JS(app) {
         res.send(await web3Service.getPrice())
     })
 
+    // http://localhost:3001/api/v1/getCryptoAssetPrices
+    // https://openforce.de/api/v1/getCryptoAssetPrices
+    app.get('/api/v1/getCryptoAssetPrices', async (req, res) => {
+        res.send(await web3Service.getPrice())
+    })
+
     // http://localhost:3001/getERC20Balance/walletAddress/0x4396A292512AA418087645B56a3a76333Bd10e28/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
     // https://openforce.de/getERC20Balance/walletAddress/0x4396A292512AA418087645B56a3a76333Bd10e28/smartContractAddress/0xE5127cF21fb96A6241067Aa43E242a8D056bD729
     app.get('/getERC20Balance/walletAddress/:walletAddress/smartContractAddress/:smartContractAddress', async (req, res) => {

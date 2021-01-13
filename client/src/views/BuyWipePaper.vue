@@ -5,7 +5,7 @@
         <div
           class="bg-white bg-opacity-90 px-12 pb-12 pt-8 inline-block rounded border border-blue-600"
         >
-          <div class="font-bold">Buy WipePaper here!</div>
+          <div class="font-bold">Borrow WipePaper here!</div>
           <p><br /></p>
           You can use Central Bank WipePaper (CBWP)<br />to bet on rising Ether prices.
           <p></p>
