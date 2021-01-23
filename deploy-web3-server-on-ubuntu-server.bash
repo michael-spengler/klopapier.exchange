@@ -1,5 +1,5 @@
 cd /root/klopapier.exchange
-
+git stash
 git pull 
 
 npm config set ignore-scripts true
