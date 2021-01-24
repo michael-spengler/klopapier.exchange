@@ -5,13 +5,11 @@ import { ABIProvider } from './smart-contracts/abi-provider';
 import { Web3ServiceInterface } from './web3-service-interface'
 
 const Web3 = require('web3');
-const moment = require('moment');
 
 
 export class Web3Service implements Web3ServiceInterface {
     private web3;
 
-    private previousPriceRequestMoment = moment()
     private pricesBuffer: any
 
     constructor(infuraProjectId) {
@@ -58,14 +56,14 @@ export class Web3Service implements Web3ServiceInterface {
 
     async getPrice(): Promise<any> {
 
-        if (moment().isAfter(this.previousPriceRequestMoment.add(7, 'm')) || this.pricesBuffer === undefined) {
+        if (this.pricesBuffer === undefined) {
             console.log('hier')
-            this.previousPriceRequestMoment = moment()
             this.pricesBuffer = (await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', { headers: { 'X-CMC_PRO_API_KEY': process.env.COINMARKETCAP_API_KEY } })).data
+            setTimeout(() => {
+                this.pricesBuffer = undefined
+            }, 1000 * 60 * 7)
         } else {
-            console.log(moment())
             console.log('da')
-            console.log(this.previousPriceRequestMoment.add(7, 'm'))
         }
 
         return { coinmarketcapResult: this.pricesBuffer }
