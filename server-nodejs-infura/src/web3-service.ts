@@ -63,7 +63,9 @@ export class Web3Service implements Web3ServiceInterface {
             this.previousPriceRequestMoment = moment()
             this.pricesBuffer = (await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', { headers: { 'X-CMC_PRO_API_KEY': process.env.COINMARKETCAP_API_KEY } })).data
         } else {
+            console.log(moment())
             console.log('da')
+            console.log(this.previousPriceRequestMoment.add(7, 'm'))
         }
 
         return { coinmarketcapResult: this.pricesBuffer }
