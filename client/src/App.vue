@@ -30,6 +30,11 @@
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >Borrow WipePaper</router-link
                 >
+                <router-link
+                  to="/wallstreetbetsCoins"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >WallStreetBetsCoins</router-link
+                >
                 <!-- <router-link
                   to="/play"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"

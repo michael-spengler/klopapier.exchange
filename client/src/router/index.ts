@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 import BuyWipePaper from "@/views/BuyWipePaper.vue";
 import SellWipepaper from "@/views/SellWipePaper.vue";
+import WallStreetBetsCoin from "@/views/WallStreetBetsCoin.vue";
 import Education from "@/views/Education.vue";
 import DepositEther from "@/views/DepositEther.vue";
 import BorrowWipePaper from "@/views/BorrowWipePaper.vue";
@@ -32,6 +33,11 @@ const routes = [
     path: "/sellWipePaper",
     name: "SellWipePaper",
     component: SellWipepaper,
+  },
+  {
+    path: "/wallstreetbetsCoins",
+    name: "WallStreetBetsCoin",
+    component: WallStreetBetsCoin,
   },
   {
     path: "/play",

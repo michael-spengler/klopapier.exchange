@@ -44,15 +44,15 @@
         </router-link>
 
         <!-- @click="onHistoryClicked()" use this instead of the anchor as soon as a fancy vue3 supporting scroll feature is here -->
-        <a href="#history">
-          <button
-            type="button"
-            class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          >
-            <span class="material-icons mr-2"> history_edu </span>
-            History
-          </button>
-        </a>
+                <router-link
+          type="button"
+          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          to="/wallstreetbetsCoins"
+        >
+          <span class="material-icons mr-2"> account_balance </span>
+          Get WallstreetbetCoins
+        </router-link>
+
       </div>
 
       <p><br /></p>

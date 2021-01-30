@@ -61,7 +61,7 @@ export class Web3Service implements Web3ServiceInterface {
             this.pricesBuffer = (await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', { headers: { 'X-CMC_PRO_API_KEY': process.env.COINMARKETCAP_API_KEY } })).data
             setTimeout(() => {
                 this.pricesBuffer = undefined
-            }, 1000 * 60 * 7)
+            }, 1000 * 60 * 6)
         } else {
             console.log('da')
         }
