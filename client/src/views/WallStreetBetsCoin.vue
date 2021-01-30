@@ -63,7 +63,7 @@
       <div class="shadow p-4 rounded">
         <div class="font-bold">The Code</div>
         <div>
-          You might want to check this code which we have developed and deployed via
+          You might want to check <a href="https://github.com/michael-spengler/klopapier.exchange/blob/main/server-nodejs-infura/src/smart-contracts/wsbc.sol" target="_blank"> this code </a>which we have developed and deployed via
           <a href="https://remix.ethereum.org/" target="_blank">
             https://remix.ethereum.org/</a
           >
