@@ -1,8 +1,6 @@
 
 import { Persistence } from "https://deno.land/x/persistence@1.1.0/persistence.ts"
 
-
-
 export class SentimentService {
 
     public static async getSentimentHistory(linkToExampleDataRemote: string = "server-deno-infura") {

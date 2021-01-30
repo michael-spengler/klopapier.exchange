@@ -44,7 +44,7 @@
         </router-link>
 
         <!-- @click="onHistoryClicked()" use this instead of the anchor as soon as a fancy vue3 supporting scroll feature is here -->
-                <router-link
+        <router-link
           type="button"
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           to="/wallstreetbetsCoins"
@@ -52,7 +52,6 @@
           <span class="material-icons mr-2"> account_balance </span>
           Get WallstreetbetCoins
         </router-link>
-
       </div>
 
       <p><br /></p>
@@ -62,15 +61,19 @@
     <div class="mt-12 grid grid-cols-3 gap-12">
       <div class="shadow p-4 rounded">
         <div class="font-bold">The Idea</div>
-        With this page we invite you to explore the Distributed Ledger Technology which is the basis for currencies like Ether and Bitcoin.
-        Everyone is invited to contribute to this page by providing content or code / new features.
+        With this page we invite you to explore the Distributed Ledger Technology which is
+        the basis for currencies like Ether and Bitcoin. Everyone is invited to contribute
+        to this page by providing
+        <a href="https://github.com/michael-spengler/klopapier.exchange" target="_blank">
+          content or code for new features.
+        </a>
       </div>
 
       <div class="shadow p-4 rounded">
         <div class="font-bold">Prerequisites</div>
         <div>
-          In order to interact with smart contracts on the Ethereum Blockchain, we recommend to
-          use the
+          In order to interact with smart contracts on the Ethereum Blockchain, we
+          recommend to use the
           <a
             class="text-blue-600"
             href="https://brave.com"
@@ -87,6 +90,13 @@
             rel="noopener noreferrer"
           >
             metamask.io</a
+          >. For developers we recommend the
+          <a
+            href="https://www.npmjs.com/package/decentralized-finance-defi"
+            target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
+            >DeFi Package</a
           >.
         </div>
       </div>
@@ -105,8 +115,8 @@
           >) on rising real money prices. -->
         </div>
         <div>
-          With this we want to make your exploration regarding crypto currencies & smart contracts fun and
-          valuable at the same time.
+          With this we want to make your exploration regarding crypto currencies & smart
+          contracts fun and valuable at the same time.
         </div>
       </div>
     </div>
@@ -256,12 +266,14 @@
         rel="noopener noreferrer"
       >
         under construction</a
-      >. You can contact us by creating an issue  <a
+      >. You can contact us by creating an issue
+      <a
         class="text-blue-600"
         href="https://github.com/michael-spengler/klopapier.exchange/issues"
         target="_blank"
         rel="noopener noreferrer"
-      >here</a>.
+        >here</a
+      >.
     </div>
   </div>
 </template>

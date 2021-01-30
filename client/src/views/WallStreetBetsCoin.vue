@@ -8,31 +8,25 @@
       <a
         href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
         target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
         >ERC20 WallStreetBetsCoins</a
-      >
-      <p><br /></p>
+      >.
+      <!-- <p><br /></p>
       As this is mainly an education project we give them away for free at the moment. You
-      only need to pay the transaction fee for the Ethereum Blockchain.
+      only need to pay the transaction fee for the Ethereum Blockchain. -->
 
       <p><br /></p>
       <div class="row items-center mt-4">
         <button
           type="button"
+          @click="onRequestCoins()"
           class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           <!-- <span class="material-icons mr-2"> history_edu </span> -->
-          <a href="" target="_blank"> Request Coins </a>
+          Request Coins
         </button>
 
-        <a href="#readMore">
-          <button
-            type="button"
-            class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          >
-            <!-- <span class="material-icons mr-2"> history_edu </span> -->
-            Read More
-          </button>
-        </a>
         <!-- <button
           @click="onTestYourSelfClicked()"
           type="button"
@@ -55,6 +49,8 @@
         <a
           href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
           target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
           >WallStreetBetsCoin</a
         >
         to explore the ERC20 Token Standard in the context of the Ethereum Blockchain.
@@ -63,9 +59,20 @@
       <div class="shadow p-4 rounded">
         <div class="font-bold">The Code</div>
         <div>
-          You might want to check <a href="https://github.com/michael-spengler/klopapier.exchange/blob/main/server-nodejs-infura/src/smart-contracts/wsbc.sol" target="_blank"> this code </a>which we have developed and deployed via
-          <a href="https://remix.ethereum.org/" target="_blank">
-            https://remix.ethereum.org/</a
+          You might want to check
+          <a
+            href="https://github.com/michael-spengler/klopapier.exchange/blob/main/server-nodejs-infura/src/smart-contracts/wsbc.sol"
+            target="_blank"
+          >
+            this code </a
+          >which we have developed and deployed via the
+          <a
+            href="https://remix.ethereum.org/"
+            target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
+          >
+            Remix IDE</a
           >
           as a Smart Contract on the Ethereum Blockchain.
         </div>
@@ -74,10 +81,21 @@
       <div class="shadow p-4 rounded">
         <div class="font-bold">Outlook</div>
         <div>
-          We might create a liquidity pool on https://uniswap.org/ for the
+          We might create a liquidity pool on
+          <a
+            href="https://uniswap.org/"
+            target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
+          >
+            Uniswap
+          </a>
+          for the
           <a
             href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
             target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
             >WallStreetBetsCoin</a
           >
           soon.
@@ -242,6 +260,9 @@ export default defineComponent({
       alert("This feature is under construction.");
     },
     onTestYourSelfClicked() {
+      alert("This feature is under construction.");
+    },
+    onRequestCoins() {
       alert("This feature is under construction.");
     },
   },

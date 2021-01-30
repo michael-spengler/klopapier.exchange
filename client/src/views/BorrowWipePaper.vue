@@ -44,7 +44,15 @@
     <div class="mt-12 grid grid-cols-3 gap-12">
       <div class="shadow p-4 rounded">
         <div class="font-bold">Why?</div>
-        If you want to keep your crypto assets instead of selling them, you might check out Smart Contract based Decentralized Finance (DeFi) offerings like aave or compound.
+        If you want to keep your crypto assets instead of selling them, you might check out Smart Contract based 
+              <a
+        href="https://www.npmjs.com/package/decentralized-finance-defi"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+        >Decentralized Finance (DeFi)
+        </a
+      >  offerings like aave or compound.
       </div>
 
       <div class="shadow p-4 rounded">
