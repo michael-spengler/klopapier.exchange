@@ -10,7 +10,7 @@ app.get("/", function(req, res) {
 
 setInterval(() => {
 
-    console.log('getting data for sentiment analysis')
+  console.log('getting data for sentiment analysis')
 
 // }, 1000 * 60 * 15)
 }, 1000 * 60 * 0.1)

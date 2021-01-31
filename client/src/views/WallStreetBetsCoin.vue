@@ -22,9 +22,22 @@
           @click="onRequestCoins()"
           class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
-          <!-- <span class="material-icons mr-2"> history_edu </span> -->
           Request Coins
         </button>
+        --> In order to receive 100 WallStreetBetsCoins you need to create a 30 seconds
+        Video of you shouting "Wall Street Bets" out of a window to
+        <a
+          href="https://t.me/wallstreetbetsdevelopers"
+          target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
+        >
+          this telegram channel.
+        </a>
+        <p><br /></p>
+        Please make sure to add your public Ethereum Wallet Address when sending the video
+        to the channel - directly to the file upload. So that we can map which video
+        belongs to which Ethereum wallet address.
 
         <!-- <button
           @click="onTestYourSelfClicked()"

@@ -272,7 +272,7 @@ export default defineComponent({
     };
 
     const openTelegram = () => {
-      window.open("https://t.me/joinchat/F2LHlKGkKenVMOTm", "_blank");
+      window.open("https://t.me/wallstreetbetsdevelopers", "_blank");
     };
 
     return {
