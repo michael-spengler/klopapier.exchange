@@ -3,20 +3,16 @@
     <div class="hero">
       <div class="text-2xl md:text-5xl lg:text-6xl">WallStreetBetsCoin</div>
       <div class="mt-6 text-sm md:text-base">
-        Here you can request
-        <a
-          href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
-          target="_blank"
-          class="text-blue-600"
-          rel="noopener noreferrer"
-          >ERC20 WallStreetBetsCoins</a
-        >.
-      </div>
-      <!-- <p><br /></p>
-      As this is mainly an education project we give them away for free at the moment. You
-      only need to pay the transaction fee for the Ethereum Blockchain. -->
-
-      <div class="mt-8 sm:flex justify-center">
+        <div>
+          Here you can request
+          <a
+            href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
+            target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
+            >ERC20 WallStreetBetsCoins</a
+          >.
+        </div>
         <button
           type="button"
           @click="onRequestCoins()"
@@ -24,6 +20,12 @@
         >
           Request Coins
         </button>
+      </div>
+      <!-- <p><br /></p>
+      As this is mainly an education project we give them away for free at the moment. You
+      only need to pay the transaction fee for the Ethereum Blockchain. -->
+
+      <div class="mt-4 text-sm md:text-base">
         --> In order to receive 100 WallStreetBetsCoins you need to create a 30 seconds
         Video of you shouting "Wall Street Bets" out of a window to
         <a
@@ -53,7 +55,7 @@
     <div id="particles-js" style="height: 500px"></div>
 
     <div class="mx-4 text-sm md:text-base">
-      <div id="readMore" class="mt-12 grid grid-cols-3 gap-12">
+      <div id="readMore" class="mt-12 md:grid grid-cols-3 gap-12">
         <div class="mt-4 shadow p-4 rounded">
           <div class="font-bold text-base">Why?</div>
           You can use the example of the

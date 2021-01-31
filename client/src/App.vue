@@ -5,7 +5,7 @@
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <router-link to="/">
+              <router-link to="/" @click="menu = false">
                 <img src="./assets/logo.png" style="width: 120px" alt="Logo" />
               </router-link>
             </div>
@@ -118,24 +118,28 @@
             to="/depositEther"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             active-class="bg-gray-900 text-white"
+            @click="menu = false"
             >Deposit Ether</router-link
           >
           <router-link
             to="/borrowWipePaper"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             active-class="bg-gray-900 text-white"
+            @click="menu = false"
             >Borrow WipePaper</router-link
           >
           <router-link
             to="/wallstreetbetsCoins"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             active-class="bg-gray-900 text-white"
+            @click="menu = false"
             >WallStreetBetsCoins</router-link
           >
           <router-link
             to="/education"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             active-class="bg-gray-900 text-white"
+            @click="menu = false"
             >Education</router-link
           >
         </div>
