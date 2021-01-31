@@ -6,6 +6,7 @@ import Education from "@/views/Education.vue";
 import DepositEther from "@/views/DepositEther.vue";
 import BorrowWipePaper from "@/views/BorrowWipePaper.vue";
 import Play from "@/views/Play.vue";
+import Fund from "@/views/Fund.vue";
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: "/education",
     name: "Edcation",
     component: Education,
+  },
+  {
+    path: "/fund",
+    name: "Fund",
+    component: Fund
   }
 ];
 
