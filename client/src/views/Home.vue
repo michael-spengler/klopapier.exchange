@@ -132,7 +132,7 @@
 
       <div class="mt-32">
         <div class="md:grid grid-cols-2 grid-gap-64">
-          <div>
+          <div class="flex items-center">
             <img
               class="w-2/3 block mx-auto"
               src="./../assets/history.svg"
@@ -248,7 +248,7 @@
               >.
             </div>
           </div>
-          <div class="mt-8 md:mt-0">
+          <div class="mt-8 md:mt-0 flex items-center">
             <img
               class="w-2/3 block mx-auto"
               src="./../assets/contribute.svg"

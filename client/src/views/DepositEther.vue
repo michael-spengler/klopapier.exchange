@@ -1,19 +1,20 @@
 <template>
   <div class="wrapper">
     <div class="hero">
-      <div class="text-6xl">Deposit Ether</div>
-
-      <p><br /></p>
-      You can deposit Ether to a smart contract as a collateral in order to borrow e.g.
-      USD Stable Coins.
-      <p></p>
-      With this you can keep your crypto assets and get liquidity at the same time.
-
-      <p><br /></p>
-      <div class="row items-center mt-4">
+      <div class="text-2xl md:text-5xl lg:text-6xl">Deposit Ether</div>
+      <div class="mt-6 text-sm md:text-base">
+        <div>
+          You can deposit Ether to a smart contract as a collateral in order to borrow
+          e.g. USD Stable Coins.
+        </div>
+        <div>
+          With this you can keep your crypto assets and get liquidity at the same time.
+        </div>
+      </div>
+      <div class="mt-8 sm:flex justify-center">
         <button
           type="button"
-          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           <!-- <span class="material-icons mr-2"> history_edu </span> -->
           <a href="https://app.aave.com" target="_blank"> Use Aave </a>
@@ -21,7 +22,7 @@
 
         <button
           type="button"
-          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           <!-- <span class="material-icons mr-2"> history_edu </span> -->
           <a href="https://app.compound.finance" target="_blank"> Use Compound </a>
@@ -36,72 +37,72 @@
           Use Compound
         </button> -->
       </div>
-
-      <p><br /></p>
     </div>
 
-    <div id="particles-js"></div>
-    <div id="read" class="mt-12 grid grid-cols-3 gap-12"></div>
+    <div id="particles-js" style="height: 500px"></div>
 
-    <div class="mt-12 grid grid-cols-3 gap-12">
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">Why?</div>
-        If you want to keep your crypto assets instead of selling them, you might check
-        out Smart Contract based
-        <a
-        href="https://www.npmjs.com/package/decentralized-finance-defi"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-        >Decentralized Finance (DeFi)
-        </a
-      > offerings like aave or
-        compound.
-      </div>
+    <div class="mx-4 text-sm md:text-base">
+      <div class="mt-12 md:grid grid-cols-3 gap-12">
+        <div class="mt-4 shadow p-4 rounded">
+          <div class="font-bold text-base">Why?</div>
+          If you want to keep your crypto assets instead of selling them, you might check
+          out Smart Contract based
+          <a
+            href="https://www.npmjs.com/package/decentralized-finance-defi"
+            target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
+            >Decentralized Finance (DeFi)
+          </a>
+          offerings like aave or compound.
+        </div>
 
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">How?</div>
-        <div>It is probably a good idea to inform yourself properly and start small.</div>
-      </div>
+        <div class="mt-4 shadow p-4 rounded">
+          <div class="font-bold text-base">How?</div>
+          <div>
+            It is probably a good idea to inform yourself properly and start small.
+          </div>
+        </div>
 
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">What?</div>
-        <div>You might check videos about aave and compound on youtube.</div>
-      </div>
-    </div>
-
-    <div class="mt-12 grid grid-cols-3 gap-12">
-      <!-- <div class="shadow p-4 rounded">
-        <div class="font-bold">Oracles</div>
-        Oracles solve the challenge that smart contracts themselves only have access to
-        data which is on the blockchain. For example they (smart contracts) do not know
-        how the weather is until anyone brings this information to their blockchain.
-        Oracles can be used to do exactly this. One key challenge here was to make sure
-        correct information is brought to the blockchain. A famous promising system for
-        this is Chainlink.
-      </div>
-
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">Solidity</div>
-        <div>
-          Solidity is a famous programming language to define smart contracts. A potential
-          alternative is the Vyper Smart Contract Language.
+        <div class="mt-4 shadow p-4 rounded">
+          <div class="font-bold text-base">What?</div>
+          <div>You might check videos about aave and compound on youtube.</div>
         </div>
       </div>
 
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">Remix</div>
-        <div>
-          https://remix.ethereum.org is a web IDE which you can use to develop, compile
-          and deploy smart contracts.
+      <div class="mt-12 grid grid-cols-3 gap-12">
+        <!-- <div class="shadow p-4 rounded">
+          <div class="font-bold">Oracles</div>
+          Oracles solve the challenge that smart contracts themselves only have access to
+          data which is on the blockchain. For example they (smart contracts) do not know
+          how the weather is until anyone brings this information to their blockchain.
+          Oracles can be used to do exactly this. One key challenge here was to make sure
+          correct information is brought to the blockchain. A famous promising system for
+          this is Chainlink.
         </div>
-      </div> -->
-    </div>
-    <div class="mt-32">
-      <!-- <video class="block mx-auto" width="250" height="250" controls>
-        <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
-        src="./../assets/geiler-vogel.mp4" type=video/mp4>
-      </video> -->
+
+        <div class="shadow p-4 rounded">
+          <div class="font-bold">Solidity</div>
+          <div>
+            Solidity is a famous programming language to define smart contracts. A potential
+            alternative is the Vyper Smart Contract Language.
+          </div>
+        </div>
+
+        <div class="shadow p-4 rounded">
+          <div class="font-bold">Remix</div>
+          <div>
+            https://remix.ethereum.org is a web IDE which you can use to develop, compile
+            and deploy smart contracts.
+          </div>
+        </div> -->
+      </div>
+      <div class="mt-32">
+        <!-- <video class="block mx-auto" width="250" height="250" controls>
+          <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
+          src="./../assets/geiler-vogel.mp4" type=video/mp4>
+        </video> -->
+      </div>
     </div>
   </div>
 </template>
