@@ -24,7 +24,8 @@
         >
           Request Coins
         </button>
-        --> In order to receive 100 WallStreetBetsCoins you need to create a 30 seconds
+        <p> <br> </p>
+        In order to receive 100 WallStreetBetsCoins you need to create a 30 seconds
         Video of you shouting "Wall Street Bets" out of a window to
         <a
           href="https://t.me/wallstreetbetsdevelopers"
