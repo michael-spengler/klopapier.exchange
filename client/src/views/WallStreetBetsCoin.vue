@@ -2,31 +2,22 @@
   <div class="wrapper">
     <div class="hero">
       <div class="text-2xl md:text-5xl lg:text-6xl">WallStreetBetsCoin</div>
-      <div class="mt-6 text-sm md:text-base">
-        Here you can request
-        <a
-          href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
-          target="_blank"
-          class="text-blue-600"
-          rel="noopener noreferrer"
-          >ERC20 WallStreetBetsCoins</a
-        >.
-      </div>
+      <div class="mt-6 text-sm md:text-base"></div>
       <!-- <p><br /></p>
       As this is mainly an education project we give them away for free at the moment. You
       only need to pay the transaction fee for the Ethereum Blockchain. -->
 
-      <div class="mt-8 sm:flex justify-center">
-        <button
-          type="button"
-          @click="onRequestCoins()"
-          class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      <div class="mt-4 text-sm md:text-base">
+        In order to receive 100 of our<a
+          href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
+          target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
         >
-          Request Coins
-        </button>
-        <p> <br> </p>
-        In order to receive 100 WallStreetBetsCoins you need to create a 30 seconds
-        Video of you shouting "Wall Street Bets" out of a window to
+          WallStreetBetsCoins (WSBC)
+        </a>
+        you need to create a 5 - 20 seconds Video of you shouting "Wall Street Bets" out of a
+        window to
         <a
           href="https://t.me/wallstreetbetsdevelopers"
           target="_blank"
@@ -36,9 +27,8 @@
           this telegram channel.
         </a>
         <p><br /></p>
-        Please make sure to add your public Ethereum Wallet Address when sending the video
-        to the channel - directly to the file upload. So that we can map which video
-        belongs to which Ethereum wallet address.
+        Please make sure to send also your public Ethereum Wallet Address when sending the
+        video to the channel.
 
         <!-- <button
           @click="onTestYourSelfClicked()"
@@ -54,7 +44,7 @@
     <div id="particles-js" style="height: 500px"></div>
 
     <div class="mx-4 text-sm md:text-base">
-      <div id="readMore" class="mt-12 grid grid-cols-3 gap-12">
+      <div id="readMore" class="mt-12 md:grid grid-cols-3 gap-12">
         <div class="mt-4 shadow p-4 rounded">
           <div class="font-bold text-base">Why?</div>
           You can use the example of the
