@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="hero">
       <div class="text-2xl md:text-5xl lg:text-6xl">Klopapier Exchange</div>
-      <div class="mt-4">
+      <div class="mt-6 text-sm md:text-base">
         <a
           class="text-blue-600"
           href="https://whitepaper.io/document/0/bitcoin-whitepaper"

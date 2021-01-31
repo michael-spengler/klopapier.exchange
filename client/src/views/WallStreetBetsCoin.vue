@@ -1,27 +1,26 @@
 <template>
   <div class="wrapper">
     <div class="hero">
-      <div class="text-6xl">WallStreetBetsCoin</div>
-
-      <p><br /></p>
-      Here you can request
-      <a
-        href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-        >ERC20 WallStreetBetsCoins</a
-      >.
+      <div class="text-2xl md:text-5xl lg:text-6xl">WallStreetBetsCoin</div>
+      <div class="mt-6 text-sm md:text-base">
+        Here you can request
+        <a
+          href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
+          target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
+          >ERC20 WallStreetBetsCoins</a
+        >.
+      </div>
       <!-- <p><br /></p>
       As this is mainly an education project we give them away for free at the moment. You
       only need to pay the transaction fee for the Ethereum Blockchain. -->
 
-      <p><br /></p>
-      <div class="row items-center mt-4">
+      <div class="mt-8 sm:flex justify-center">
         <button
           type="button"
           @click="onRequestCoins()"
-          class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           <!-- <span class="material-icons mr-2"> history_edu </span> -->
           Request Coins
@@ -36,61 +35,15 @@
           Use Compound
         </button> -->
       </div>
-
-      <p><br /></p>
     </div>
 
-    <div id="particles-js"></div>
+    <div id="particles-js" style="height: 500px"></div>
 
-    <div id="readMore" class="mt-12 grid grid-cols-3 gap-12">
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">Why?</div>
-        You can use the example of the
-        <a
-          href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
-          target="_blank"
-          class="text-blue-600"
-          rel="noopener noreferrer"
-          >WallStreetBetsCoin</a
-        >
-        to explore the ERC20 Token Standard in the context of the Ethereum Blockchain.
-      </div>
-
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">The Code</div>
-        <div>
-          You might want to check
-          <a
-            href="https://github.com/michael-spengler/klopapier.exchange/blob/main/server-nodejs-infura/src/smart-contracts/wsbc.sol"
-            target="_blank"
-          >
-            this code </a
-          >which we have developed and deployed via the
-          <a
-            href="https://remix.ethereum.org/"
-            target="_blank"
-            class="text-blue-600"
-            rel="noopener noreferrer"
-          >
-            Remix IDE</a
-          >
-          as a Smart Contract on the Ethereum Blockchain.
-        </div>
-      </div>
-
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">Outlook</div>
-        <div>
-          We might create a liquidity pool on
-          <a
-            href="https://uniswap.org/"
-            target="_blank"
-            class="text-blue-600"
-            rel="noopener noreferrer"
-          >
-            Uniswap
-          </a>
-          for the
+    <div class="mx-4 text-sm md:text-base">
+      <div id="readMore" class="mt-12 grid grid-cols-3 gap-12">
+        <div class="mt-4 shadow p-4 rounded">
+          <div class="font-bold text-base">Why?</div>
+          You can use the example of the
           <a
             href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
             target="_blank"
@@ -98,43 +51,89 @@
             rel="noopener noreferrer"
             >WallStreetBetsCoin</a
           >
-          soon.
+          to explore the ERC20 Token Standard in the context of the Ethereum Blockchain.
+        </div>
+
+        <div class="mt-4 shadow p-4 rounded">
+          <div class="font-bold text-base">The Code</div>
+          <div>
+            You might want to check
+            <a
+              href="https://github.com/michael-spengler/klopapier.exchange/blob/main/server-nodejs-infura/src/smart-contracts/wsbc.sol"
+              target="_blank"
+            >
+              this code </a
+            >which we have developed and deployed via the
+            <a
+              href="https://remix.ethereum.org/"
+              target="_blank"
+              class="text-blue-600"
+              rel="noopener noreferrer"
+            >
+              Remix IDE</a
+            >
+            as a Smart Contract on the Ethereum Blockchain.
+          </div>
+        </div>
+
+        <div class="mt-4 shadow p-4 rounded">
+          <div class="font-bold text-base">Outlook</div>
+          <div>
+            We might create a liquidity pool on
+            <a
+              href="https://uniswap.org/"
+              target="_blank"
+              class="text-blue-600"
+              rel="noopener noreferrer"
+            >
+              Uniswap
+            </a>
+            for the
+            <a
+              href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
+              target="_blank"
+              class="text-blue-600"
+              rel="noopener noreferrer"
+              >WallStreetBetsCoin</a
+            >
+            soon.
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="mt-12 grid grid-cols-3 gap-12">
-      <!-- <div class="shadow p-4 rounded">
-        <div class="font-bold">Oracles</div>
-        Oracles solve the challenge that smart contracts themselves only have access to
-        data which is on the blockchain. For example they (smart contracts) do not know
-        how the weather is until anyone brings this information to their blockchain.
-        Oracles can be used to do exactly this. One key challenge here was to make sure
-        correct information is brought to the blockchain. A famous promising system for
-        this is Chainlink.
-      </div>
-
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">Solidity</div>
-        <div>
-          Solidity is a famous programming language to define smart contracts. A potential
-          alternative is the Vyper Smart Contract Language.
+      <div class="mt-12 grid md:grid-cols-3 gap-12">
+        <!-- <div class="shadow p-4 rounded">
+          <div class="font-bold">Oracles</div>
+          Oracles solve the challenge that smart contracts themselves only have access to
+          data which is on the blockchain. For example they (smart contracts) do not know
+          how the weather is until anyone brings this information to their blockchain.
+          Oracles can be used to do exactly this. One key challenge here was to make sure
+          correct information is brought to the blockchain. A famous promising system for
+          this is Chainlink.
         </div>
-      </div>
 
-      <div class="shadow p-4 rounded">
-        <div class="font-bold">Remix</div>
-        <div>
-          https://remix.ethereum.org is a web IDE which you can use to develop, compile
-          and deploy smart contracts.
+        <div class="shadow p-4 rounded">
+          <div class="font-bold">Solidity</div>
+          <div>
+            Solidity is a famous programming language to define smart contracts. A potential
+            alternative is the Vyper Smart Contract Language.
+          </div>
         </div>
-      </div> -->
-    </div>
-    <div class="mt-32">
-      <!-- <video class="block mx-auto" width="250" height="250" controls>
-        <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
-        src="./../assets/geiler-vogel.mp4" type=video/mp4>
-      </video> -->
+
+        <div class="shadow p-4 rounded">
+          <div class="font-bold">Remix</div>
+          <div>
+            https://remix.ethereum.org is a web IDE which you can use to develop, compile
+            and deploy smart contracts.
+          </div>
+        </div> -->
+      </div>
+      <div class="mt-32">
+        <!-- <video class="block mx-auto" width="250" height="250" controls>
+          <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
+          src="./../assets/geiler-vogel.mp4" type=video/mp4>
+        </video> -->
+      </div>
     </div>
   </div>
 </template>
