@@ -292,6 +292,19 @@ export default defineComponent({
         retina_detect: true,
       });
     });
+
+    const openGithub = () => {
+      window.open("https://github.com/michael-spengler/klopapier.exchange", "_blank");
+    };
+
+    const openTelegram = () => {
+      window.open("https://t.me/wallstreetbetsdevelopers", "_blank");
+    };
+
+    return {
+      openGithub,
+      openTelegram,
+    };
   },
   methods: {
     onReadFirst() {
