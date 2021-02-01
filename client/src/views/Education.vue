@@ -6,7 +6,6 @@
       <div class="mt-4 text-sm md:text-base">
         Explore Crypto Currencies and Decentralized Finance (DeFi).
       </div>
-
     </div>
 
     <div id="particles-js" style="height: 500px"></div>
@@ -165,17 +164,16 @@
       </video>
     </div>
 
-          <div class="mt-8 sm:flex justify-center">
-        <button
-          @click="onTestYourSelfClicked()"
-          type="button"
-          class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          <!-- <span class="material-icons mr-2"> history_edu </span> -->
-          Test Your Knowledge
-        </button>
-      </div>
-
+    <div class="mt-8 sm:flex justify-center">
+      <button
+        @click="onTestYourSelfClicked()"
+        type="button"
+        class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      >
+        <!-- <span class="material-icons mr-2"> history_edu </span> -->
+        Test Your Knowledge
+      </button>
+    </div>
   </div>
 </template>
 

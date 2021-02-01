@@ -32,7 +32,7 @@
       <p><br /></p>
       This page is also deployed to
       <a
-        href="ipfs://bafybeifxskjqlxn3lmk2j77r3wh4skp2ocmhyhnlj46me7etqqwvn4n4wi"
+        href="ipfs://QmahEx1fQFQ2th5u1frGKGjgjmxX5zqoGT8b1D1e4a6VWy"
         target="_blank"
         class="text-blue-600"
         rel="noopener noreferrer"
