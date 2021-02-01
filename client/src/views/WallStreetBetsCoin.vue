@@ -8,6 +8,7 @@
       only need to pay the transaction fee for the Ethereum Blockchain. -->
 
       <div class="mt-4 text-sm md:text-base">
+        <br>
         In order to receive 100 of our<a
           href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
           target="_blank"
@@ -16,8 +17,9 @@
         >
           WallStreetBetsCoins (WSBC)
         </a>
-        you need to create a 5 - 20 seconds Video of you shouting "Wall Street Bets" out
-        of a window to
+        you need to create a 5 - 20 seconds Video of you shouting <br />
+        <b> "Wall Street Bets" </b> <br />
+        out of a window to
         <a
           href="https://t.me/wallstreetbetsdevelopers"
           target="_blank"
@@ -30,6 +32,18 @@
         Please make sure to send also your public Ethereum Wallet Address when sending the
         video to the channel.
 
+        <p><br /></p>
+
+        With this
+        <a
+          href="https://t.me/wallstreetbetsdevelopers"
+          target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
+        >
+          video based initial distribution mechanism
+        </a>
+        we would like to foster a reasonable initial distribution of our educational WSBC. <p> <br> </p> This won't continue forever, so read more within the telegram channel.
         <!-- <button
           @click="onTestYourSelfClicked()"
           type="button"
@@ -57,16 +71,6 @@
           >
           to explore the ERC20 Token Standard in the context of the Ethereum Blockchain.
           <br />
-          With our
-          <a
-            href="https://t.me/wallstreetbetsdevelopers"
-            target="_blank"
-            class="text-blue-600"
-            rel="noopener noreferrer"
-          >
-            video based initial distribution mechanism
-          </a>
-          we would like to foster a reasonable initial distribution of our WSBC.
         </div>
 
         <div class="mt-4 shadow p-4 rounded">
@@ -111,7 +115,8 @@
               rel="noopener noreferrer"
               >WallStreetBetsCoin</a
             >
-            soon. <br>With this we want to inspire people to explore many cool things which we can do by using the Distributed Ledger Technology (DLT).
+            soon. <br />With this we want to inspire people to explore many cool things
+            which we can do by using the Distributed Ledger Technology (DLT).
           </div>
         </div>
       </div>
