@@ -16,8 +16,8 @@
         >
           WallStreetBetsCoins (WSBC)
         </a>
-        you need to create a 5 - 20 seconds Video of you shouting "Wall Street Bets" out of a
-        window to
+        you need to create a 5 - 20 seconds Video of you shouting "Wall Street Bets" out
+        of a window to
         <a
           href="https://t.me/wallstreetbetsdevelopers"
           target="_blank"
@@ -56,6 +56,17 @@
             >WallStreetBetsCoin</a
           >
           to explore the ERC20 Token Standard in the context of the Ethereum Blockchain.
+          <br />
+          With our
+          <a
+            href="https://t.me/wallstreetbetsdevelopers"
+            target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
+          >
+            video based initial distribution mechanism
+          </a>
+          we would like to foster a reasonable initial distribution of our WSBC.
         </div>
 
         <div class="mt-4 shadow p-4 rounded">
@@ -100,7 +111,7 @@
               rel="noopener noreferrer"
               >WallStreetBetsCoin</a
             >
-            soon.
+            soon. <br>With this we want to inspire people to explore many cool things which we can do by using the Distributed Ledger Technology (DLT).
           </div>
         </div>
       </div>

@@ -29,7 +29,25 @@
           >Digital Euro WipePaper</a
         >.
       </div>
-
+      <p><br /></p>
+      This page is also deployed to
+      <a
+        href="ipfs://bafybeifxskjqlxn3lmk2j77r3wh4skp2ocmhyhnlj46me7etqqwvn4n4wi"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        the IPFS
+      </a>
+      inspired by the (temporary?) shutdown of our
+      <a
+        href="https://www.reddit.com/r/wallstreetbets/"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        wallstreetbets reddit community</a
+      >.
       <div class="mt-8 sm:flex justify-center">
         <div class="mt-2">
           <router-link
@@ -37,7 +55,7 @@
             class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             to="/depositEther"
           >
-          <!-- TODO: informed troy via telegram -> sometimes "show_chart" is shown instead of the icon itself -->
+            <!-- TODO: informed troy via telegram -> sometimes "show_chart" is shown instead of the icon itself -->
             <!-- <span class="material-icons mr-2"> show_chart </span> -->
             Deposit Ether
           </router-link>
@@ -48,9 +66,9 @@
             class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             to="/wallstreetbetsCoins"
           >
-          <!-- TODO: informed troy via telegram -> sometimes "account_balance" is shown instead of the icon itself -->
+            <!-- TODO: informed troy via telegram -> sometimes "account_balance" is shown instead of the icon itself -->
             <!-- <span class="material-icons mr-2"> account_balance </span> -->
-            Get WallstreetbetCoins
+            Get WallstreetbetsCoins
           </router-link>
         </div>
       </div>
@@ -120,7 +138,26 @@
           </div>
           <div>
             With this we want to make your exploration regarding crypto currencies & smart
-            contracts fun and valuable at the same time.
+            contracts fun and valuable at the same time. <br />
+            This page is also deployed to
+            <a
+              href="ipfs://bafybeifxskjqlxn3lmk2j77r3wh4skp2ocmhyhnlj46me7etqqwvn4n4wi"
+              target="_blank"
+              class="text-blue-600"
+              rel="noopener noreferrer"
+            >
+              the IPFS
+            </a>
+            inspired by the (temporary?) shutdown of our
+            <a
+              href="https://www.reddit.com/r/wallstreetbets/"
+              target="_blank"
+              class="text-blue-600"
+              rel="noopener noreferrer"
+            >
+              wallstreetbets reddit community
+            </a>
+            .
           </div>
         </div>
       </div>
