@@ -4,7 +4,9 @@
       <div class="text-2xl md:text-5xl lg:text-6xl">Education</div>
 
       <div class="mt-4 text-sm md:text-base">
-        Explore Crypto Currencies and Decentralized Finance (DeFi).
+      <b>
+        Explore the most frequently used terms used by Decentralized Finance (DeFi) experts.
+      </b>
       </div>
     </div>
 

@@ -1,8 +1,11 @@
 <template>
   <div class="wrapper">
     <div class="hero">
-      <div class="text-2xl md:text-5xl lg:text-6xl">Klopapier Exchange</div>
+      <div class="text-2xl md:text-5xl lg:text-6xl">Education Playground</div>
       <div class="mt-6 text-sm md:text-base">
+        <b> Decentralized Finance (DeFi) leveraging the Distributed Ledger Technology </b>
+
+        <p><br /></p>
         <a
           class="text-blue-600"
           href="https://whitepaper.io/document/0/bitcoin-whitepaper"
@@ -27,10 +30,19 @@
           target="_blank"
           rel="noopener"
           >Digital Euro WipePaper</a
-        >.
+        >
       </div>
       <p><br /></p>
-      This page is also deployed to
+      Inspired by the (temporary?) shutdown of our
+      <a
+        href="https://www.reddit.com/r/wallstreetbets/"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        wallstreetbets reddit community</a
+      >
+      this page is also deployed to
       <a
         href="ipfs://QmahEx1fQFQ2th5u1frGKGjgjmxX5zqoGT8b1D1e4a6VWy"
         target="_blank"
@@ -39,15 +51,28 @@
       >
         the IPFS
       </a>
-      inspired by the (temporary?) shutdown of our
+      and to
+
       <a
-        href="https://www.reddit.com/r/wallstreetbets/"
+        href="https://www.arweave.org"
         target="_blank"
         class="text-blue-600"
         rel="noopener noreferrer"
       >
-        wallstreetbets reddit community</a
-      >.
+        the Arweave
+      </a>
+
+      using
+
+      <a
+        href="https://argoapp.live"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        Argo
+      </a>
+
       <div class="mt-8 sm:flex justify-center">
         <div class="mt-2">
           <router-link
@@ -101,18 +126,24 @@
       </div>
 
       <div class="mt-6 text-sm md:text-base">
-        <div class="mb-2">Join us here!</div>
-        <button
-          class="ml-auto mr-1 bg-transparent flex-shrink-0 p-1 rounded-full text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-          @click="openGithub"
-        >
-          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
-            <path
-              fill="currentColor"
-              d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
-            />
-          </svg>
-        </button>
+        <div class="mb-2">
+          Join us via
+          <a
+            href="https://t.me/wallstreetbetsdevelopers"
+            target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
+            >Telegram </a
+          >and star our
+          <a
+            href="https://github.com/michael-spengler/klopapier.exchange"
+            target="_blank"
+            class="text-blue-600"
+            rel="noopener noreferrer"
+          >
+            GitHub Repository
+          </a>
+        </div>
         <button
           class="ml-1 mr-auto bg-transparent flex-shrink-0 p-1 rounded-full text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
           @click="openTelegram"
@@ -124,6 +155,18 @@
             />
           </svg>
         </button>
+        <button
+          class="ml-auto mr-1 bg-transparent flex-shrink-0 p-1 rounded-full text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+          @click="openGithub"
+        >
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
+            />
+          </svg>
+        </button>
+
       </div>
     </div>
 
