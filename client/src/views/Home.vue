@@ -139,25 +139,6 @@
           <div>
             With this we want to make your exploration regarding crypto currencies & smart
             contracts fun and valuable at the same time. <br />
-            This page is also deployed to
-            <a
-              href="ipfs://bafybeifxskjqlxn3lmk2j77r3wh4skp2ocmhyhnlj46me7etqqwvn4n4wi"
-              target="_blank"
-              class="text-blue-600"
-              rel="noopener noreferrer"
-            >
-              the IPFS
-            </a>
-            inspired by the (temporary?) shutdown of our
-            <a
-              href="https://www.reddit.com/r/wallstreetbets/"
-              target="_blank"
-              class="text-blue-600"
-              rel="noopener noreferrer"
-            >
-              wallstreetbets reddit community
-            </a>
-            .
           </div>
         </div>
       </div>
@@ -194,25 +175,24 @@
               valuable roles in this game.
               <p><br /></p>
               As long as private keys are save you cannot spend anything on the Blockchain
-              which you do not own. Compare this to our current (January 2021) fiat currency system which is
-              fundamentally based on debts. Fed & ECB ... giving out loans directly at the
-              beginning.
+              which you do not own. Compare this to our current (January 2021) fiat
+              currency system which is fundamentally based on debts. Fed & ECB ... giving
+              out loans directly at the beginning.
               <p><br /></p>
               This system, combined with the fact that many of our politicians do not
               perceive us (the people) as their employers but rather as their servants,
               seems not to be the best at the moment.
               <p><br /></p>
-              These are some of the reasons why we support wallstreetbets and the
-              Distributed Ledger Technology etc.
-              <p><br /></p>
 
-              After the invention of the income tax some of our tax systems became crazy in many
-              countries as they did no longer provide reasonable incentives for people for
-              creating value for other people. 
+              After the invention of the income tax some of our tax systems became crazy
+              in many countries as they did no longer provide reasonable incentives for
+              people for creating value for other people.
               <p><br /></p>
-              The middle class people had been punished for creating value for other people by unfair income taxes. Lazy people and super rich people benefitted from this. This
-              lack of professional incentive engineering in the past inspired ordinary
-              reasonable people to use anonymization patterns like the ones supported by
+              The middle class people had been punished for creating value for other
+              people by unfair income taxes. Lazy people and super rich people benefitted
+              from this. This lack of professional incentive engineering in the past
+              inspired ordinary reasonable people to use anonymization patterns like the
+              ones supported by
 
               <a
                 href="https://tornadocash.eth.link/"
@@ -222,9 +202,10 @@
                 >Tornado Cash</a
               >.
             </div>
-              <p><br /></p>
+            <p><br /></p>
             <div>
-              Older people, who apparently don't have a proper Distributed Ledger education yet, don't even have a
+              Older people, who apparently don't have a proper Distributed Ledger
+              education yet, don't even have a
               <a
                 href="https://brave.com"
                 class="text-blue-500"
@@ -242,6 +223,9 @@
               >
               had been showing negative interest rates since about 2015.
 
+              <p><br /></p>
+              These are some of the reasons why we support wallstreetbets and the
+              Distributed Ledger Technology etc.
               <p><br /></p>
               We want to increase freedom for those who increase freedom.
             </div>
