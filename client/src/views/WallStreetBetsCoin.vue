@@ -2,32 +2,24 @@
   <div class="wrapper">
     <div class="hero">
       <div class="text-2xl md:text-5xl lg:text-6xl">WallStreetBetsCoin</div>
-      <div class="mt-6 text-sm md:text-base">
-        <div>
-          Here you can request
-          <a
-            href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
-            target="_blank"
-            class="text-blue-600"
-            rel="noopener noreferrer"
-            >ERC20 WallStreetBetsCoins</a
-          >.
-        </div>
-        <button
-          type="button"
-          @click="onRequestCoins()"
-          class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          Request Coins
-        </button>
-      </div>
+      <div class="mt-6 text-sm md:text-base"></div>
       <!-- <p><br /></p>
       As this is mainly an education project we give them away for free at the moment. You
       only need to pay the transaction fee for the Ethereum Blockchain. -->
 
       <div class="mt-4 text-sm md:text-base">
-        --> In order to receive 100 WallStreetBetsCoins you need to create a 30 seconds
-        Video of you shouting "Wall Street Bets" out of a window to
+        <br>
+        In order to receive 100 of our<a
+          href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
+          target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
+        >
+          WallStreetBetsCoins (WSBC)
+        </a>
+        you need to create a 5 - 20 seconds Video of you shouting <br />
+        <b> "Wall Street Bets" </b> <br />
+        out of a window to
         <a
           href="https://t.me/wallstreetbetsdevelopers"
           target="_blank"
@@ -37,10 +29,21 @@
           this telegram channel.
         </a>
         <p><br /></p>
-        Please make sure to add your public Ethereum Wallet Address when sending the video
-        to the channel - directly to the file upload. So that we can map which video
-        belongs to which Ethereum wallet address.
+        Please make sure to send also your public Ethereum Wallet Address when sending the
+        video to the channel.
 
+        <p><br /></p>
+
+        With this
+        <a
+          href="https://t.me/wallstreetbetsdevelopers"
+          target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
+        >
+          video based initial distribution mechanism
+        </a>
+        we would like to foster a reasonable initial distribution of our educational WSBC. <p> <br> </p> This won't continue forever, so read more within the telegram channel.
         <!-- <button
           @click="onTestYourSelfClicked()"
           type="button"
@@ -93,6 +96,7 @@
             >WallStreetBetsCoin</a
           >
           to explore the ERC20 Token Standard in the context of the Ethereum Blockchain.
+          <br />
         </div>
 
         <div class="mt-4 shadow p-4 rounded">
@@ -137,7 +141,8 @@
               rel="noopener noreferrer"
               >WallStreetBetsCoin</a
             >
-            soon.
+            soon. <br />With this we want to inspire people to explore many cool things
+            which we can do by using the Distributed Ledger Technology (DLT).
           </div>
         </div>
       </div>

@@ -29,7 +29,25 @@
           >Digital Euro WipePaper</a
         >.
       </div>
-
+      <p><br /></p>
+      This page is also deployed to
+      <a
+        href="ipfs://bafybeifxskjqlxn3lmk2j77r3wh4skp2ocmhyhnlj46me7etqqwvn4n4wi"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        the IPFS
+      </a>
+      inspired by the (temporary?) shutdown of our
+      <a
+        href="https://www.reddit.com/r/wallstreetbets/"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        wallstreetbets reddit community</a
+      >.
       <div class="mt-8 sm:flex justify-center">
         <div class="mt-2">
           <router-link
@@ -173,7 +191,7 @@
           </div>
           <div>
             With this we want to make your exploration regarding crypto currencies & smart
-            contracts fun and valuable at the same time.
+            contracts fun and valuable at the same time. <br />
           </div>
         </div>
       </div>
@@ -197,27 +215,58 @@
           <div class="mt-8 md:mt-0">
             <div id="history" class="font-bold text-xl">History</div>
             <div>
+              <p><br /></p>
               For several decades people behind most central banks could create their
               money out of thin air. The incentives for giving this money to people who
               create the most value for other people - like farmers, nurses, doctors and
               many more - had not been strong enough to foster a fair system.
+              <p><br /></p>
             </div>
             <div>
               In order to foster fair systems we invested time into professional incentive
               engineering. We came to the conclusion that Ether, Bitcoin & Co. can play
               valuable roles in this game.
-            </div>
-            <div>
-              It seems strange that in Europe about 95 % (rough guess) of adult people
-              don't even have a
+              <p><br /></p>
+              As long as private keys are save you cannot spend anything on the Blockchain
+              which you do not own. Compare this to our current (January 2021) fiat
+              currency system which is fundamentally based on debts. Fed & ECB ... giving
+              out loans directly at the beginning.
+              <p><br /></p>
+              This system, combined with the fact that many of our politicians do not
+              perceive us (the people) as their employers but rather as their servants,
+              seems not to be the best at the moment.
+              <p><br /></p>
+
+              After the invention of the income tax some of our tax systems became crazy
+              in many countries as they did no longer provide reasonable incentives for
+              people for creating value for other people.
+              <p><br /></p>
+              The middle class people had been punished for creating value for other
+              people by unfair income taxes. Lazy people and super rich people benefitted
+              from this. This lack of professional incentive engineering in the past
+              inspired ordinary reasonable people to use anonymization patterns like the
+              ones supported by
+
               <a
+                href="https://tornadocash.eth.link/"
                 class="text-blue-500"
+                target="_blank"
+                rel="noopener"
+                >Tornado Cash</a
+              >.
+            </div>
+            <p><br /></p>
+            <div>
+              Older people, who apparently don't have a proper Distributed Ledger
+              education yet, don't even have a
+              <a
                 href="https://brave.com"
+                class="text-blue-500"
                 target="_blank"
                 rel="noopener"
                 >Brave Ethereum</a
               >
-              or Bitcoin wallet yet whereas e.g. the
+              or Bitcoin wallet whereas e.g. the
               <a
                 class="text-blue-500"
                 href="https://www.euribor-rates.eu/en/current-euribor-rates/2/euribor-rate-3-months/"
@@ -225,7 +274,13 @@
                 rel="noopener"
                 >Three Months Euribor</a
               >
-              shows negative interest rates since about 2016.
+              had been showing negative interest rates since about 2015.
+
+              <p><br /></p>
+              These are some of the reasons why we support wallstreetbets and the
+              Distributed Ledger Technology etc.
+              <p><br /></p>
+              We want to increase freedom for those who increase freedom.
             </div>
           </div>
         </div>
@@ -235,7 +290,9 @@
           <div>
             <div class="font-bold text-xl">Contribute</div>
             <div>
-              This project is mainly an education playground for some of my students at
+              <p><br /></p>
+              This project has been created as a business and technology education
+              playground for some of my students at
               <a
                 class="text-blue-500"
                 href="https://www.mannheim.dhbw.de"
@@ -245,14 +302,26 @@
               >.
             </div>
             <div>
-              At the same time we are happy about high quality contributions from anyone.
+              <p><br /></p>
+              We are happy about high quality contributions from anyone.
             </div>
             <div>
+              <p><br /></p>
               We want to provide valuable and fun education around decentralized incentive
               engineering and peer to peer collaboration.
+              <p><br /></p>
             </div>
             <div>
-              Along this way we also promote cool platforms in the DeFi ecosystem like
+              Along this way we also promote cool platforms in
+
+              <a
+                class="text-blue-500"
+                href="https://defipulse.com"
+                target="_blank"
+                rel="noopener"
+                >the DeFi ecosystem</a
+              >
+              like
               <a
                 class="text-blue-500"
                 href="https://gitcoin.co/"
@@ -292,6 +361,7 @@
               >
             </div>
             <div>
+              <p><br /></p>
               If you are completely new to the crypto- and DeFi space, you might also
               check some videos
               <a
