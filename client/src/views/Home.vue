@@ -194,8 +194,7 @@
               valuable roles in this game.
               <p><br /></p>
               As long as private keys are save you cannot spend anything on the Blockchain
-              which you do not own. <br />
-              Compare this to our current (January 2021) fiat currency system which is
+              which you do not own. Compare this to our current (January 2021) fiat currency system which is
               fundamentally based on debts. Fed & ECB ... giving out loans directly at the
               beginning.
               <p><br /></p>
