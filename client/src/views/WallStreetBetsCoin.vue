@@ -8,17 +8,17 @@
       only need to pay the transaction fee for the Ethereum Blockchain. -->
 
       <div class="mt-4 text-sm md:text-base">
-        <br>
+        <br />
         In order to receive 100 of our<a
           href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
           target="_blank"
           class="text-blue-600"
           rel="noopener noreferrer"
         >
-          WallStreetBetsCoins (WSBC) 
+          WallStreetBetsCoins (WSBC)
         </a>
-          or 1 of our
-          <a
+        or 1 of our
+        <a
           href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
           target="_blank"
           class="text-blue-600"
@@ -26,8 +26,8 @@
         >
           USDWipePaper (UWP)
         </a>
-          or 1 of our
-          <a
+        or 1 of our
+        <a
           href="https://etherscan.io/token/0xcfe63389382412c31d4dfcf60a70fa5a9b90b63f"
           target="_blank"
           class="text-blue-600"
@@ -61,8 +61,14 @@
         >
           video based initial distribution mechanism
         </a>
-        we would like to foster a reasonable initial distribution of our coins. <p> <br> </p> As soon as all of our coins are distributed we will create a liquidity pool on uniswap.org. From then on you will be able to trade / exchange this our coins via uniswap.org.
-        It is important that the sending addresses always have enough ETH to pay the gas fees. If anyone has ideas on how to ensure this, share it in our telegram channel.
+        we would like to foster a reasonable initial distribution of our coins.
+        <p><br /></p>
+        As soon as all of our coins are distributed we will create a liquidity pool on
+        uniswap.org. From then on you will be able to trade / exchange this our coins via
+        uniswap.org.
+        <p><br /></p>
+        It is important that the sending addresses always have enough ETH to pay the gas
+        fees. If anyone has ideas on how to ensure this, share it in our telegram channel.
         <!-- <button
           @click="onTestYourSelfClicked()"
           type="button"
@@ -72,7 +78,6 @@
           Use Compound
         </button> -->
       </div>
-
     </div>
 
     <div id="particles-js" style="height: 500px"></div>
@@ -80,7 +85,7 @@
     <div class="mx-4 text-sm md:text-base">
       <div id="readMore" class="mt-32 md:grid grid-cols-3 gap-12">
         <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Why?</div>
+          <div class="font-bold text-base">Value Proposition</div>
           You can use the example of the
           <a
             href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
@@ -100,6 +105,8 @@
             <a
               href="https://github.com/michael-spengler/klopapier.exchange/blob/main/server-nodejs-infura/src/smart-contracts/wsbc.sol"
               target="_blank"
+              class="text-blue-600"
+              rel="noopener noreferrer"
             >
               this code </a
             >which we have developed and deployed via the
@@ -118,7 +125,9 @@
         <div class="mt-4 shadow p-4 rounded">
           <div class="font-bold text-base">Outlook</div>
           <div>
-We want to inspire people to explore many cool things which we can do by using the Distributed Ledger Technology (DLT). In this respect we might provide more features soon.
+            We want to inspire people to explore many cool things which we can do by using
+            the Distributed Ledger Technology (DLT). In this respect we might provide more
+            features soon.
           </div>
         </div>
       </div>

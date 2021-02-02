@@ -37,8 +37,6 @@
           Use Compound
         </button> -->
       </div>
-
-      
     </div>
 
     <div id="particles-js" style="height: 500px"></div>
@@ -46,29 +44,15 @@
     <div class="mx-4 text-sm md:text-base">
       <div class="mt-12 md:grid grid-cols-3 gap-12">
         <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Why?</div>
-          If you want to keep your crypto assets instead of selling them, you might check
-          out Smart Contract based
-          <a
-            href="https://www.npmjs.com/package/decentralized-finance-defi"
-            target="_blank"
-            class="text-blue-600"
-            rel="noopener noreferrer"
-            >Decentralized Finance (DeFi)
-          </a>
-          offerings like aave or compound.
+          <div class="font-bold text-base">Try</div>
         </div>
 
         <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">How?</div>
-          <div>
-            It is probably a good idea to inform yourself properly and start small.
-          </div>
+          <div class="font-bold text-base">It</div>
         </div>
 
         <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">What?</div>
-          <div>You might check videos about aave and compound on youtube.</div>
+          <div class="font-bold text-base">Out</div>
         </div>
       </div>
 
@@ -253,6 +237,7 @@ export default defineComponent({
 .wrapper {
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 
 .hero {

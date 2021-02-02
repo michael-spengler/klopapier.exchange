@@ -11,6 +11,13 @@
             </div>
             <div class="hidden lg:block">
               <div class="ml-10 flex items-baseline space-x-4">
+
+                <router-link
+                  to="/wallstreetbetsCoins"
+                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  active-class="bg-gray-900 text-white"
+                  >Earn Coins</router-link
+                >
                 <router-link
                   to="/depositEther"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -22,12 +29,6 @@
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   active-class="bg-gray-900 text-white"
                   >Borrow WipePaper</router-link
-                >
-                <router-link
-                  to="/wallstreetbetsCoins"
-                  class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  active-class="bg-gray-900 text-white"
-                  >Earn Coins</router-link
                 >
                 <router-link
                   to="/education"
