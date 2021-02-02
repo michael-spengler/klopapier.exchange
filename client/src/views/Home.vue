@@ -44,7 +44,7 @@
       >
       this page is also deployed to
       <a
-        href="ipfs://QmahEx1fQFQ2th5u1frGKGjgjmxX5zqoGT8b1D1e4a6VWy"
+        href="ipfs://QmRtZwWHeEpF94ubmZiUJFbNmJUwtBJwkgo5fkPwX2o8mb"
         target="_blank"
         class="text-blue-600"
         rel="noopener noreferrer"
