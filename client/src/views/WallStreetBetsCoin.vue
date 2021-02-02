@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="hero">
-      <div class="text-2xl md:text-5xl lg:text-6xl">WallStreetBetsCoin</div>
+      <div class="text-2xl md:text-5xl lg:text-6xl">Earn Coins</div>
       <div class="mt-6 text-sm md:text-base"></div>
       <!-- <p><br /></p>
       As this is mainly an education project we give them away for free at the moment. You
@@ -15,10 +15,28 @@
           class="text-blue-600"
           rel="noopener noreferrer"
         >
-          WallStreetBetsCoins (WSBC)
+          WallStreetBetsCoins (WSBC) 
         </a>
-        you need to create a 5 - 20 seconds Video of you shouting <br />
-        <b> "Wall Street Bets" </b> <br />
+          or 1 of our
+          <a
+          href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
+          target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
+        >
+          USDWipePaper (UWP)
+        </a>
+          or 1 of our
+          <a
+          href="https://etherscan.io/token/0xcfe63389382412c31d4dfcf60a70fa5a9b90b63f"
+          target="_blank"
+          class="text-blue-600"
+          rel="noopener noreferrer"
+        >
+          EURWipePaper (EWP)
+        </a>
+        you need to create a 5 - 20 seconds Video of you shouting either <br />
+        <b> "Wall Street Bets" or "Toiletpaper" or "Klopapier" </b> <br />
         out of a window to
         <a
           href="https://t.me/wallstreetbetsdevelopers"
@@ -43,7 +61,8 @@
         >
           video based initial distribution mechanism
         </a>
-        We would like to foster a reasonable initial distribution of our educational WSBC. <p> <br> </p> As soon as all of our WSBCs are distributed we will create a liquidity pool on uniswap.org. From then on you will be able to trade / exchange this WSBC via uniswap.org.
+        we would like to foster a reasonable initial distribution of our coins. <p> <br> </p> As soon as all of our coins are distributed we will create a liquidity pool on uniswap.org. From then on you will be able to trade / exchange this our coins via uniswap.org.
+        It is important that the sending addresses always have enough ETH to pay the gas fees. If anyone has ideas on how to ensure this, share it in our telegram channel.
         <!-- <button
           @click="onTestYourSelfClicked()"
           type="button"
@@ -99,25 +118,7 @@
         <div class="mt-4 shadow p-4 rounded">
           <div class="font-bold text-base">Outlook</div>
           <div>
-            We might create a liquidity pool on
-            <a
-              href="https://uniswap.org/"
-              target="_blank"
-              class="text-blue-600"
-              rel="noopener noreferrer"
-            >
-              Uniswap
-            </a>
-            for the
-            <a
-              href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
-              target="_blank"
-              class="text-blue-600"
-              rel="noopener noreferrer"
-              >WallStreetBetsCoin</a
-            >
-            soon. <br />With this we want to inspire people to explore many cool things
-            which we can do by using the Distributed Ledger Technology (DLT).
+We want to inspire people to explore many cool things which we can do by using the Distributed Ledger Technology (DLT). In this respect we might provide more features soon.
           </div>
         </div>
       </div>
