@@ -42,20 +42,6 @@
     <div id="particles-js" style="height: 500px"></div>
 
     <div class="mx-4 text-sm md:text-base">
-      <div class="mt-12 md:grid grid-cols-3 gap-12">
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Try</div>
-        </div>
-
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">It</div>
-        </div>
-
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Out</div>
-        </div>
-      </div>
-
       <div class="mt-12 grid grid-cols-3 gap-12">
         <!-- <div class="shadow p-4 rounded">
           <div class="font-bold">Oracles</div>
@@ -105,7 +91,8 @@ export default defineComponent({
       window.particlesJS("particles-js", {
         particles: {
           number: {
-            value: 100,
+            // value: 100,
+            value: 0, // to calm things on the page - maybe temporarily
             density: {
               enable: true,
               value_area: 700,

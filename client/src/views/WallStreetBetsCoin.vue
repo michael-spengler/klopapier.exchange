@@ -35,7 +35,7 @@
         >
           EURWipePaper (EWP)
         </a>
-        you need to create a 5 - 20 seconds Video of you shouting either <br />
+        you need to create a 5 - 20 seconds video of you shouting either <br />
         <b> "Wall Street Bets" or "Toiletpaper" or "Klopapier" </b> <br />
         out of a window to
         <a
@@ -52,22 +52,12 @@
 
         <p><br /></p>
 
-        With this
-        <a
-          href="https://t.me/wallstreetbetsdevelopers"
-          target="_blank"
-          class="text-blue-600"
-          rel="noopener noreferrer"
-        >
-          video based initial distribution mechanism
-        </a>
-        we would like to foster a reasonable initial distribution of our coins.
+        With this video based initial distribution mechanism we would like to foster a reasonable initial distribution of our coins.
         <p><br /></p>
-        As soon as all of our coins are distributed we will create a liquidity pool on
-        uniswap.org. From then on you will be able to trade / exchange this our coins via
-        uniswap.org.
+        As soon as all of our coins are distributed, we might create a liquidity pool on
+        uniswap. From then on we might be able to trade our coins via uniswap.
         <p><br /></p>
-        It is important that the sending addresses always have enough ETH to pay the gas
+        It seems important that the sending addresses always have enough ETH to pay the gas
         fees. If anyone has ideas on how to ensure this, share it in our telegram channel.
         <!-- <button
           @click="onTestYourSelfClicked()"
@@ -80,6 +70,8 @@
       </div>
     </div>
 
+  <p><br></p>
+  <p><br></p>
     <div id="particles-js" style="height: 500px"></div>
 
     <div class="mx-4 text-sm md:text-base">
@@ -181,7 +173,8 @@ export default defineComponent({
       window.particlesJS("particles-js", {
         particles: {
           number: {
-            value: 100,
+            // value: 100,
+            value: 0, // to calm things on the page - maybe temporarily
             density: {
               enable: true,
               value_area: 700,

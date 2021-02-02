@@ -473,7 +473,8 @@ export default defineComponent({
       window.particlesJS("particles-js", {
         particles: {
           number: {
-            value: 100,
+            // value: 100,
+            value: 0, // to calm things on the page - maybe temporarily
             density: {
               enable: true,
               value_area: 700,
