@@ -42,9 +42,9 @@
       >
         wallstreetbets reddit community</a
       >
-      this page is also deployed to
+      this page is also published to
       <a
-        href="ipfs://QmRtZwWHeEpF94ubmZiUJFbNmJUwtBJwkgo5fkPwX2o8mb"
+        href="ipfs://Qmbh7PrpKFFHZKEEZWZ3TxBdnjBWKuhKq4WmVo9wf4B9W3"
         target="_blank"
         class="text-blue-600"
         rel="noopener noreferrer"
