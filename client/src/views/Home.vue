@@ -32,46 +32,6 @@
           >Digital Euro WipePaper</a
         >
       </div>
-      <p><br /></p>
-      Inspired by the (temporary?) shutdown of our
-      <a
-        href="https://www.reddit.com/r/wallstreetbets/"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-      >
-        wallstreetbets reddit community</a
-      >
-      this page is also published to
-      <a
-        href="ipfs://Qmbh7PrpKFFHZKEEZWZ3TxBdnjBWKuhKq4WmVo9wf4B9W3"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-      >
-        the IPFS
-      </a>
-      and to
-
-      <a
-        href="https://www.arweave.org"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-      >
-        the Arweave
-      </a>
-
-      using
-
-      <a
-        href="https://argoapp.live"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-      >
-        Argo
-      </a>
 
       <div class="mt-8 sm:flex justify-center">
         <!-- <div class="mt-2">
@@ -282,8 +242,8 @@
               had been showing negative interest rates since about 2015.
 
               <p><br /></p>
-              These are some of the reasons why we support wallstreetbets, Decentralized Finance, the
-              Distributed Ledger Technology etc.
+              These are some of the reasons why we support wallstreetbets, Decentralized
+              Finance, the Distributed Ledger Technology etc.
               <p><br /></p>
               We want to increase freedom for those who increase freedom.
             </div>
@@ -388,6 +348,50 @@
         </div>
       </div>
       <div class="my-32">
+
+      <p><br /></p>
+      Inspired by the (temporary?) shutdown of our
+      <a
+        href="https://www.reddit.com/r/wallstreetbets/"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        wallstreetbets reddit community</a
+      >
+      this page is also published to
+      <a
+        href="ipfs://Qmbh7PrpKFFHZKEEZWZ3TxBdnjBWKuhKq4WmVo9wf4B9W3"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        the IPFS
+      </a>
+      and to
+
+      <a
+        href="https://www.arweave.org"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        the Arweave
+      </a>
+
+      using
+
+      <a
+        href="https://argoapp.live"
+        target="_blank"
+        class="text-blue-600"
+        rel="noopener noreferrer"
+      >
+        Argo
+      </a>
+
+      </div>
+      <div class="my-32">
         <div class="font-bold text-xl">Quotes/Feedback</div>
         <div>"No pressure. Some things just need some time."</div>
         <div>"Habt Ihr in die Hose geschissen?"</div>
@@ -473,8 +477,8 @@ export default defineComponent({
       window.particlesJS("particles-js", {
         particles: {
           number: {
-            // value: 100,
-            value: 0, // to calm things on the page - maybe temporarily
+            value: 100,
+            // value: 0, // to calm things on the page - maybe temporarily
             density: {
               enable: true,
               value_area: 700,
