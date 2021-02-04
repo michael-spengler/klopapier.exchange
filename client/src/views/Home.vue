@@ -98,7 +98,7 @@
           <router-link
             type="button"
             class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            to="/wallstreetbetsCoins"
+            to="/coins"
           >
             <svg
               class="mr-2"
@@ -184,7 +184,7 @@
             <router-link
               type="button"
               class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              to="/wallstreetbetsCoins"
+              to="/coins"
             >
               Play It Now</router-link
             >
@@ -282,7 +282,7 @@
               had been showing negative interest rates since about 2015.
 
               <p><br /></p>
-              These are some of the reasons why we support wallstreetbets and the
+              These are some of the reasons why we support wallstreetbets, Decentralized Finance, the
               Distributed Ledger Technology etc.
               <p><br /></p>
               We want to increase freedom for those who increase freedom.
@@ -399,7 +399,7 @@
           <div class="mb-2">
             Join us via
             <a
-              href="https://t.me/wallstreetbetsdevelopers"
+              href="https://t.me/decentralizedfinancegroup"
               target="_blank"
               class="text-blue-600"
               rel="noopener noreferrer"

@@ -12,7 +12,7 @@
             <div class="hidden lg:block">
               <div class="ml-10 flex items-baseline space-x-4">
                 <router-link
-                  to="/wallstreetbetsCoins"
+                  to="/coins"
                   class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   active-class="bg-gray-900 text-white"
                   >Earn Coins</router-link
@@ -115,7 +115,7 @@
       <div :class="`${menu ? 'block' : 'hidden'} lg:hidden`">
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <router-link
-            to="/wallstreetbetsCoins"
+            to="/coins"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             active-class="bg-gray-900 text-white"
             @click="menu = false"
@@ -277,7 +277,7 @@ export default defineComponent({
     };
 
     const openTelegram = () => {
-      window.open("https://t.me/wallstreetbetsdevelopers", "_blank");
+      window.open("https://t.me/decentralizedfinancegroup", "_blank");
     };
 
     return {

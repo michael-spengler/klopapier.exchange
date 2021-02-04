@@ -35,7 +35,7 @@ const routes = [
     component: SellWipepaper,
   },
   {
-    path: "/wallstreetbetsCoins",
+    path: "/coins",
     name: "WallStreetBetsCoin",
     component: WallStreetBetsCoin,
   },

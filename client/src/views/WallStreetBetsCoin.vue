@@ -9,15 +9,7 @@
 
       <div class="mt-4 text-sm md:text-base">
         <br />
-        In order to receive 100 of our<a
-          href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
-          target="_blank"
-          class="text-blue-600"
-          rel="noopener noreferrer"
-        >
-          WallStreetBetsCoins (WSBC)
-        </a>
-        or 1 of our
+        In order to receive 1 of our
         <a
           href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
           target="_blank"
@@ -36,10 +28,10 @@
           EURWipePaper (EWP)
         </a>
         you need to create a 5 - 20 seconds video of you shouting either <br />
-        <b> "Wall Street Bets" or "Toiletpaper" or "Klopapier" </b> <br />
+        <b> "Toiletpaper" or "Klopapier" </b> <br />
         out of a window to
         <a
-          href="https://t.me/wallstreetbetsdevelopers"
+          href="https://t.me/decentralizedfinancegroup"
           target="_blank"
           class="text-blue-600"
           rel="noopener noreferrer"
@@ -283,7 +275,7 @@ export default defineComponent({
     };
 
     const openTelegram = () => {
-      window.open("https://t.me/wallstreetbetsdevelopers", "_blank");
+      window.open("https://t.me/decentralizedfinancegroup", "_blank");
     };
 
     return {

@@ -301,7 +301,7 @@ export default defineComponent({
     };
 
     const openTelegram = () => {
-      window.open("https://t.me/wallstreetbetsdevelopers", "_blank");
+      window.open("https://t.me/decentralizedfinancegroup", "_blank");
     };
 
     return {
