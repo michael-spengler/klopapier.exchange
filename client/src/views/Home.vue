@@ -93,14 +93,27 @@
         <div class="mt-4 shadow p-4 rounded text-sm sm:text-base">
           <div class="font-bold text-base">The Idea</div>
           With this page we invite you to explore the Distributed Ledger Technology which
-          is the basis for currencies like Ether and Bitcoin. Everyone is invited to
-          contribute to this page by providing
-          <a
-            href="https://github.com/michael-spengler/klopapier.exchange"
-            target="_blank"
-          >
-            content or code for new features.
-          </a>
+          is the basis for currencies like Ether and Bitcoin.
+          Please understand some differences between the
+                  <a
+          class="text-blue-600"
+          href="https://whitepaper.io/document/0/bitcoin-whitepaper"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Bitcoin Whitepaper
+        </a>
+        and the
+        <a
+          class="text-blue-600"
+          href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          USD WipePaper</a
+        > before you continue.
+
+          
         </div>
 
         <div class="mt-4 shadow p-4 rounded text-sm sm:text-base">
