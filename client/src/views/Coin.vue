@@ -70,13 +70,13 @@
       <div id="readMore" class="mt-32 md:grid grid-cols-3 gap-12">
         <div class="mt-4 shadow p-4 rounded">
           <div class="font-bold text-base">Value Proposition</div>
-          You can use the example of the
+          You can use the example of our
           <a
-            href="https://etherscan.io/token/0x333ae28e97f9b6536cf02fc76d3108bfe9d775fc"
+            href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
             target="_blank"
             class="text-blue-600"
             rel="noopener noreferrer"
-            >WallStreetBetsCoin</a
+            >USDWipePaper (UWP)</a
           >
           to explore the ERC20 Token Standard in the context of the Ethereum Blockchain.
           <br />
