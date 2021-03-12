@@ -1,0 +1,27 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.hero {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 90px;
+}
+
+#particle-js {
+  position: relative;
+  z-index: 1;
+}

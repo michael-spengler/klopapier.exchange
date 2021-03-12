@@ -1,0 +1,17 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10vh;
+}
+
+.hero {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+#particle-js {
+  position: relative;
+  z-index: 1;
+}

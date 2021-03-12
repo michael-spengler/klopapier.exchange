@@ -14,7 +14,7 @@ If you are completely new to nodejs and vue you might try the following steps on
 2. install vue via the following command ```npm install -g @vue/cli```
 3. vue create client 
 4. cd client
-5. npm run serve
+5.  
 6. visit http://localhost:8080/
 
 Tipps: 

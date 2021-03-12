@@ -1,12 +1,12 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Home from "@/views/Home.vue";
-import BuyWipePaper from "@/views/BuyWipePaper.vue";
-import SellWipepaper from "@/views/SellWipePaper.vue";
-import Coin from "@/views/Coin.vue";
-import Education from "@/views/Education.vue";
-import DepositEther from "@/views/DepositEther.vue";
-import BorrowWipePaper from "@/views/BorrowWipePaper.vue";
-import Play from "@/views/Play.vue";
+import Home from  "@/views/home/home.vue";
+import BuyWipePaper from "@/views/buyWipePaper/buyWipePaper.vue";
+import SellWipepaper from "@/views/sellWipePaper/sellWipePaper.vue";
+import Coin from "@/views/coin/coin.vue";
+import Education from "@/views/education/education.vue";
+import DepositEther from "@/views/depositEther/depositEther.vue";
+import BorrowWipePaper from "@/views/borrowWipePaper/borrowWipePaper.vue";
+import Play from "@/views/play/play.vue";
 
 const routes = [
   {
