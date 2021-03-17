@@ -175,6 +175,10 @@
       </div>
 
       <div class="mt-32">
+        <img class="block mx-auto" src="./../assets/Klopapier-Exchange-Girl-Social.jpg" alt="" width="250" height="250">
+      </div>
+
+      <div class="mt-32">
         <video class="block mx-auto" width="250" height="250" controls>
           <source src=”./../assets/geiler-vogel.mp4” type=video/ogg> <source
           src="./../assets/geiler-vogel.mp4" type=video/mp4>

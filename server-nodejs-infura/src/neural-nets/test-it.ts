@@ -24,7 +24,7 @@ let counter = 0
 let trainingArray = []
 for (const e of testData.pricesWithoutWarranty) {
 
-  if (counter > 0 && counter < 10) {
+  if (counter > 0 && counter < 100) {
     if (previousEtherPrice === e.ETHPrice) {
       console.log('ups')
       continue
