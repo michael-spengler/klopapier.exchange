@@ -11,21 +11,21 @@
       </div>
 
       <div class="mt-8 sm:flex justify-center">
-        <button
-          type="button"
-          class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          <!-- <span class="material-icons mr-2"> history_edu </span> -->
-          <a href="https://app.aave.com" target="_blank"> Use Aave </a>
-        </button>
-
-        <button
-          type="button"
-          class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          <!-- <span class="material-icons mr-2"> history_edu </span> -->
-          <a href="https://app.compound.finance" target="_blank"> Use Compound </a>
-        </button>
+        <a href="https://app.aave.com">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Use Aave
+      </a>
+      
+       <a href="https://app.compound.finance">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Use Compound
+      </a>
         <!-- <button
           @click="onTestYourSelfClicked()"
           type="button"
@@ -84,5 +84,5 @@
 </script>
 
 <style scoped>
-  @import './borrowWipePaper.css';
+  @import '../../../src/components/button/button.css';
 </style>

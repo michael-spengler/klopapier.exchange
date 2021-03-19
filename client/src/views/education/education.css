@@ -14,3 +14,61 @@
   position: relative;
   z-index: 1;
 }
+
+.card-buffer{
+  border:none;
+  -webkit-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+  transition:1s ease-out;
+  height:30vh;
+  width:20vw; 
+  min-width: 300px;
+  opacity:1;
+  z-index:2;
+  margin-right:2vh;
+  margin-bottom:3vh;
+  background-image: linear-gradient(to bottom ,#Dbedf3,#00818a);
+  text-align: center;
+  vertical-align:middle;
+  display: table-cell;
+
+}
+.card-buffer:hover{  
+  transition:1s ease-in;
+  opacity: 1;
+  transform: translateY(40px);
+  z-index:1;
+  opacity:0.5;
+}
+.card-buffer:hover content{
+  display: block;
+  opacity: 0.75;
+  color:white;
+  z-index:2;
+  transition:0.5s ease-in;
+}
+
+.card-buffer:before{
+
+  position:absolute;
+  top:0;
+  left:0;
+  display:block;
+  z-index:2;
+  transition: 1s ease-in-out;
+  opacity:1;
+  content:"";
+}
+.title{
+  text-align: center;
+  font-size:3vh;
+  color:black;
+  opacity: 1;
+}
+.angebot{
+  font-size:2vh;
+  text-align:center;
+  color:black;
+  opacity: 1;
+}

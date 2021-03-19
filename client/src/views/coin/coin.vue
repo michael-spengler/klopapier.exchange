@@ -159,4 +159,5 @@
 
 <style scoped>
   @import './coin.css';
+
 </style>

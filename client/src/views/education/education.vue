@@ -4,9 +4,10 @@
       <div class="text-2xl md:text-5xl lg:text-6xl">Education</div>
 
       <div class="mt-4 text-sm md:text-base">
-      <b>
-        Explore the most frequently used terms used by Decentralized Finance (DeFi) experts.
-      </b>
+        <b>
+          Explore the most frequently used terms used by Decentralized Finance
+          (DeFi) experts.
+        </b>
       </div>
     </div>
 
@@ -14,147 +15,103 @@
 
     <div class="mx-4 text-sm md:text-base">
       <div id="read" class="mt-12 md:grid grid-cols-3 gap-12">
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Distributed Ledger Technology</div>
-          One important aspect why Bitcoin, Ethereum and other systems are so reliable is
-          that they use the Distributed Ledger Technology. A ledger can be seen as a list
-          of transactions. If this ledger is stored on several different servers, one can
-          call it distributed ledger.
-        </div>
-
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Blockchain</div>
-          <div>
-            In Bitcoin transactions are stored in blocks. Those blocks are connected. You
-            can perceive it as a chain of Blocks. This is why people call this technology
-            Blockchain Technology.
+        <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Distributed Ledger</p>
           </div>
         </div>
 
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Smart Contracts</div>
-          <div>
-            Programs which can be stored and executed on a blockchain are frequently
-            called smart contracts. You can perceive a smart contract as an agreement /
-            contract between the parties who interact with this contract. Example: If you
-            use a vending machine at a train station you typically implicitly have the
-            agreement that if you throw in money, you get a product out of it. Such kinds
-            of agreements / contracts which apply themselves automatically can be called
-            smart contracts.
+        <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Blockchain</p>
+          </div>
+        </div>
+
+        <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Smart Contracts</p>
           </div>
         </div>
       </div>
 
       <div class="mt-12 md:grid grid-cols-3 gap-12">
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Consensus Algorithms</div>
-          In a distributed ledger it is important that there is consensus about the
-          content of the ledger. To reach this consensus people apply algorithms like
-          Proof of Work (PoW) and Proof of Stake (PoS). PoW is pretty energy consuming /
-          costly. Therefore famous Blockchains like ETH2.0 introduce PoS.
+           <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Consensus Algorithms</p>
+          </div>
         </div>
+  
+       <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">ERC721 Tokens</p>
+          </div>
+        </div>
+        <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">ERC2020 Tokens</p>
+          </div>
+        </div>
+    
+      </div>
 
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">ERC20 Tokens</div>
-          <div>
-            This is a standard which allows you to deploy your own cryptocurrency on the
-            Ethereum Blockchain in a very simple way. ERC721 Tokens = Coins can be
-            considered as fungible tokens.
+      <div class="mt-12 md:grid grid-cols-3 gap-12">
+        <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Fiat currency</p>
           </div>
         </div>
 
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">ERC721 Tokens</div>
-          <div>
-            <div>
-              This is a standard which is frequently used to represent collectibles (where
-              uniqueness of each entity is the thing). ERC721 Tokens can be considered as
-              non-fungible tokens.
-            </div>
+        <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Fiat-On-Off Ramps</p>
+          </div>
+        </div>
+
+          <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Your Proposal</p>
           </div>
         </div>
       </div>
 
       <div class="mt-12 md:grid grid-cols-3 gap-12">
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Fiat Currency</div>
-          Currencies which are generated via central banks and sold by politicians /
-          governments with no or very low intrinsic value are frequently called fiat
-          currencies. Some might call fiat currencies a "creatio ex nihilo" (a creation
-          out of nothing (but power)).
-        </div>
-
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Fiat On-/Off Ramps</div>
-          <div>
-            Places where you can exchange fiat currencies - like Euro or US Dollar - to
-            crypto currencies and back.
+            <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">
+              Crypto Wallets
+            </p>
           </div>
         </div>
 
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Your Proposal</div>
-          <div>
-            Let me know if there is any word from the crypto scene which you would like to
-            get a simple explanation for. Some asked me to add detailed info about the
-            truffle framework, ganache and drizzle. I do not go into those development
-            details on this page because it is mainly meant as a simple and quickly to
-            understand starting point.
+           <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">ICO</p>
+          </div>
+        </div>
+
+            <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Decentralized finance</p>
           </div>
         </div>
       </div>
 
       <div class="mt-12 md:grid grid-cols-3 gap-12">
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Crypto Wallets</div>
-          You can use crypto wallets to store crypto assets like crypto currency entities,
-          and to interact with smart contracts on a blockchain. There are several kinds of
-          wallets. E.g. Browserwallets which are integrated directly in the Browser
-          (brave.com).
-        </div>
-
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">ICO</div>
-          <div>
-            Initial Coin Offerings can be compared to Initial Public Offerings where
-            companies or projects sell parts of their company to investors.
+            <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Oracles</p>
           </div>
         </div>
 
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Decentralized Finance (DeFi)</div>
-          <div>
-            Decentralized Finance consists of Decentralized Autonomous Payments (DAP),
-            Decentral Autonomous Deposits (DAD), Decentral Autonomous Loans (DAL),
-            Decentral Autonomous Funds (DAF) and perhaps more to come.
-          </div>
-        </div>
-      </div>
-
-      <div class="mt-12 md:grid grid-cols-3 gap-12">
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Oracles</div>
-          Oracles solve the challenge that smart contracts themselves only have access to
-          data which is on the blockchain. For example they (smart contracts) do not know
-          how the weather is until anyone brings this information to their blockchain.
-          Oracles can be used to do exactly this. One key challenge here was to make sure
-          correct information is brought to the blockchain. A famous promising system for
-          this is Chainlink.
-        </div>
-
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Solidity</div>
-          <div>
-            Solidity is a famous programming language to define smart contracts. A
-            potential alternative is the Vyper Smart Contract Language.
+           <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Solidity</p>
           </div>
         </div>
 
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Remix</div>
-          <div>
-            https://remix.ethereum.org is a web IDE which you can use to develop, compile
-            and deploy smart contracts.
+            <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Remix</p>
           </div>
         </div>
       </div>
@@ -179,10 +136,8 @@
   </div>
 </template>
 
-<script src="./education.js">
-
-</script>
+<script src="./education.js"></script>
 
 <style scoped>
-  @import './education.css';
+@import "./education.css";
 </style>
