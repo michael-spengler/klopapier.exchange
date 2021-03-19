@@ -40,7 +40,6 @@
   opacity: 1;
   transform: translateY(40px);
   z-index:1;
-  opacity:0.5;
 }
 .card-buffer:hover content{
   display: block;

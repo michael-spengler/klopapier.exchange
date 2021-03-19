@@ -3,10 +3,10 @@ a{
     position:relative;
     display:inline-block;
     padding: 15px 30px;
-    color: #FF8C00;
+    color: #00818a;
     text-transform: uppercase;
     text-decoration: none;
-    font-size:3vh;
+    font-size:1.5vh;
     overflow:hidden;
     transition:0.2s;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,9 +17,9 @@ a{
      text-decoration: none;
  }
  a:hover{
-     color: #FF8C00;
-     background: black;
-     box-shadow: 0 0 10px #FF8C00,  0 0 40px #FF8C00,  0 0 80px #FF8C00;
+     color: #00818a;
+     background: #283149;
+     box-shadow: 0 0 10px #00818a,  0 0 40px #00818a,  0 0 80px #00818a;
      transition-delay: 1s;
  }
  a span{
@@ -31,7 +31,7 @@ a{
      left:-100%;
      width:100%;
      height:2px;
-     background:linear-gradient(90deg, transparent,#FF8C00);
+     background:linear-gradient(90deg, transparent,#00818a);
  }
  a:hover span:nth-child(1){
      left:100%;
@@ -43,7 +43,7 @@ a{
      right:-100%;
      width:100%;
      height:2px;
-     background:linear-gradient(270deg, transparent,#FF8C00);
+     background:linear-gradient(270deg, transparent,#00818a);
  }
  a:hover span:nth-child(3){
      right:100%;
@@ -55,7 +55,7 @@ a{
      right:0;
      height:100%;
      width:2px;
-     background:linear-gradient(180deg, transparent,#FF8C00);
+     background:linear-gradient(180deg, transparent,#00818a);
  }
  a:hover span:nth-child(2){
      top:100%;
@@ -68,7 +68,7 @@ a{
      left:0;
      height:100%;
      width:2px;
-     background:linear-gradient(360deg, transparent,#FF8C00);
+     background:linear-gradient(360deg, transparent,#00818a);
  }
  a:hover span:nth-child(4){
      top:-100%;
