@@ -17,18 +17,19 @@
 
 .card-buffer{
   border:none;
+  border-radius:50% 20% / 10% 40%;
   -webkit-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
   transition:1s ease-out;
-  height:30vh;
+  height:10vh;
   width:20vw; 
   min-width: 300px;
   opacity:1;
   z-index:2;
   margin-right:2vh;
   margin-bottom:3vh;
-  background-image: linear-gradient(to bottom ,#Dbedf3,#00818a);
+  background-image: linear-gradient(to bottom ,#404b69,#00818a);
   text-align: center;
   vertical-align:middle;
   display: table-cell;

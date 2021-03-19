@@ -111,7 +111,7 @@
 
             <div class="mt-4 ">
           <div class="card-buffer">
-            <p class="title">Remix</p>
+            <p class="title"></p>
           </div>
         </div>
       </div>
