@@ -4,7 +4,12 @@
 #polygon{
   background-color:#404b69;
 }
-
+.text-black-500{
+  color: grey!important;;
+}
+.text-blue-600{
+  color: grey !important;
+}
 .wrapper{
   display:flex;
   margin:0;
