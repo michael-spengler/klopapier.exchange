@@ -14,7 +14,7 @@
     <div id="particles-js" style="height: 500px"></div>
 
     <div class="mx-4 text-sm md:text-base">
-      <div id="read" class="mt-12 md:grid grid-cols-3 gap-12">
+      <div  class="mt-12 md:grid grid-cols-3 gap-12">
         <div class="mt-4 ">
           <div class="card-buffer">
             <p class="title">Distributed Ledger</p>
@@ -33,13 +33,9 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="mt-12 md:grid grid-cols-3 gap-12">
-           <div class="mt-4 ">
-          <div class="card-buffer">
-            <p class="title">Consensus Algorithms</p>
-          </div>
-        </div>
+         
   
        <div class="mt-4 ">
           <div class="card-buffer">
@@ -51,7 +47,11 @@
             <p class="title">ERC2020 Tokens</p>
           </div>
         </div>
-    
+     <div class="mt-4 ">
+          <div class="card-buffer">
+            <p class="title">Consensus Algorithms</p>
+          </div>
+        </div>
       </div>
 
       <div class="mt-12 md:grid grid-cols-3 gap-12">
@@ -108,12 +108,6 @@
             <p class="title">Solidity</p>
           </div>
         </div>
-
-            <div class="mt-4 ">
-          <div class="card-buffer">
-            <p class="title"></p>
-          </div>
-        </div>
       </div>
     </div>
     <div class="mt-32">
@@ -124,14 +118,13 @@
     </div>
 
     <div class="mt-8 sm:flex justify-center">
-      <button
-        @click="onTestYourSelfClicked()"
-        type="button"
-        class="mt-2 inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-      >
-        <!-- <span class="material-icons mr-2"> history_edu </span> -->
-        Test Your Knowledge
-      </button>
+      <a href="https://app.compound.finance">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+       Test your Knowledge
+      </a>
     </div>
   </div>
 </template>
@@ -140,4 +133,5 @@
 
 <style scoped>
 @import "./education.css";
+@import '../../../src/components/button/button.css';
 </style>

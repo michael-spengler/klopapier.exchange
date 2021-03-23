@@ -11,7 +11,7 @@
       </div>
 
       <div class="mt-8 sm:flex justify-center">
-        <a href="https://app.aave.com">
+        <a class="bt" href="https://app.aave.com">
         <span></span>
         <span></span>
         <span></span>
@@ -19,7 +19,7 @@
         Use Aave
       </a>
       
-       <a href="https://app.compound.finance">
+       <a class="bt" href="https://app.compound.finance">
         <span></span>
         <span></span>
         <span></span>
