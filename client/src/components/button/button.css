@@ -3,7 +3,7 @@
     position:relative;
     display:inline-block;
     padding: 15px 30px;
-    color: #00818a;
+    color: #Dbedf3!important;
     text-transform: uppercase;
     text-decoration: none;
     font-size:1.5vh;
@@ -17,7 +17,7 @@
      text-decoration: none;
  }
  .bt:hover{
-     color: #00818a;
+     color: #Dbedf3;
      background: #283149;
      box-shadow: 0 0 10px #00818a,  0 0 40px #00818a,  0 0 80px #00818a;
      transition-delay: 1s;

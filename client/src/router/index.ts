@@ -7,6 +7,7 @@ import Education from "@/views/education/education.vue";
 import DepositEther from "@/views/depositEther/depositEther.vue";
 import BorrowWipePaper from "@/views/borrowWipePaper/borrowWipePaper.vue";
 import Play from "@/views/play/play.vue";
+import EducationInsight from '@/views/educationInsight/educationInsight.vue';
 
 const routes = [
   {
@@ -48,7 +49,12 @@ const routes = [
     path: "/education",
     name: "Edcation",
     component: Education,
-  }
+  },
+  {
+    path:"/educationInsight/:education",
+    name:"EducationInsight",
+    component:EducationInsight,
+  },
 ];
 
 const router = createRouter({

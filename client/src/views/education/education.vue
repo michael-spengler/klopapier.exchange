@@ -16,15 +16,25 @@
     <div class="mx-4 text-sm md:text-base">
       <div  class="mt-12 md:grid grid-cols-3 gap-12">
         <div class="mt-4 ">
+          <router-link
+            to="/educationInsight/DistributedLedger"
+            >
           <div class="card-buffer">
+          
             <p class="title">Distributed Ledger</p>
+          
           </div>
+             </router-link>
         </div>
 
         <div class="mt-4 ">
-          <div class="card-buffer">
-            <p class="title">Blockchain</p>
-          </div>
+           <router-link
+            to="/educationInsight"
+            >
+            <div class="card-buffer">
+              <p class="title">Blockchain</p>
+            </div>
+            </router-link>
         </div>
 
         <div class="mt-4 ">
@@ -44,7 +54,7 @@
         </div>
         <div class="mt-4 ">
           <div class="card-buffer">
-            <p class="title">ERC2020 Tokens</p>
+            <p class="title">ERC20 Tokens</p>
           </div>
         </div>
      <div class="mt-4 ">

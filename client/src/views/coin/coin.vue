@@ -66,11 +66,20 @@
   <p><br></p>
     <div id="particles-js" style="height: 500px"></div>
 
-    <div class="mx-4 text-sm md:text-base">
-      <div id="readMore" class="mt-32 md:grid grid-cols-3 gap-12">
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Value Proposition</div>
-          You can use the example of our
+
+     <div class="wrapper">
+     <div class="container">
+       <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <i class="fab fa-windows"></i>
+                <h3> Value Proposition </h3>
+              </div>
+            </div>
+          <div class="face face2">
+
+            <div class="content">
+             <p>  You can use the example of our
           <a
             href="https://etherscan.io/token/0xe79ff9299351356e0ff64fd11ca594162cbd189a"
             target="_blank"
@@ -79,13 +88,21 @@
             >USDWipePaper (UWP)</a
           >
           to explore the ERC20 Token Standard in the context of the Ethereum Blockchain.
-          <br />
-        </div>
+           </p>
+              </div>
+          </div>
+      </div>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <i class="fab fa-windows"></i>
+                <h3> The Code </h3>
+              </div>
+            </div>
+          <div class="face face2">
 
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">The Code</div>
-          <div>
-            You might want to check
+            <div class="content">
+             <p>  You might want to check
             <a
               href="https://github.com/michael-spengler/klopapier.exchange/blob/main/server-nodejs-infura/src/smart-contracts/wsbc.sol"
               target="_blank"
@@ -103,18 +120,33 @@
               Remix IDE</a
             >
             as a Smart Contract on the Ethereum Blockchain.
+         </p>
+              </div>
           </div>
-        </div>
-
-        <div class="mt-4 shadow p-4 rounded">
-          <div class="font-bold text-base">Outlook</div>
-          <div>
-            We want to inspire people to explore many cool things which we can do by using
-            the Distributed Ledger Technology (DLT). In this respect we might provide more
-            features soon.
-          </div>
-        </div>
       </div>
+
+      <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <i class="fab fa-windows"></i>
+                <h3> Outlook </h3>
+              </div>
+            </div>
+          <div class="face face2">
+
+            <div class="content">
+             <p>  We want to inspire people to explore many cool things which we can do by using
+            the Distributed Ledger Technology (DLT). In this respect we might provide more
+            features soon.   </p>
+              </div>
+          </div>
+      </div>
+
+     </div>
+     </div>
+
+    <div class="mx-4 text-sm md:text-base">
+     
 
       <div class="mt-12 grid md:grid-cols-3 gap-12">
         <!-- <div class="shadow p-4 rounded">

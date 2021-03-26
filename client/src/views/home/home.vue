@@ -131,16 +131,16 @@
           </div>
         </div>
 
-        <main
+        <main 
           class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
         >
-          <div class="sm:text-center lg:text-left">
+          <div id="expPlayground" class="sm:text-center lg:text-left">
             <h1
               class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
             >
-              <span class="block xl:inline">Exploration Playground</span>
+              <span id="expColor" class="block xl:inline">Exploration Playground</span>
             </h1>
-            <p
+            <p id="expPlayground"
               class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
             >
               Decentralized Finance (DeFi) leveraging the Distributed Ledger
@@ -189,98 +189,6 @@
     </div>
   </div>
 
-  <div class="wrapper">
-   <!-- <div class="hero">
-      <div class="text-2xl md:text-5xl lg:text-6xl">Exploration Playground</div>
-      <div class="mt-6 text-sm md:text-base">
-        <b>
-          Decentralized Finance (DeFi) leveraging the Distributed Ledger
-          Technology
-        </b>
-
-        <p><br /></p>
-        <a
-          class="text-blue-600"
-          href="https://whitepaper.io/document/0/bitcoin-whitepaper"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Bitcoin Whitepaper
-        </a>
-        vs.
-        <a
-          class="text-blue-600"
-          href="https://duckduckgo.com/?q=us+dollar+toiletpaper&iax=images&ia=images"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          USD WipePaper</a
-        >
-        vs.
-        <a
-          class="text-blue-600"
-          href="https://www.ecb.europa.eu/euro/html/digitaleuro-report.en.html"
-          target="_blank"
-          rel="noopener"
-          >Digital Euro WipePaper</a
-        >
-      </div>
-
-      <div class="mt-8 sm:flex justify-center">
-         <div class="mt-2">
-          <router-link
-            type="button"
-            class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            to="/depositEther"
-          >
-            <svg
-              class="mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="white"
-              width="22px"
-              height="22px"
-            >
-              <path d="M0 0h24v24H0z" fill="none" />
-              <path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z" />
-            </svg>
-            Deposit Ether
-          </router-link>
-        </div>
-        <div class="mt-2">
-          <router-link
-            type="button"
-            class="inline-flex items-center px-4 py-2 mx-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            to="/coins"
-          >
-            <svg
-              class="mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 24 24"
-              viewBox="0 0 24 24"
-              fill="white"
-              width="22px"
-              height="22px"
-            >
-              <g><rect fill="none" height="24" width="24" /></g>
-              <g>
-                <g>
-                  <rect height="7" width="3" x="4" y="10" />
-                  <rect height="7" width="3" x="10.5" y="10" />
-                  <rect height="3" width="20" x="2" y="19" />
-                  <rect height="7" width="3" x="17" y="10" />
-                  <polygon points="12,1 2,6 2,8 22,8 22,6" />
-                </g>
-              </g>
-            </svg>
-            Earn Coins
-          </router-link>
-        </div>
-      </div>
-    </div>
-
-    <div id="particles-js" style="height: 500px"></div>
--->
 
 <div class="wrapper">
      <div class="container">
@@ -656,7 +564,7 @@
         >.
       </div>
     </div>
-  </div>
+
   
 </template>
 
