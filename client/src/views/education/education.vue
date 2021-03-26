@@ -137,6 +137,7 @@
       </a>
     </div>
   </div>
+  
 </template>
 
 <script src="./education.js"></script>
