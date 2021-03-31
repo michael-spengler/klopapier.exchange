@@ -1,0 +1,31 @@
+
+ {
+    "meta": {
+      "author": "Kevin Krempels und Rouven Krinke",
+      "version": "1.0",
+      "uuid": "41612df6-920a-11eb-a8b3-0242ac130003"
+    },
+    "decks": {
+      "itil": {
+        "meta": {
+          "deck_name": "Educational Defi and Blockchain Deck",
+          "next_card_id": 5,
+          "description": "This is a deck for educational purposes. It uses components Klopapier.Exchange Website."
+        },
+        "cards": {
+          "0": {
+            "q": "Wie lautet eine der möglichen Definitionen für Information Management?",
+            "a": "Management von Informationen und der sie verarbeitenden Informationstechnik in Unternehmen."
+          },
+          "1": {
+            "q": "Um welche Aufgaben geht es beim Information Management?",
+            "a": "Es geht um Management-Aufgaben der innerbetrieblichen IT und somit um ein Kerngebiet der Wirtschaftsinformatik."
+          },
+          "2": {
+            "q": "Was versteht man unter IT Governance?",
+            "a": "Darunter versteht man die Festlegung der Entscheidungsrechte und der Rechenschaftspflicht, um wünschenswertes Verhalten bei der Nutzung von IT zu fördern (vgl. Weill, P. & Ross J. W.)."
+          },  
+        }
+      }
+    }
+  }
