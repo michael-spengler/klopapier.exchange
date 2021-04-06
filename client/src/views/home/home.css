@@ -37,7 +37,7 @@
   position:relative;
 }
 .container .card .face{
-  width: 30vw;
+  width: 15vw;
   height:50vh;
   transition:0.4s;
 }
@@ -76,7 +76,7 @@
   display:center;
 }
 .container .card .face.face2{
-  width:30vw;
+  width:15vw;
   height:30vh;
   background-color:white;
   transform: translateY(-39vh);

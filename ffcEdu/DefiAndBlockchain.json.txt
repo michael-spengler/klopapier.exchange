@@ -14,17 +14,37 @@
         },
         "cards": {
           "0": {
-            "q": "Wie lautet eine der möglichen Definitionen für Information Management?",
-            "a": "Management von Informationen und der sie verarbeitenden Informationstechnik in Unternehmen."
+            "q": "Was versteht man unter der 'Distributed-Ledger-Technologie'?",
+            "a": "Unter der Distributed-Ledger-Technologie wird eine Technik beschrieben, die für die Dokumentation bestimmter Transaktionen benutzt wird. Dabei wird ein dezentrales Hauptbuch geführt, wobei beliebig viele Kopien des Hauptbuchs von unterschiedlichen Parteien unterhalten werden."
           },
           "1": {
-            "q": "Um welche Aufgaben geht es beim Information Management?",
-            "a": "Es geht um Management-Aufgaben der innerbetrieblichen IT und somit um ein Kerngebiet der Wirtschaftsinformatik."
+            "q": "Was versteht man unter einer Blockchain?",
+            "a": "Die Blockchain ist die Grundlage für Kryptowährungen. Dabei ist die Blockchain eine der bekanntesten Distributed-Ledger-Techniken" und ist eine kontinuierlich erweiterbare Liste von Datensätzen, sogenannte Blöcke, die mittels kryptografischer Verfahren miteinander verkettet sind."
           },
           "2": {
-            "q": "Was versteht man unter IT Governance?",
-            "a": "Darunter versteht man die Festlegung der Entscheidungsrechte und der Rechenschaftspflicht, um wünschenswertes Verhalten bei der Nutzung von IT zu fördern (vgl. Weill, P. & Ross J. W.)."
-          },  
+            "q": "Was versteht man unter dem Begriff 'Smart Contracts'?",
+            "a": "Smart Contracts, sogenannte intelligenten Verträge, sind elektronische Verträge, die basierend auf einem Computerprogramm Abläufe im Geschäftsleben rechtssicher automatisieren können. Smart Contracts sind vergleichbar mit herkömmlichen Verträgen, wie sie beispielsweise beim Kauf eines Autos oder bei der Annahme eines Jobs abgeschlossen werden. Smart Contracts bauen auf der Blockchain-Technologie auf und nutzen die Vorteile der Technologie."
+          }, 
+          "3": {
+            "q": "Nennen Sie vier Vorteile einer Blockchain",
+            "a": "Unter anderem Transparenz, Fälschungssicherheit, Verfügbarkeit, Dezentralisierung."
+          }, 
+          "4": {
+            "q": "Nennen Sie vier Nachteile einer Blockchain",
+            "a": "Unter anderem steigende, verteilte Datenmengen und Herausforderungen an die Aufbewahrung, komplexe Umsetzungen und neue Technologien, schlechtere Performance als zentrale Netzwerke, Datenabfrage deutlich langsamer als bei herkömmlichen Datenbanken ."
+          }, 
+          "5": {
+            "q": "Was versteht man unter einem ERC-721 Token",
+            "a": "Unter dem Begriff ERC versteht man Ethereum Request for Comment. Das ist ein Genehmigungssystem in der Open-Source-Community, um revolutionäre Änderungen zu akzeptieren. ERCs dienen diesem Zweck für Ethereum, sie enthalten einige technische Richtlinien, die Vorschläge zur Entwicklung des Ethereum-Netzwerks ausarbeiten. Die Nummer 721 ist die eindeutige dem Token-Standard zugewiesene ID-Nummer. Dieser Token zeichnet sich unter anderem dadurch aus, dass er nicht austauschbar und nicht teilbar ist."
+          }, 
+          "6": {
+            "q": "Was versteht man unter dem Begriff ERC-20 Token",
+            "a": "Unter dem Begriff ERC-20 Token werden Token bezeichnet, welche die Blockchain von Ethereum benutzen. Sie verwenden einen offiziellen Smart Contract Standard, der wie eine Kryptowährung benutzt werden kann. Durch einen ERC20-Standard, wird es ermöglicht, dass Smart Contracts sich sehr ähnlich wie Kryptowährungen verhalten. Man kann einen standardisierten ERC20 Smart Contract als ERC20 Token bezeichnen, den man senden und empfangen kann. Durch ein paar Zeilen, bestehend aus einem Code, kann also ein Smart Contract (intelligenter Vertrag) wie eine Kryptowährung behandelt werden."
+          }, 
+          "7": {
+            "q": "Was versteht man unter dem Begriff Konsens-Algorithmen",
+            "a": "Der Konsens spielt beim Einsatz der Blockchain eine wesentliche Rolle. Mit diesem Mechanismus wird sichergestellt, dass Integrität der Daten in einem dezentralen Netzwerk bei allen Teilnehmern gewährleistet ist. Das eingesetzte Konsensverfahren spielt für Blockchains eine wichtige Rolle. Private und Öffentliche Blockchains nutzen den Konsens, um die Sicherheit und Datenintegrität auf allen Knoten zu gewährleisten. Der Konsens stellt die Integrität der Blöcke und deren einheitliche Synchronisierung im Netzwerk sicher. Es gibt unterschiedliche Konsensmechanismen, wie z.B. Proof of Work, Proof of Stake oder Byzantine Fault Tolerance"
+          }, 
         }
       }
     }
