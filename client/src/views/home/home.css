@@ -37,7 +37,7 @@
   position:relative;
 }
 .container .card .face{
-  width: 20vw;
+  width: 30vw;
   height:50vh;
   transition:0.4s;
 }
@@ -76,7 +76,7 @@
   display:center;
 }
 .container .card .face.face2{
-  width:20vw;
+  width:30vw;
   height:30vh;
   background-color:white;
   transform: translateY(-39vh);
@@ -88,7 +88,7 @@
   font-size:20px;
   margin-top:0;
   margin:0;
-  padding:px;
+  padding:2px;
   padding-top:2vh;
   color: #333333;
   display: block;
@@ -99,6 +99,4 @@
 p{
   text-align:left;
 }
-
-
 
