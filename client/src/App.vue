@@ -3,12 +3,8 @@
     <nav>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
-          <div class="flex items-center">
-            <div class="flex-shrink-0">
-              <router-link to="/" @click="menu = false">
-                <img src="./assets/logo.png" style="width: 120px" alt="Logo" />
-              </router-link>
-            </div>
+          <div class="flex items-center">                      
+               <img src="./assets/logo.svg" style="height:100px"/>      
             <div class="hidden lg:block">
               <div class="ml-10 flex items-baseline space-x-4">
                 <router-link

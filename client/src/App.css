@@ -21,3 +21,13 @@ div {
 a:link, a:visited {
   color: #00818a;
 }
+.logo{
+  background-image:url("./assets/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:150px;
+  height:60px;
+  border-color: transparent;
+  border: none;
+  text-decoration:none;
+}

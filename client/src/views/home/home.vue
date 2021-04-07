@@ -103,7 +103,7 @@
               >
             </h1>
             <p
-              class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+              class="mt-3 text-base sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0" 
             >
               Decentralized Finance (DeFi) leveraging the Distributed Ledger
               Technology
@@ -151,8 +151,9 @@
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img
         class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-        src="../assets/blockchain.jpg"
+        src="../../assets/blockchain.jpg"
         alt="Test"
+        id="img"
       />
     </div>
   </div>
@@ -222,23 +223,17 @@
       </div>
     </div>
   </div>
+<div class="bgimg-2-history">
+  <div class="caption">
+  <!--<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>-->
+  </div>
+</div>
 
-  <div class="mx-4 text-sm md:text-base">
-    <div class="mt-32">
-      <div class="md:grid grid-cols-2 grid-gap-64">
-        <div class="flex items-center">
-          <img
-            class="w-2/3 block mx-auto"
-            src="../../assets/history.svg"
-            alt="History"
-          />
-        </div>
-        <div class="mt-8 md:mt-0">
-          <div id="history" class="font-bold text-xl">History</div>
-
-          <p>
-            <br />
-            For several decades people behind most central banks could create
+<div style="position:relative;" >
+  <div style="color:#ddd;background-color:#404b69
+;text-align:center;padding:50px 80px;text-align: justify;" >
+  <h3 id="blockchain">History</h3>
+  <p class="contentData">   For several decades people behind most central banks could create
             their money out of thin air. The incentives for giving this money to
             people who create the most value for other people - like farmers,
             nurses, doctors and many more - had not been strong enough to foster
@@ -263,7 +258,7 @@
 
             <a
               href="https://tornadocash.eth.link/"
-              class="text-black-500"
+              class="websiteJump"
               target="_blank"
               rel="noopener"
               >Tornado Cash</a
@@ -271,14 +266,14 @@
             Ledger education yet, don't even have a
             <a
               href="https://brave.com"
-              class="text-black-500"
+              class="websiteJump"
               target="_blank"
               rel="noopener"
               >Brave Ethereum</a
             >
             or Bitcoin wallet whereas e.g. the
             <a
-              class="text-black-500"
+              class="websiteJump"
               href="https://www.euribor-rates.eu/en/current-euribor-rates/2/euribor-rate-3-months/"
               target="_blank"
               rel="noopener"
@@ -288,21 +283,25 @@
             some of the reasons why we support wallstreetbets, Decentralized
             Finance, the Distributed Ledger Technology etc. We want to increase
             freedom for those who increase freedom.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="mt-32">
-      <div class="md:grid grid-cols-2 grid-gap-64">
-        <div>
-          <div class="font-bold text-xl">Contribute</div>
-          <div>
-            <p>
-              <br />
-              This project has been created as a business and technology
+         </p>
+  </div>
+</div>
+
+<div class="bgimg-2-history">
+  <div class="caption">
+  <!--<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>-->
+  </div>
+</div>
+
+<div style="position:relative;" id="smartContracts">
+  <div style="color:#ddd;background-color:#404b69
+;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3>Contribute</h3>
+  <p class="contentData">
+ This project has been created as a business and technology
               education playground for some of my students at
               <a
-                class="text-black-500"
+                class="websiteJump"
                 href="https://www.mannheim.dhbw.de"
                 target="_blank"
                 rel="noopener"
@@ -313,7 +312,7 @@
               way we also promote cool platforms in
 
               <a
-                class="text-black-500"
+                class="websiteJump"
                 href="https://defipulse.com"
                 target="_blank"
                 rel="noopener"
@@ -321,21 +320,21 @@
               >
               like
               <a
-                class="text-black-500"
+                class="websiteJump"
                 href="https://gitcoin.co/"
                 target="_blank"
                 rel="noopener"
                 >gitcoin.co</a
               >,
               <a
-                class="text-black-500"
+                class="websiteJump"
                 href="https://community.xyz"
                 target="_blank"
                 rel="noopener"
                 >community.xyz</a
               >,
               <a
-                class="text-black-500"
+                class="websiteJump"
                 href="https://aave.com"
                 target="_blank"
                 rel="noopener"
@@ -343,7 +342,7 @@
               >
               etc.. If you want to contribute please consider raising a
               <a
-                class="text-black-500"
+                class="websiteJump"
                 href="https://github.com/michael-spengler/klopapier.exchange/pulls"
                 target="_blank"
                 rel="noopener"
@@ -351,7 +350,7 @@
               >
               or donating a small amount of Ether to
               <a
-                class="text-black-500"
+                class="websiteJump"
                 href="https://etherscan.io/address/klopapier.eth"
                 target="_blank"
                 rel="noopener"
@@ -360,66 +359,17 @@
               If you are completely new to the crypto- and DeFi space, you might
               also check some videos
               <a
-                class="text-black-500"
+                class="websiteJump"
                 href="https://www.youtube.com/watch?v=J8V0GkqUKDE&list=PLEz_1ekJPuAii8of1qHLxB0lxpC6QXXdY"
                 target="_blank"
                 rel="noopener"
                 >here</a
-              >.
-            </p>
-          </div>
-        </div>
-        <div class="mt-8 md:mt-0 flex items-center">
-          <img
-            class="w-2/3 block mx-auto"
-            src="./../../assets/contribute.svg"
-            alt="History"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="my-32">
-      <p><br /></p>
-      Inspired by the (temporary?) shutdown of our
-      <a
-        href="https://www.reddit.com/r/wallstreetbets/"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-      >
-        wallstreetbets reddit community</a
-      >
-      this page is also published to
-      <a
-        href="ipfs://Qmbh7PrpKFFHZKEEZWZ3TxBdnjBWKuhKq4WmVo9wf4B9W3"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-      >
-        the IPFS
-      </a>
-      and to
+              >. </p>
+  </div>
+</div>
 
-      <a
-        href="https://www.arweave.org"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-      >
-        the Arweave
-      </a>
-
-      using
-
-      <a
-        href="https://argoapp.live"
-        target="_blank"
-        class="text-blue-600"
-        rel="noopener noreferrer"
-      >
-        Argo
-      </a>
-    </div>
+  <div class="mx-4 text-sm md:text-base">
+ 
     <div class="my-32">
       <div class="font-bold text-xl">Quotes/Feedback</div>
       <div>"No pressure. Some things just need some time."</div>

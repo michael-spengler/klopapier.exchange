@@ -6,7 +6,7 @@
       "uuid": "41612df6-920a-11eb-a8b3-0242ac130003"
     },
     "decks": {
-      "itil": {
+      "defiAndBlockchain": {
         "meta": {
           "deck_name": "Educational Defi and Blockchain Deck",
           "next_card_id": 5,
@@ -23,7 +23,7 @@
           },
           "2": {
             "q": "Was versteht man unter dem Begriff 'Smart Contracts'?",
-            "a": "Smart Contracts, sogenannte intelligenten Verträge, sind elektronische Verträge, die basierend auf einem Computerprogramm Abläufe im Geschäftsleben rechtssicher automatisieren können. Smart Contracts sind vergleichbar mit herkömmlichen Verträgen, wie sie beispielsweise beim Kauf eines Autos oder bei der Annahme eines Jobs abgeschlossen werden. Smart Contracts bauen auf der Blockchain-Technologie auf und nutzen die Vorteile der Technologie."
+            "a": "Smart Contracts, sogenannte intelligente Verträge, sind elektronische Verträge, die basierend auf einem Computerprogramm Abläufe im Geschäftsleben rechtssicher automatisieren können. Smart Contracts sind vergleichbar mit herkömmlichen Verträgen, wie sie beispielsweise beim Kauf eines Autos oder bei der Annahme eines Jobs abgeschlossen werden. Smart Contracts bauen auf der Blockchain-Technologie auf und nutzen die Vorteile der Technologie."
           }, 
           "3": {
             "q": "Nennen Sie vier Vorteile einer Blockchain",
@@ -45,6 +45,34 @@
             "q": "Was versteht man unter dem Begriff Konsens-Algorithmen",
             "a": "Der Konsens spielt beim Einsatz der Blockchain eine wesentliche Rolle. Mit diesem Mechanismus wird sichergestellt, dass Integrität der Daten in einem dezentralen Netzwerk bei allen Teilnehmern gewährleistet ist. Das eingesetzte Konsensverfahren spielt für Blockchains eine wichtige Rolle. Private und Öffentliche Blockchains nutzen den Konsens, um die Sicherheit und Datenintegrität auf allen Knoten zu gewährleisten. Der Konsens stellt die Integrität der Blöcke und deren einheitliche Synchronisierung im Netzwerk sicher. Es gibt unterschiedliche Konsensmechanismen, wie z.B. Proof of Work, Proof of Stake oder Byzantine Fault Tolerance"
           }, 
+          "8": {
+            "q": "Was sind Tokens?",
+            "a": "Ein Token repräsentiert einen Vermögenswert, Vermögensgegenstand oder ein Wirtschaftsgut. Token die erstellt werden, benutzen bereits existierende Blockchains, die über Standardvorlagen, wie beispielsweise Smart Contracts auf der Ethereum Blockchain, generiert werden."
+          }, 
+          "9": {
+            "q": "Was kann ein Token repräsentieren?",
+            "a": "Ein Token kann entweder als Treibstoff für ein Blockchain-Netzwerk oder als Unternehmensanteile oder Stimmrechte in einem Blockchain Projekt dienen."
+          }, 
+          "10": {
+            "q": "Was versteht man unter Utility Token?",
+            "a": "Ein Utility Token kann während eines Initial Coin Offering (ICO) oder Token Sale ausgegeben werden. Dabei kann man einen bestimmten zukünftigen Nutzen erhalten. Die Funktion eines solchen Tokens kann im jeweiligen White Paper eines Blockchain Projekts entnommen werden. Solche Token können beispielsweise einen Zugang zu einem Dienst oder Service in Blockchain Projekten gewähren."
+          }, 
+           "11": {
+            "q": "Was versteht man unter Security Token?",
+            "a": "Unter einem Security Token versteht man einen Token, der aus einem externen, handelbaren Vermögenswert bezogen wird. Diese Token unterliegen den Bundeswertpapiervorschriften. Diese Art von Token besitzen einen finanziellen Anreiz für Investoren."
+          }, 
+           "12": {
+            "q": "Was versteht man unter einem Equity Token?",
+            "a": "Unter einem Equity Token versteht man einen Token, der seinen Zweck in einer Wertsteigerung sieht. Dadurch ist ein Equity Token mit einer Aktie vergleichbar. Mit einem solchen Token können alle Objekte aus der wirklichen Welt 'tokenisiert' werden."
+          }, 
+           "13": {
+            "q": "Was versteht man unter Fiat Currency?",
+            "a": "Dieser Begriff bezeichnet ein Zahlungsmittel, welches von einer Regierung oder einem Staat künstlich erschaffen worden ist. 'Fiatgeld' unterscheidet sich vom klassischen Warengeld (z.B. Reis, Gold,Silber), welches zusätzlich zu seinem Tauschwert auch einen inneren Wert hat. Der Begriff 'Fiat' stammt aus dem Lateinischen und bedeutet soviel wie 'geschehen' oder 'entstehen'. "
+          },
+           "14": {
+            "q": "Was ist die bekannteste Anwendung einer Blockchain?",
+            "a": "Die bekannste Anwendung einer Blockchain ist Bitcoin. Bitcoin ist eine Kryptowährung."
+          },
         }
       }
     }
