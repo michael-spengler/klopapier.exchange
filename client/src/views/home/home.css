@@ -229,7 +229,7 @@ h3 {
   text-align: center;
   color: #dbdef3;
   letter-spacing: 5px;
-  font-size: 5vh !important;
+  font-size: 6vh!important;
 }
 .caption {
   position: absolute;
@@ -489,10 +489,21 @@ body, button, input {
 
 @media only screen and (max-device-width: 1024px) {
   .container .card .face.face2{
-    width: 30vw!important;
+    height:60vh;
+    width: 60vw!important;
   }
   .container .card .face{
-    width:30vw!important;
+    height:60vh;
+    width:60vw!important;
+  }
+  .container .card .face.face1 .content h3{
+    font-size: 8vw !important;;
+  }
+  .container .card .face.face1 .content{
+    font-size: 8vw !important;;
+  }
+  .image{
+    background-image: none;
   }
   .bgimg-1,
   .bgimg-2,

@@ -2,12 +2,12 @@
   <div class="wrapper">
     <div class="hero">
       <div class="text-2xl md:text-5xl lg:text-6xl">Earn Coins</div>
-      <div class="mt-6 text-sm md:text-base"></div>
+      <div class="mt-6 text-sm md:text-base" ></div>
       <!-- <p><br /></p>
       As this is mainly an education project we give them away for free at the moment. You
       only need to pay the transaction fee for the Ethereum Blockchain. -->
 
-      <div class="mt-4 text-sm md:text-base">
+      <div class="mt-4 text-sm md:text-base"  style="text-align:left">
         <br />
         In order to receive 1 of our
         <a
@@ -27,8 +27,8 @@
         >
           EURWipePaper (EWP)
         </a>
-        you need to create a 5 - 20 seconds video of you shouting either <br />
-        <b> "Toiletpaper" or "Klopapier" </b> <br />
+        you need to create a 5 - 20 seconds video of you shouting either 
+        <b> "Toiletpaper" or "Klopapier" </b>
         out of a window to
         <a
           href="https://t.me/decentralizedfinancegroup"

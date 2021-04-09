@@ -158,11 +158,51 @@
       </div>
     </div>
 
-    <div class="wrapper">
+      <div class="wrapper">
       <div class="container">
-        <div class="grid-container">
-          <div class="grid-item">
-            <div class="card">
+   <div class="mt-12 lg:grid grid-cols-3 gap-12">
+            <div class="mt-4 p-4 rounded text-sm sm:text-base">
+              <div class="card">
+                <div class="face face1">
+                  <div class="content">
+                    <i class="fab fa-windows"></i>
+                    <h3>The Game</h3>
+                  </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                    <p>
+                      The Klopapier Game shall make your exploration of the
+                      Distributed Ledger Technology (DLT) inspiring and fun.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 p-4 rounded text-sm sm:text-base">
+              <div class="card">
+                <div class="face face1">
+                  <div class="content">
+                    <i class="fab fa-windows"></i>
+                    <h3>The Idea</h3>
+                  </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                    <p>
+                      With this page we invite you to explore the Distributed
+                      Ledger Technology which is the basis for currencies like
+                      Ether and Bitcoin. Please understand some differences
+                      between the Bitcoin Whitepaper and the USD WipePaper
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 p-4 rounded text-sm sm:text-base">
+                  <div class="card">
               <div class="face face1">
                 <div class="content">
                   <i class="fab fa-windows"></i>
@@ -187,48 +227,10 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="grid-item">
-            <div class="card">
-              <div class="face face1">
-                <div class="content">
-                  <i class="fab fa-windows"></i>
-                  <h3>The Game</h3>
-                </div>
-              </div>
-              <div class="face face2">
-                <div class="content">
-                  <p>
-                    The Klopapier Game shall make your exploration of the
-                    Distributed Ledger Technology (DLT) inspiring and fun.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
-          <div class="grid-item">
-            <div class="card">
-              <div class="face face1">
-                <div class="content">
-                  <i class="fab fa-windows"></i>
-                  <h3>The Idea</h3>
-                </div>
-              </div>
-              <div class="face face2">
-                <div class="content">
-                  <p>
-                    With this page we invite you to explore the Distributed
-                    Ledger Technology which is the basis for currencies like
-                    Ether and Bitcoin. Please understand some differences
-                    between the Bitcoin Whitepaper and the USD WipePaper
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      </div></div>
+
     <div class="bgimg-2-history">
       <div class="caption">
         <!--<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>-->
@@ -379,107 +381,120 @@
       </div>
     </div>
     <div class="background">
-  <div class="container">
-    <div class="screen">
-      <div class="screen-header">
-        <div class="screen-header-left">
-          <div class="screen-header-button close"></div>
-          <div class="screen-header-button maximize"></div>
-          <div class="screen-header-button minimize"></div>
-        </div>
-        <div class="screen-header-right">
-          <div class="screen-header-ellipsis"></div>
-          <div class="screen-header-ellipsis"></div>
-          <div class="screen-header-ellipsis"></div>
-        </div>
-      </div>
-      <div class="screen-body">
-        <div class="screen-body-item left">
-          <div class="app-title">
-            <span>CONTACT</span>
-            <span>US</span>
-          </div>
-            <div class="app-contact">No Pressure, this just need some time. Habt ihr in die Hosen geschissen?</div>
-          
-        </div>
-        <div class="screen-body-item">
-          <div class="app-form">
-            <div class="app-form-group">
-            This is an open source ownerless education project under construction. You can contact us by creating an issue   <a
-          class="text-blue-600"
-          href="https://github.com/michael-spengler/klopapier.exchange/issues"
-          target="_blank"
-          rel="noopener noreferrer"
-          >here</a
-        >.
+      <div class="container">
+        <div class="screen">
+          <div class="screen-header">
+            <div class="screen-header-left">
+              <div class="screen-header-button close"></div>
+              <div class="screen-header-button maximize"></div>
+              <div class="screen-header-button minimize"></div>
             </div>
-            <div class="app-form-group">
-              Join us via
-            <a
-              href="https://t.me/decentralizedfinancegroup"
-              target="_blank"
-              class="text-blue-600"
-              rel="noopener noreferrer"
-              >Telegram </a
-            >and star our
-            <a
-              href="https://github.com/michael-spengler/klopapier.exchange"
-              target="_blank"
-              class="text-blue-600"
-              rel="noopener noreferrer"
-            >
-              GitHub Repository
-            </a>
-             
-              </div>
-              <div class="app-form-group">
-                 <button
-            class="ml-1 mr-auto bg-transparent flex-shrink-0 p-1 rounded-full text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-            @click="openTelegram"
-          >
-            <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
-              <path
-                fill="currentColor"
-                d="M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z"
-              />
-            </svg>
-          </button>
-          <button
-            class="ml-auto mr-1 bg-transparent flex-shrink-0 p-1 rounded-full text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-            @click="openGithub"
-          >
-            <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
-              <path
-                fill="currentColor"
-                d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
-              />
-            </svg>
-          </button>
-                </div>
+            <div class="screen-header-right">
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+            </div>
           </div>
+          <div class="screen-body">
+            <div class="screen-body-item left">
+              <div class="app-title">
+                <span>CONTACT</span>
+                <span>US</span>
+              </div>
+              <div class="app-contact">
+                No Pressure, this just need some time. Habt ihr in die Hosen
+                geschissen?
+              </div>
+            </div>
+            <div class="screen-body-item">
+              <div class="app-form">
+                <div class="app-form-group">
+                  This is an open source ownerless education project under
+                  construction. You can contact us by creating an issue
+                  <a
+                    class="text-blue-600"
+                    href="https://github.com/michael-spengler/klopapier.exchange/issues"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >here</a
+                  >.
+                </div>
+                <div class="app-form-group">
+                  Join us via
+                  <a
+                    href="https://t.me/decentralizedfinancegroup"
+                    target="_blank"
+                    class="text-blue-600"
+                    rel="noopener noreferrer"
+                    >Telegram </a
+                  >and star our
+                  <a
+                    href="https://github.com/michael-spengler/klopapier.exchange"
+                    target="_blank"
+                    class="text-blue-600"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Repository
+                  </a>
+                </div>
+                <div class="app-form-group">
+                  <button
+                    class="ml-1 mr-auto bg-transparent flex-shrink-0 p-1 rounded-full text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    @click="openTelegram"
+                  >
+                    <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    class="ml-auto mr-1 bg-transparent flex-shrink-0 p-1 rounded-full text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    @click="openGithub"
+                  >
+                    <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="credits">
+          inspired by
+          <a
+            class="credits-link"
+            href="https://dribbble.com/shots/2666271-Contact"
+            target="_blank"
+          >
+            <svg class="dribbble" viewBox="0 0 200 200">
+              <g stroke="#ffffff" fill="none">
+                <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
+                <path
+                  d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345"
+                  stroke-width="20"
+                ></path>
+                <path
+                  d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951"
+                  stroke-width="20"
+                ></path>
+                <path
+                  d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103"
+                  stroke-width="20"
+                ></path>
+              </g>
+            </svg>
+            Gururaj
+          </a>
         </div>
       </div>
     </div>
-    <div class="credits">
-      inspired by
-      <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
-        <svg class="dribbble" viewBox="0 0 200 200">
-          <g stroke="#ffffff" fill="none">
-            <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
-            <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
-            <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
-            <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
-          </g>
-        </svg>
-        Gururaj
-      </a>
-    </div>
   </div>
-</div>
-
-  </div>
-
-  
 </template>
 
 <script src="./home.js"></script>
