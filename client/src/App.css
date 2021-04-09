@@ -24,10 +24,10 @@ a:link, a:visited {
 .logo{
   background-image:url("./assets/logo.svg");
   background-repeat: no-repeat;
-  background-size: cover;
   width:150px;
   height:60px;
   border-color: transparent;
   border: none;
   text-decoration:none;
+  top:2px;
 }
