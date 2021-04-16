@@ -50,6 +50,7 @@ export default defineComponent({
         options = {
           series: [
             {
+              name:"Price (USD)",
               data: array,
             },
           ],
@@ -139,6 +140,7 @@ export default defineComponent({
         options2 = {
   
             series: [{
+            name:"Price (USD)",
             data: array2
           }],
             chart: {
