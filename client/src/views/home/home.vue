@@ -145,6 +145,7 @@
                 </a>
               </div>
             </div>
+       
           </main>
         </div>
       </div>
@@ -158,51 +159,69 @@
       </div>
     </div>
 
-      <div class="wrapper">
+    <div class="wrapper" style="margin-top:30vh">
+           <div
+              id="ethereumPrediction"
+              class="text-2xl md:text-5xl lg:text-6xl"
+            >
+              Ethereum Prediction
+            </div>
+            <div class="mt-32">
+              <div class="xl:grid grid-cols-2 grid-gap-64 items-center">
+                <div class="mt-8 md:mt-0">
+                  <p style="margin-bottom:40px;text-align:center;">Ethereum Chart</p>
+                  <div id="chart"></div>
+                </div>
+                <div class="mt-8 md:mt-0">
+                  <p style="margin-bottom:40px;text-align:center;">Further Predictions</p>
+                  <div id="chart2"></div>
+                </div>
+              </div>
+            </div>
       <div class="container">
-   <div class="mt-12 lg:grid grid-cols-3 gap-12">
-            <div class="mt-4 p-4 rounded text-sm sm:text-base">
-              <div class="card">
-                <div class="face face1">
-                  <div class="content">
-                    <i class="fab fa-windows"></i>
-                    <h3>The Game</h3>
-                  </div>
+        <div class="mt-12 lg:grid grid-cols-3 gap-12">
+          <div class="mt-4 p-4 rounded text-sm sm:text-base">
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <i class="fab fa-windows"></i>
+                  <h3>The Game</h3>
                 </div>
-                <div class="face face2">
-                  <div class="content">
-                    <p>
-                      The Klopapier Game shall make your exploration of the
-                      Distributed Ledger Technology (DLT) inspiring and fun.
-                    </p>
-                  </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                    The Klopapier Game shall make your exploration of the
+                    Distributed Ledger Technology (DLT) inspiring and fun.
+                  </p>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="mt-4 p-4 rounded text-sm sm:text-base">
-              <div class="card">
-                <div class="face face1">
-                  <div class="content">
-                    <i class="fab fa-windows"></i>
-                    <h3>The Idea</h3>
-                  </div>
+          <div class="mt-4 p-4 rounded text-sm sm:text-base">
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <i class="fab fa-windows"></i>
+                  <h3>The Idea</h3>
                 </div>
-                <div class="face face2">
-                  <div class="content">
-                    <p>
-                      With this page we invite you to explore the Distributed
-                      Ledger Technology which is the basis for currencies like
-                      Ether and Bitcoin. Please understand some differences
-                      between the Bitcoin Whitepaper and the USD WipePaper
-                    </p>
-                  </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                    With this page we invite you to explore the Distributed
+                    Ledger Technology which is the basis for currencies like
+                    Ether and Bitcoin. Please understand some differences
+                    between the Bitcoin Whitepaper and the USD WipePaper
+                  </p>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="mt-4 p-4 rounded text-sm sm:text-base">
-                  <div class="card">
+          <div class="mt-4 p-4 rounded text-sm sm:text-base">
+            <div class="card">
               <div class="face face1">
                 <div class="content">
                   <i class="fab fa-windows"></i>
@@ -227,9 +246,10 @@
                 </div>
               </div>
             </div>
-            </div>
           </div>
-      </div></div>
+        </div>
+      </div>
+    </div>
 
     <div class="bgimg-2-history">
       <div class="caption">

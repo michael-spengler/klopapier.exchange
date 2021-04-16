@@ -202,7 +202,7 @@
   </div>
 </template>
 
-<script src="./App.js">
+<script  src="./App.js" lang="ts">
 
 </script>
 

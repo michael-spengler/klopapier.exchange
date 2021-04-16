@@ -325,14 +325,9 @@ Smart Contracts has been firstly defined by Nick Szabo in the year 1998 where he
   </div>
 </div>
 
-    <div class="mt-8 sm:flex justify-center">
-      <a href="https://app.compound.finance">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-       Test your Knowledge
-      </a>
+    <div class="mt-8">
+       Test your knowledge by downloading this <a download href="./DefiAndBlockchain.json"> Fancy Flashcard </a>.
+       Use the amazing  Fancy Flashcard <a href="https://fancy-flashcard.github.io/ffc/#/"> Application </a> to test your Knowledge by using the Fancy Flashcard.
     </div>
 
 

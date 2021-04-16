@@ -1,9 +1,16 @@
 import { computed, defineComponent, onMounted, ref } from "vue";
 import axios from "axios";
+import ApexCharts from "apexcharts";
 
 export default defineComponent({
   setup() {
     const menu = ref(false);
+    var chart = ref(null);
+    var chart2 =  ref(null);
+    var options = {};
+    var options2 = {};
+    var rightValues = [];
+    var predicted = [];
 
     const walletAdress = ref(
       localStorage.getItem("klopapier.exchange.account.walletAdress")
@@ -24,6 +31,203 @@ export default defineComponent({
     });
 
     onMounted(() => {
+      ethData().then(()=>{
+        var array = [];
+        for (let index = 0; index < rightValues.length; index++) {
+          array.push([rightValues[index].date,rightValues[index].value]);
+         
+        }
+  
+        var array2 = [];
+        for (let index = 0; index < predicted.length; index++) {
+          array2.push([
+            predicted[index].date,
+            predicted[index].value,
+          ]);
+        }
+     
+  
+        options = {
+          series: [
+            {
+              data: array,
+            },
+          ],
+          chart: {
+            id: "area-datetime",
+            type: "area",
+            height:500,
+            width: 600,
+            zoom: {
+              autoScaleYaxis: true,
+            },
+          },
+          annotations: {
+            yaxis: [
+              {
+                y: 30,
+                borderColor: "#999",
+                label: {
+                  show: true,
+                  text: "Support",
+                  style: {
+                    color: "#fff",
+                    background: "#00E396",
+                  },
+                },
+              },
+            ],
+            xaxis: [
+              {
+                x: new Date("14 Nov 2012").getTime(),
+                borderColor: "#999",
+                yAxisIndex: 0,
+                label: {
+                  show: true,
+                  text: "Rally",
+                  style: {
+                    color: "#fff",
+                    background: "#775DD0",
+                  },
+                },
+              },
+            ],
+          },
+          dataLabels: {
+            enabled: false,
+          },
+          markers: {
+            size: 0,
+            style: "hollow",
+            color:'black',
+          },
+          xaxis: {
+            type: "datetime",
+            min: rightValues[0].date,
+            tickAmount: 2,
+          },
+          yaxis: {
+            min: 600,
+            max:5000,
+          },
+          tooltip: {
+            x: {
+              format: "dd MMM yyyy",
+            },
+          },
+          fill: {
+            colors: ['#F44336', '#E91E63', '#9C27B0'],
+            type: "gradient",
+            gradient: {
+              shadeIntensity: 1,
+              opacityFrom: 0.7,
+              opacityTo: 0.9,
+              stops: [0, 100],
+            },
+          },
+          theme: {
+            mode: 'dark', 
+            palette: 'palette5', 
+            monochrome: {
+                enabled: false,
+                color: '#255aee',
+                shadeTo: 'light',
+                shadeIntensity: 0.65
+            },
+        }
+        };
+        options2 = {
+  
+            series: [{
+            data: array2
+          }],
+            chart: {
+            id: 'area-datetime',
+            type: 'area',
+            height: 500,
+            width:600,
+            zoom: {
+              autoScaleYaxis: true
+            }
+          },
+          annotations: {
+            yaxis: [{
+              y: 30,
+              borderColor: '#999',
+              label: {
+                show: true,
+                text: 'Support',
+                style: {
+                  color: "black",
+                  background: '#00E396'
+                }
+              }
+            }],
+            xaxis: [{
+              x: new Date('14 Nov 2012').getTime(),
+              borderColor: '#999',
+              yAxisIndex: 0,
+              label: {
+                show: true,
+                text: 'Rally',
+                style: {
+                  color: "black",
+                  background: '#775DD0'
+                }
+              }
+            }]
+          },
+          dataLabels: {
+            enabled: false
+          },
+          markers: {
+            size: 0,
+            style: 'hollow',
+          },
+          xaxis: {
+            type: 'datetime',
+            min: predicted[0].date,
+          },
+           yaxis: {
+              min:600,
+              max:5000,
+          },
+          tooltip: {
+            x: {
+              format: 'dd MMM yyyy',
+              color:'black',
+            }
+          },
+          fill: {
+            colors: ['#F44336', '#E91E63', '#9C27B0'],
+            type: 'gradient',
+            gradient: {
+              shadeIntensity: 1,
+              opacityFrom: 0.7,
+              opacityTo: 0.9,
+              stops: [0, 100]
+            }
+          },
+          theme: {
+            mode: 'dark', 
+            palette: 'palette5', 
+            monochrome: {
+                enabled: false,
+                color: '#255aee',
+                shadeTo: 'light',
+                shadeIntensity: 0.65
+            },
+        }
+        };
+        
+        chart.value = new ApexCharts(document.querySelector("#chart"), options);
+        chart2.value = new ApexCharts(
+          document.querySelector("#chart2"),
+          options2
+        );
+        chart.value.render();
+        chart2.value.render();
+       })
       window.ethereum.on("accountsChanged", (accounts) => {
         if (accounts.length) {
           localStorage.setItem("klopapier.exchange.account.walletAdress", accounts[0]);
@@ -40,7 +244,15 @@ export default defineComponent({
         getBalanceInEthereum();
       }
     });
-
+    const ethData = async () => {
+      const response = await axios.get(
+        `https://ml.aaronschweig.dev/technical/`
+      );
+      rightValues = response.data[0];
+      predicted = response.data[1];
+      
+      return response.data;
+    };
     const connect = async () => {
       if (window.ethereum === undefined) {
         alert(
@@ -84,6 +296,8 @@ export default defineComponent({
       openGithub,
       openTelegram,
       menu,
+      chart,
+      chart2
     };
   },
 });

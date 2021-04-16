@@ -19,7 +19,7 @@
           },
           "1": {
             "q": "Was versteht man unter einer Blockchain?",
-            "a": "Die Blockchain ist die Grundlage für Kryptowährungen. Dabei ist die Blockchain eine der bekanntesten Distributed-Ledger-Techniken" und ist eine kontinuierlich erweiterbare Liste von Datensätzen, sogenannte Blöcke, die mittels kryptografischer Verfahren miteinander verkettet sind."
+            "a": "Die Blockchain ist die Grundlage für Kryptowährungen. Dabei ist die Blockchain eine der bekanntesten Distributed-Ledger-Techniken und ist eine kontinuierlich erweiterbare Liste von Datensätzen, sogenannte Blöcke, die mittels kryptografischer Verfahren miteinander verkettet sind."
           },
           "2": {
             "q": "Was versteht man unter dem Begriff 'Smart Contracts'?",
@@ -72,7 +72,7 @@
            "14": {
             "q": "Was ist die bekannteste Anwendung einer Blockchain?",
             "a": "Die bekannste Anwendung einer Blockchain ist Bitcoin. Bitcoin ist eine Kryptowährung."
-          },
+          }
         }
       }
     }
