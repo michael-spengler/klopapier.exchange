@@ -58,7 +58,7 @@ export default defineComponent({
             id: "area-datetime",
             type: "area",
             height:500,
-            width: 600,
+            width: 350,
             zoom: {
               autoScaleYaxis: true,
             },
@@ -147,7 +147,7 @@ export default defineComponent({
             id: 'area-datetime',
             type: 'area',
             height: 500,
-            width:600,
+            width:350,
             zoom: {
               autoScaleYaxis: true
             }

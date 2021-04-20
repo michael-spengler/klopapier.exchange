@@ -7,7 +7,7 @@
       As this is mainly an education project we give them away for free at the moment. You
       only need to pay the transaction fee for the Ethereum Blockchain. -->
 
-      <div class="mt-4 text-sm md:text-base"  style="text-align:left">
+      <div class="mt-4 text-sm md:text-base"  style="text-align:left;margin-bottom:15vh;">
         <br />
         In order to receive 1 of our
         <a
@@ -67,7 +67,7 @@
     <div id="particles-js" style="height: 500px"></div>
 
 
-     <div class="wrapper">
+     <div class="wrapper" style="margin-top:20vh;">
      <div class="container">
        <div class="card">
             <div class="face face1">

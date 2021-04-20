@@ -24,7 +24,7 @@
             <div
               class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
             >
-              <div class="px-5 pt-4 flex items-center justify-between">
+              <div id="imageStartseite" class="px-5 pt-4 flex items-center justify-between">
                 <div>
                   <img
                     class="h-8 w-auto"
@@ -32,7 +32,7 @@
                     alt=""
                   />
                 </div>
-                <div class="-mr-2">
+                <div  class="-mr-2">
                   <button
                     type="button"
                     class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -57,7 +57,7 @@
                   </button>
                 </div>
               </div>
-              <div class="px-2 pt-2 pb-3 space-y-1">
+              <div id="imageStartseite" class="px-2 pt-2 pb-3 space-y-1">
                 <a
                   href="#"
                   class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
@@ -81,13 +81,14 @@
                   class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                   >Company</a
                 >
-              </div>
+              
               <a
                 href="#"
                 class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
               >
                 Log in
               </a>
+              </div>
             </div>
           </div>
 
@@ -149,7 +150,7 @@
           </main>
         </div>
       </div>
-      <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div id="imageStartseite" class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
           src="../../assets/blockchain.jpg"
@@ -168,19 +169,19 @@
             </div>
             <div class="mt-32">
               <div class="xl:grid grid-cols-2 grid-gap-64 items-center">
-                <div class="mt-8 md:mt-0">
-                  <p style="margin-bottom:40px;text-align:center;">Ethereum Chart</p>
-                  <div id="chart"></div>
+                <div class="mt-8 md:mt-0" style="align-items:center;">
+                      <p style="margin-bottom:40px;font-size:3vh;">Ethereum Chart</p>
+                   <div id="chart"></div>
                 </div>
-                <div class="mt-8 md:mt-0">
-                  <p style="margin-bottom:40px;text-align:center;">Further Predictions</p>
-                  <div id="chart2"></div>
+                  <div class="mt-8 md:mt-0">
+                     <p style="margin-bottom:40px; font-size:3vh;">Further Predictions</p>                 
+                    <div id="chart2" style="text-align:center;"></div>
                 </div>
               </div>
             </div>
       <div class="container">
         <div class="mt-12 lg:grid grid-cols-3 gap-12">
-          <div class="mt-4 p-4 rounded text-sm sm:text-base">
+          <div class="mt-4 p-4 rounded">
             <div class="card">
               <div class="face face1">
                 <div class="content">
@@ -199,7 +200,7 @@
             </div>
           </div>
 
-          <div class="mt-4 p-4 rounded text-sm sm:text-base">
+          <div class="mt-4 p-4 rounded">
             <div class="card">
               <div class="face face1">
                 <div class="content">
@@ -258,7 +259,7 @@
     </div>
 
     <div style="position:relative;">
-      <div
+      <div id="contentData"
         style="color:#ddd;background-color:#404b69
 ;text-align:center;padding:50px 80px;text-align: justify;"
       >
@@ -324,7 +325,7 @@
     </div>
 
     <div style="position:relative;" id="smartContracts">
-      <div
+      <div  id="contentData"
         style="color:#ddd;background-color:#404b69
 ;text-align:center;padding:50px 80px;text-align: justify;"
       >

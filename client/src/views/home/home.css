@@ -39,7 +39,7 @@
   display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
-  margin-top:8vh;
+  margin-top:10vh;
 }
 
 .container .card {
@@ -456,6 +456,7 @@ body, button, input {
   margin: 0 5px;
 }
 
+
 @media screen and (max-width: 520px) {
   .screen-body {
     flex-direction: column;
@@ -478,33 +479,31 @@ body, button, input {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .screen-body {
-    padding: 40px;
-  }
-
-  .screen-body-item {
-    padding: 0;
-  }
-}
 
 @media only screen and (max-device-width: 1024px) {
   .container .card .face.face2{
-    height:60vh;
-    width: 60vw!important;
+    width: 70vw!important;
+    margin-top:20px;
+  }
+  .container .card .face.face1{
+    width: 70vw!important;
+    margin-top:20px;
+  }
+  .container .card .face.face2 .content p{
+    font-size: 15px !important;
   }
   .container .card .face{
     height:60vh;
     width:60vw!important;
   }
   .container .card .face.face1 .content h3{
-    font-size: 8vw !important;;
+    font-size: 8vw !important;
   }
   .container .card .face.face1 .content{
-    font-size: 8vw !important;;
+    font-size: 3vw !important;
   }
-  .image{
-    background-image: none;
+  #imageStartseite{
+   display: none;
   }
   .bgimg-1,
   .bgimg-2,
@@ -513,6 +512,18 @@ body, button, input {
   }
   content {
     padding: 0;
+  }
+  .contentData{
+    width:100%;
+    padding:0;
+    font-size:2vh;
+  }
+  #contentData{
+    padding: 10px!important;
+    text-align:center;
+  }
+  .wrapper{
+    margin-left:0!important;
   }
 }
 
