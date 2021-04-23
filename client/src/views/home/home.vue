@@ -179,7 +179,7 @@
                 </div>
               </div>
             </div>
-      <div class="container">
+      <div class="container" style="margin-bottom:15vh;">
         <div class="mt-12 lg:grid grid-cols-3 gap-12">
           <div class="mt-4 p-4 rounded">
             <div class="card">

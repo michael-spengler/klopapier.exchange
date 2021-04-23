@@ -28,7 +28,7 @@
           EURWipePaper (EWP)
         </a>
         you need to create a 5 - 20 seconds video of you shouting either 
-        <b> "Toiletpaper" or "Klopapier" </b>
+        "Toiletpaper" or "Klopapier"
         out of a window to
         <a
           href="https://t.me/decentralizedfinancegroup"

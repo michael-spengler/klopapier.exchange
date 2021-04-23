@@ -400,7 +400,12 @@ Smart Contracts has been firstly defined by Nick Szabo in the year 1998 where he
 
   
 </template>
+<style scoped>
+a{
+  color:grey;
+}
 
+</style>
 <script src="./education.js"></script>
 
 <style scoped>
