@@ -277,29 +277,11 @@ Smart Contracts has been firstly defined by Nick Szabo in the year 1998 where he
   </div>
 </div>
 
-<div style="position:relative;" id="fiatOnOff">
-  <div style="color:#ddd;background-color:#283149
-;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3>Fiat On-Off Ramps</h3>
-  <p class="contentData">A Consensus Algorithm is a special procedure to enable participants in a blockchain system to reach an agreement within the network. Blockchain projekts do not have any central authority within the network. Therefore, consensus algorithms are important in such scenarios. It allows nodes to have a collective agreement with each other while also motivating participants to obey rules, ensuring justice and avoiding problems like double-spending (For more information  <a href="https://tinyurl.com/yp5j7atk"> see</a>) . Due to the consensus mechanism the network remains safe and functional. There are different types of Consensus Mechanisms like the “Proof-of-Work”, “Proof-of-Stake”, “Byzantine Fault Tolerance”, and so on. (For a deep dive into Consensus Mechanisms <a href="https://guarda.com/academy/crypto/consensus-algorithms/"> see </a>)
-
- </p>
-  </div>
-</div>
-
-<div class="bgimg-3">
-  <div class="caption">
- <!-- <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>-->
-  </div>
-</div>
-
-
-
 <div style="position:relative;" id="ico">
   <div style="color:#ddd;background-color:#283149
 ;text-align:center;padding:50px 80px;text-align: justify;">
   <h3>Initial coin Offering</h3>
-  <p class="contentData">A Consensus Algorithm is a special procedure to enable participants in a blockchain system to reach an agreement within the network. Blockchain projekts do not have any central authority within the network. Therefore, consensus algorithms are important in such scenarios. It allows nodes to have a collective agreement with each other while also motivating participants to obey rules, ensuring justice and avoiding problems like double-spending (For more information <a href="https://tinyurl.com/yp5j7atk "> see </a>) . Due to the consensus mechanism the network remains safe and functional. There are different types of Consensus Mechanisms like the “Proof-of-Work”, “Proof-of-Stake”, “Byzantine Fault Tolerance”, and so on. (For a deep dive into Consensus Mechanisms <a href="https://guarda.com/academy/crypto/consensus-algorithms/"> see </a>)
+  <p class="contentData">“An initial coin offering (ICO) or initial currency offering is a type of funding using cryptocurrencies. It is often a form of crowdfunding, however a private ICO which does not seek public investment is also possible. In an ICO, a quantity of cryptocurrency is sold in the form of "tokens" ("coins") to speculators or investors, in exchange for legal tender or other (generally established and more stable) cryptocurrencies such as Bitcoin or Ethereum. The tokens are promoted as future functional units of currency if or when the ICO's funding goal is met and the project successfully launches.” <a href="https://en.wikipedia.org/wiki/Initial_coin_offering"> source </a>
 
  </p>
   </div>
@@ -331,7 +313,7 @@ Smart Contracts has been firstly defined by Nick Szabo in the year 1998 where he
   <div style="color:#ddd;background-color:#283149
 ;text-align:center;padding:50px 80px;text-align: justify;">
   <h3>Crypto Wallets</h3>
-  <p class="contentData"> A cryptocurrency wallet, or Crypto Wallet is an app that allows cryptocurrency users to store and retrieve their digital assets. When a user acquires cryptocurrency, such as Bitcoin or Ethereum, the user can store it in a cryptocurrency wallet and from there use it to make transactions. It was first introduced by Satoshi Nakamoto when he first released the bitcoin protocol in 2009.
+  <p class="contentData"> A cryptocurrency wallet, or Crypto Wallet is an app that allows cryptocurrency users to store and retrieve their digital assets. When a user acquires cryptocurrency, such as Bitcoin or Ethereum, the user can store it in a cryptocurrency wallet and from there use it to make transactions. It was first introduced by Satoshi Nakamoto when he first released the bitcoin protocol in 2009. (For more information see <a href="https://www.bankrate.com/glossary/c/cryptocurrency-wallet/">here </a>)
 
  </p>
 
@@ -348,7 +330,7 @@ Smart Contracts has been firstly defined by Nick Szabo in the year 1998 where he
   <div style="color:#ddd;background-color:#283149
 ;text-align:center;padding:50px 80px;text-align: justify;">
   <h3>Decentralized Finance</h3>
-  <p class="contentData"> Decentralized finance, or DeFi, is the ecosystem of financial applications being built with blockchain technology.
+  <p class="contentData"> “Decentralized finance, or commonly referred to as DeFi, is a blockchain-based form of finance that does not rely on central financial intermediaries such as brokerages, exchanges, or banks to offer traditional financial instruments, and instead utilizes smart contracts on blockchains, the most common being Ethereum. DeFi platforms allow people to lend or borrow funds from others, speculate on price movements on a range of assets using derivatives, trade cryptocurrencies, insure against risks, and earn interest in savings-like accounts. DeFi uses a layered architecture and highly composable building blocks Some DeFi applications promote high interest rates but are subject to high risk.” <a href="https://en.wikipedia.org/wiki/Decentralized_finance">source</a>.
 
  </p>
 
@@ -364,7 +346,7 @@ Smart Contracts has been firstly defined by Nick Szabo in the year 1998 where he
   <div style="color:#ddd;background-color:#283149
 ;text-align:center;padding:50px 80px;text-align: justify;">
   <h3>Oracle</h3>
-  <p class="contentData"> An oracle is a way for a blockchain or smart contract to interact with external data. With blockchains being deterministic one-way streets, an oracle is the path between off-chain and on-chain events. There are two types of oracles, the inbound oracles and the outbound oracles. Inbound oracles bring off-chain or real-world data to the blockchain, whereas outbound oracles inform an entity outside the blockchain of an event that occurred on it.
+  <p class="contentData"> An oracle is a way for a blockchain or smart contract to interact with external data. With blockchains being deterministic one-way streets, an oracle is the path between off-chain and on-chain events. There are two types of oracles, the inbound oracles and the outbound oracles. Inbound oracles bring off-chain or real-world data to the blockchain, whereas outbound oracles inform an entity outside the blockchain of an event that occurred on it. (For more information see <a href="https://cryptobriefing.com/what-is-blockchain-oracle/">here</a>)
 
  </p>
 
@@ -381,7 +363,7 @@ Smart Contracts has been firstly defined by Nick Szabo in the year 1998 where he
   <div style="color:#ddd;background-color:#283149
 ;text-align:center;padding:50px 80px;text-align: justify;">
   <h3>Solidity</h3>
-  <p class="contentData">Solidity is an object-oriented, high-level language for implementing smart contracts on various blockchain platforms, especially Ethereum. Solidity is influenced by C++, Python and JavaScript, and is designed to target the Ethereum Virtual Machine (EVM). It was proposed in 2014 by Gavin Wood and was later developed. Solidity is the primary language on Ethereum and some other private blockchains.
+  <p class="contentData">Solidity is an object-oriented, high-level language for implementing smart contracts on various blockchain platforms, especially Ethereum. Solidity is influenced by C++, Python and JavaScript, and is designed to target the Ethereum Virtual Machine (EVM). It was proposed in 2014 by Gavin Wood and was later developed. Solidity is the primary language on Ethereum and some other private blockchains. (For more information see <a href="https://en.wikipedia.org/wiki/Solidity">here </a> and <a href="https://docs.soliditylang.org/en/v0.8.3/">here</a>)
  </p>
 
   </div>

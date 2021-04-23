@@ -72,6 +72,54 @@
            "14": {
             "q": "Was ist die bekannteste Anwendung einer Blockchain?",
             "a": "Die bekannste Anwendung einer Blockchain ist Bitcoin. Bitcoin ist eine Kryptowährung."
+          }, 
+            "15": {
+            "q": "Was versteht man unter Crypto Wallets?",
+            "a": "Crypto Wallets werden verwendet, um Kryptowährungen zu speichern und sichern und diese bei Gebrauch auch abrufen und verwenden können."
+          },
+            "16": {
+            "q": "Von wem und wann wurden Crypto Wallets entworfen?",
+            "a": "Crypto wallets wurden 2009 von Satoshi Nakamoto mit der ersten Veröffentlichung des Bitcoin vorgestellt."
+          },
+            "17": {
+            "q": "Was ist Solidity?",
+            "a": "Solidy ist eine objektorientierte Programmiersprache, welche zum Entwickeln von Smart Contracts auf Blockchainplattformen verwendet wird."
+          },
+            "18": {
+            "q": "Nenne Beispiele für Kryptowährungen:",
+            "a": "Bitcoin, Ethereum, Theter, Ripple, Cardano, Monero, Dogecoin"
+          },
+            "19": {
+            "q": "Für was wird Solidity verwendet?",
+            "a": "Wird verwendet, um Smart Contracts auf verschiedenen Blockchainplattformen zu entwickeln."
+          },
+            "20": {
+            "q": "Was unterscheidet Decentralized Finance von traditionellen Finanzmärkten?",
+            "a": "Decentralized Finance kommt ohne zentralisierte Infrastruktur, wie Börsenmakler, Wertpapierhändlern und Banken aus, welche im Gegensatz traditionelle Finanzmärkte als Intermediäre verwendet."
+          },
+            "21": {
+            "q": "Welche zwei Arten von Oracles existieren?",
+            "a": "Inbound Oracles (bringt Daten in die Blockchain), Outbound Oracles (gibt Daten der Blockchain (bsp. Events) nach außen weiter)"
+          },
+            "22": {
+            "q": "Was sind Vorteile von Decentralized Finance?",
+            "a": "Transparenz für alle Teilnehmer einer Blockchain, geringe Transaktionskosten, Quellcode kann von jedem eingesehen werden, garantiert korrekte Vertragsausführung, Abbildung von komplexen Finanzmärkten"
+          },
+            "23": {
+            "q": "Was versteht man unter Decentrialized Finance?",
+            "a": "Decentrialized Finance ist eine Blockchain-basierende Form eines Finanzmarktes. Hierbei basiert dies auf Smart Contracts und dezentralisierten autonomen Organisationen auf Blockchains."
+          },
+            "24": {
+            "q": "Welche Verwendungsmöglichkeiten bietet Dezentralized Finance PLattformen?",
+            "a": "Leihen oder Verleihen von Geld/Kryptowährungen, Spekulationen von einer Reihe von Vermögenswertem, handeln von Kryptowährungen, Versicherung von Risiken, Sparkonten"
+          },
+            "25": {
+            "q": "Was versteht man unter Initial Coin Offering?",
+            "a": "Initial Coin Offering ist eine Art der Finanzierung mittels Kryptowährungen, welches oft in Form von Crowdfunding verwendet wird. Hierbei werden Tokens (oder auch Coins genannt) an Spekulatoren und Investoren gegen andere Kryptowährungen verkauft. Dieses Geld kann dann zur Entwicklung eines Unternehmens verwendet werden."
+          },
+            "26": {
+            "q": "Was versteht man unter einem Oracle in hinblick auf Blockchains?",
+            "a": "Ein Oracle ist eine Möglichkeit für eine Blockchain oder einem Smart Contract mit externen Daten zu interagieren. Hierbei gibt es zwei unterschiedliche Arten, Inbound Oracles und Outbound Oracles."
           }
         }
       }
